@@ -130,7 +130,7 @@ If you read nothing else, read [`stages/04_value_hypothesis.md`](stages/04_value
 ## Repo structure
 
 ```
-stanford-lessons-on-enterpreneurship/
+enterpreneurship-lessons/
 ├── README.md
 ├── stages/
 │   ├── 00_prepared_mind.md

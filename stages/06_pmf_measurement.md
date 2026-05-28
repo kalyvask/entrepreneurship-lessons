@@ -204,6 +204,4 @@ Or — when you can answer **no** clearly on 4+ of the 6 — you have a pivot de
 
 ## Agent partner
 
-- `/ent-pmf-evaluator` — runs the self-check honestly; pushes back on wishful interpretation
-- `/ent-retention-analysis` — helps interpret retention curves; identifies whether you're approaching PMF, plateaued, or churning out
-- `/ent-savor-surprise` — looks at your data for the over-performing segment hiding inside the average
+- `/ent-pmf-evaluator` — runs the 6-question self-check honestly; pushes back on wishful interpretation; interprets your retention curve (flattening vs. asymptoting); finds the over-performing slice hiding inside your average ("savor the surprise")

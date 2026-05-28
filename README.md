@@ -26,8 +26,8 @@ The result is a single, coherent path from "I have a vague interest in a space" 
 Three things in one:
 
 1. **A guide.** A stage-by-stage map from the moment you start exploring an industry to the moment you can confidently claim PMF. Every stage names what to do, what trap to avoid, and what to read.
-2. **A reference library.** The frameworks themselves — PMF, Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Mom Test, RDI — in tight standalone files you can cite, lend, or come back to in 6 months.
-3. **An agent partner.** Thirteen Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, and pushes back when you're kidding yourself.
+2. **A reference library.** The frameworks themselves — PMF, Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Mom Test, RDI, Design Partners, Value Dimensions, Ideation Templates — in tight standalone files you can cite, lend, or come back to in 6 months.
+3. **An agent partner.** Nineteen Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, and pushes back when you're kidding yourself.
 
 ## How to use it
 
@@ -53,11 +53,17 @@ Then open Claude Code in a project directory where you're tracking your venture 
 - `/ent-interview-prep` — Prep before a customer conversation
 - `/ent-interview-debrief` — Capture and synthesize after
 - `/ent-value-hypothesis-builder` — Write a PMF-grade value hypothesis
+- `/ent-customer-discovery` — Track a discovery sprint; surface patterns; flag needy vs. desperate
+- `/ent-problem-statement` — Turn discovery notes into a defensible problem statement
+- `/ent-concept-test` — Design a cheap test that proves demand before you build
+- `/ent-unit-econ-check` — Back-of-envelope LTV/CAC sanity check
+- `/ent-value-hypothesis-builder` — Write a PMF-grade value hypothesis
 - `/ent-mvp-scoper` — Decide the smallest thing that tests your leap of faith
+- `/ent-mvp-review` — Run a two-week product review during the build
+- `/ent-design-partners` — For B2B: identify, qualify, and manage the 2–5 design partners who co-create your MVP
 - `/ent-pmf-evaluator` — Diagnose whether you have product-market fit
 - `/ent-pivot-coach` — Decide if and how to pivot
 - `/ent-cold-email` — Write outreach that gets responses
-- `/ent-design-partners` — For B2B: identify, qualify, and manage the 2–5 design partners who co-create your MVP
 - `/ent-synthesis-coach` — Turn 50 interviews into a thesis
 - `/ent-idea-coach` — Convert research into a falsifiable bet
 - `/ent-prompt-troubleshoot` — When the AI is giving you slop
@@ -141,7 +147,7 @@ enterpreneurship-lessons/
 │   ├── 05_mvp_build.md
 │   ├── 06_pmf_measurement.md
 │   └── 07_pivot_or_persevere.md
-├── frameworks/
+├── frameworks/          (16 reference docs)
 │   ├── pmf.md           ← the spine
 │   ├── lean_startup.md
 │   ├── customer_development.md
@@ -152,37 +158,52 @@ enterpreneurship-lessons/
 │   ├── disruption_theory.md
 │   ├── pmf_measurement.md
 │   ├── business_model_canvas.md
+│   ├── value_prop_canvas.md
+│   ├── value_dimensions.md       (functional / economic / psychological)
+│   ├── ideation_templates.md     (breaking functional fixedness)
 │   ├── unit_economics.md
 │   ├── design_sprint.md
+│   ├── design_partners.md
 │   └── ai_lifecycle.md
-├── playbooks/
+├── playbooks/           (10 operational how-tos)
 │   ├── customer_interview.md
 │   ├── cold_email.md
 │   ├── synthesis.md
 │   ├── run_outreach.md
 │   ├── build_industry_primer.md
+│   ├── concept_test.md
 │   ├── validation_sequence.md
 │   ├── mvp_scoping.md
+│   ├── value_hypothesis_critique.md  (founders' feedback meeting)
 │   ├── pmf_assessment.md
 │   └── pivot_decision.md
-├── templates/
+├── templates/           (12 fillable artifacts)
+│   ├── self_reflection.md
 │   ├── opportunity_rubric.md
-│   ├── value_hypothesis.md
 │   ├── insight_statement.md
 │   ├── problem_statement.md
+│   ├── solution_shape.md
+│   ├── value_hypothesis.md
 │   ├── interview_script.md
 │   ├── interview_debrief.md
+│   ├── industry_primer.md
 │   ├── pmf_survey.md
-│   ├── pivot_memo.md
-│   └── industry_primer.md
-└── .claude/skills/
+│   ├── retention_dashboard.md
+│   └── pivot_memo.md
+└── .claude/skills/      (19 Claude Code skills)
     ├── ent-stage-router/SKILL.md
     ├── ent-rdi-coach/SKILL.md
     ├── ent-idea-coach/SKILL.md
     ├── ent-interview-prep/SKILL.md
     ├── ent-interview-debrief/SKILL.md
+    ├── ent-customer-discovery/SKILL.md
+    ├── ent-problem-statement/SKILL.md
+    ├── ent-concept-test/SKILL.md
+    ├── ent-unit-econ-check/SKILL.md
     ├── ent-value-hypothesis-builder/SKILL.md
     ├── ent-mvp-scoper/SKILL.md
+    ├── ent-mvp-review/SKILL.md
+    ├── ent-design-partners/SKILL.md
     ├── ent-pmf-evaluator/SKILL.md
     ├── ent-pivot-coach/SKILL.md
     ├── ent-cold-email/SKILL.md

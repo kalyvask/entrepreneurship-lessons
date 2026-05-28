@@ -127,6 +127,8 @@ If you can't get to all of these in 4 weeks, look hard at what's missing. Someti
 ## Required reading
 
 - [`frameworks/pmf.md`](../frameworks/pmf.md) — leap of faith, value hypothesis
+- [`frameworks/value_dimensions.md`](../frameworks/value_dimensions.md) — functional/economic/psychological value; painkiller vs. vitamin
+- [`frameworks/value_prop_canvas.md`](../frameworks/value_prop_canvas.md) — mapping pains/gains to relievers/creators
 - [`frameworks/unit_economics.md`](../frameworks/unit_economics.md) — back-of-envelope checks
 - [`frameworks/design_partners.md`](../frameworks/design_partners.md) — for B2B: identify design-partner candidates now
 - [`playbooks/concept_test.md`](../playbooks/concept_test.md) — running concept tests cheaply

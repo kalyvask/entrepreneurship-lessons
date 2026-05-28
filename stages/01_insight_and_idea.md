@@ -153,6 +153,7 @@ If no — Stage 00 isn't done. That's fine. The output of staying in Stage 00 lo
 
 - [`frameworks/pmf.md`](../frameworks/pmf.md) — the value hypothesis, insight, leap of faith
 - [`frameworks/disruption_theory.md`](../frameworks/disruption_theory.md) — Christensen on why incumbents miss disruptive moves
+- [`frameworks/ideation_templates.md`](../frameworks/ideation_templates.md) — systematic ways to expand the solution space around an insight (use after the research, not instead of it)
 - [`templates/opportunity_rubric.md`](../templates/opportunity_rubric.md)
 - [`templates/insight_statement.md`](../templates/insight_statement.md)
 

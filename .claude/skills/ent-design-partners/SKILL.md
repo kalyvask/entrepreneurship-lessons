@@ -172,7 +172,7 @@ If qualified — NEXT STEPS
 
 ## Where this fits
 
-- [`frameworks/design_partners.md`](../frameworks/design_partners.md) — full framework
-- [`frameworks/pmf.md`](../frameworks/pmf.md) — the broader PMF framework
-- [`stages/03_problem_solution_fit.md`](../stages/03_problem_solution_fit.md) — when design-partner qualification typically happens
-- [`stages/05_mvp_build.md`](../stages/05_mvp_build.md) — design partners ARE your customers during MVP build
+- `frameworks/design_partners.md` — full framework
+- `frameworks/pmf.md` — the broader PMF framework
+- `stages/03_problem_solution_fit.md` — when design-partner qualification typically happens
+- `stages/05_mvp_build.md` — design partners ARE your customers during MVP build

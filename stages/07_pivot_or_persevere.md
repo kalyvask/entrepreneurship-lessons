@@ -192,6 +192,5 @@ If you reach the point where you've pivoted twice without finding the desperate 
 
 ## Agent partner
 
-- `/ent-pivot-coach` — runs a structured pivot diagnosis based on your data. Tells you whether you have a *who*, *how*, or *what* problem — and pushes back on emotion-driven decisions.
-- `/ent-savor-surprise` — finds the over-performing slice you're averaging out
+- `/ent-pivot-coach` — runs a structured pivot diagnosis based on your data. Tells you whether you have a *who*, *how*, or *what* problem; finds the over-performing slice you're averaging out ("savor the surprise"); pushes back on emotion-driven decisions.
 - `/ent-red-team` — pressure-tests the new value hypothesis before you commit

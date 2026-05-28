@@ -182,10 +182,12 @@ If you don't have at least 5 paying customers despite shipping an MVP, you do no
 - [`frameworks/lean_startup.md`](../frameworks/lean_startup.md) — Build-Measure-Learn, MVP definitions
 - [`frameworks/pmf.md`](../frameworks/pmf.md) — validation sequence, voting exercise
 - [`frameworks/crossing_the_chasm.md`](../frameworks/crossing_the_chasm.md) — MVP vs whole product
+- [`frameworks/design_partners.md`](../frameworks/design_partners.md) — for B2B: the 2–5 design partners are your MVP customers
 - [`playbooks/validation_sequence.md`](../playbooks/validation_sequence.md) — concept → implementation → MVP
 - [`playbooks/mvp_scoping.md`](../playbooks/mvp_scoping.md) — how to decide what's in v1
 
 ## Agent partner
 
 - `/ent-mvp-scoper` — given your value hypothesis and leap of faith, helps decide the smallest possible MVP that tests the leap of faith. Pushes back on overbuilding.
+- `/ent-design-partners` — for B2B: identify, qualify, and manage the 2–5 design partners who co-create the MVP.
 - `/ent-mvp-review` — walks you through a two-week product review: what was built, what was learned, what's next.

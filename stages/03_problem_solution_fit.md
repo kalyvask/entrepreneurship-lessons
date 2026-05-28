@@ -128,6 +128,7 @@ If you can't get to all of these in 4 weeks, look hard at what's missing. Someti
 
 - [`frameworks/pmf.md`](../frameworks/pmf.md) — leap of faith, value hypothesis
 - [`frameworks/unit_economics.md`](../frameworks/unit_economics.md) — back-of-envelope checks
+- [`frameworks/design_partners.md`](../frameworks/design_partners.md) — for B2B: identify design-partner candidates now
 - [`playbooks/concept_test.md`](../playbooks/concept_test.md) — running concept tests cheaply
 - [`templates/problem_statement.md`](../templates/problem_statement.md)
 - [`templates/solution_shape.md`](../templates/solution_shape.md)
@@ -136,4 +137,5 @@ If you can't get to all of these in 4 weeks, look hard at what's missing. Someti
 
 - `/ent-problem-statement` — turn your discovery notes into a defensible problem statement
 - `/ent-concept-test` — design a concept test for a candidate solution shape
+- `/ent-design-partners` — identify and qualify design-partner candidates (B2B)
 - `/ent-unit-econ-check` — back-of-envelope LTV/CAC sanity check

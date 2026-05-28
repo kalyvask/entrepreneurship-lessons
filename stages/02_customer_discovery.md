@@ -175,6 +175,7 @@ If you can't get to all of these — you have a *needy* market, not a *desperate
 - [`frameworks/the_mom_test.md`](../frameworks/the_mom_test.md) — interview discipline
 - [`frameworks/customer_development.md`](../frameworks/customer_development.md) — Steve Blank's methodology
 - [`frameworks/jobs_to_be_done.md`](../frameworks/jobs_to_be_done.md) — JTBD framework for understanding what customers are actually "hiring" a product to do
+- [`frameworks/design_partners.md`](../frameworks/design_partners.md) — for B2B: identify design-partner candidates from your interviews
 - [`playbooks/customer_interview.md`](../playbooks/customer_interview.md) — full interview playbook
 - [`playbooks/synthesis.md`](../playbooks/synthesis.md) — turning conversations into clusters and patterns
 - [`templates/interview_script.md`](../templates/interview_script.md) — interview script template

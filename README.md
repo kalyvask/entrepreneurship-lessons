@@ -55,6 +55,7 @@ Then open Claude Code in a project directory where you're tracking your venture 
 - `/ent-pmf-evaluator` — Diagnose whether you have product-market fit
 - `/ent-pivot-coach` — Decide if and how to pivot
 - `/ent-cold-email` — Write outreach that gets responses
+- `/ent-design-partners` — For B2B: identify, qualify, and manage the 2–5 design partners who co-create your MVP
 - `/ent-synthesis-coach` — Turn 50 interviews into a thesis
 - `/ent-idea-coach` — Convert research into a falsifiable bet
 - `/ent-prompt-troubleshoot` — When the AI is giving you slop

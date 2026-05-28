@@ -4,7 +4,7 @@ A practitioner's library and Claude Code agent partner for the journey from **a 
 
 The spine of this repo is **the product-market fit framework** — the vocabulary, the discipline, and the rules of thumb behind the term *product-market fit*. Coined by Andy Rachleff (co-founder of Benchmark Capital and Wealthfront) and refined over decades alongside John Vrionis of Unusual Ventures.
 
-**Sources.** This repo is synthesized entirely from the published books cited throughout (Ries, Blank, Moore, Christensen, Fitzpatrick, Knapp, Grant, Bland/Osterwalder, Cialdini) and from Unusual Ventures' publicly available [Field Guide](https://www.unusual.vc/handbook). Nothing here is drawn from private class discussions, recorded lectures, or non-public materials.
+**Sources.** This repo is synthesized entirely from the published books cited throughout (Ries, Blank, Moore, Christensen, Fitzpatrick, Knapp, Grant, Bland/Osterwalder, Cialdini) and from Unusual Ventures' publicly available [Field Guide](https://www.unusual.vc/handbook).
 
 Around that spine, the library layers in the methodologies and texts that make the PMF framework executable in practice:
 

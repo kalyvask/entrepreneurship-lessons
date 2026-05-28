@@ -191,6 +191,38 @@ stanford-lessons-on-enterpreneurship/
     └── ent-prompt-troubleshoot/SKILL.md
 ```
 
+## Books
+
+The published works this repo synthesizes — buy them, read them, internalize them.
+
+### Product–market fit and the search process
+- **[The Lean Startup](https://www.amazon.com/s?k=The+Lean+Startup+Eric+Ries)** — Eric Ries (2011). Build-Measure-Learn, validated learning, the original MVP vocabulary.
+- **[The Four Steps to the Epiphany](https://www.amazon.com/s?k=Four+Steps+to+the+Epiphany+Steve+Blank)** — Steve Blank (2005). Customer Development methodology; the original "get out of the building."
+- **[The Startup Owner's Manual](https://www.amazon.com/s?k=Startup+Owners+Manual+Blank+Dorf)** — Steve Blank and Bob Dorf (2012). The expanded, practitioner version of *Four Steps*.
+- **[The Mom Test](https://www.amazon.com/s?k=Mom+Test+Rob+Fitzpatrick)** — Rob Fitzpatrick (2013). How to talk to customers without poisoning the data. 80 pages, the highest signal-to-noise book on this list.
+- **[Sprint](https://www.amazon.com/s?k=Sprint+Jake+Knapp)** — Jake Knapp with John Zeratsky and Braden Kowitz (2016). The five-day design sprint methodology.
+
+### Market dynamics and adoption
+- **[Crossing the Chasm](https://www.amazon.com/s?k=Crossing+the+Chasm+Geoffrey+Moore)** — Geoffrey A. Moore (3rd edition 2014, originally 1991). Technology adoption lifecycle, the chasm, the whole product.
+- **[Inside the Tornado](https://www.amazon.com/s?k=Inside+the+Tornado+Geoffrey+Moore)** — Geoffrey A. Moore (1995). Post-chasm strategy and hypergrowth dynamics.
+
+### Disruption and innovation
+- **[The Innovator's Dilemma](https://www.amazon.com/s?k=Innovators+Dilemma+Clayton+Christensen)** — Clayton M. Christensen (1997). Why great companies fail; sustaining vs. disruptive innovation.
+- **[The Innovator's Solution](https://www.amazon.com/s?k=Innovators+Solution+Christensen+Raynor)** — Clayton M. Christensen and Michael E. Raynor (2003). RPV framework, JTBD foundations, the practical follow-up.
+- **[Competing Against Luck](https://www.amazon.com/s?k=Competing+Against+Luck+Christensen)** — Christensen, Hall, Dillon, Duncan (2016). The accessible treatment of Jobs to Be Done.
+
+### Tools and canvases
+- **[Business Model Generation](https://www.amazon.com/s?k=Business+Model+Generation+Osterwalder)** — Alexander Osterwalder and Yves Pigneur (2010). The Business Model Canvas.
+- **[Value Proposition Design](https://www.amazon.com/s?k=Value+Proposition+Design+Osterwalder)** — Osterwalder, Pigneur, Bernarda, Smith (2014). The Value Proposition Canvas.
+- **[Testing Business Ideas](https://www.amazon.com/s?k=Testing+Business+Ideas+Bland+Osterwalder)** — David Bland and Alex Osterwalder (2019). 44 experiment patterns for validating business hypotheses.
+
+### Mindset and persuasion
+- **[Think Again](https://www.amazon.com/s?k=Think+Again+Adam+Grant)** — Adam Grant (2021). The rethinking discipline; scout vs. preacher mindset.
+- **[Influence: The Psychology of Persuasion](https://www.amazon.com/s?k=Influence+Cialdini)** — Robert Cialdini (new and expanded edition 2021, originally 1984). The foundational text on persuasion.
+
+### Beyond the books
+- **[Unusual Field Guide](https://www.unusual.vc/handbook)** — John Vrionis and the Unusual Ventures team. Publicly available; the source of the Design Partners framework in this repo, plus deep treatments of value hypothesis, customer discovery, and MVP measurement.
+
 ## Status
 
 Living document. PRs and issues welcome.

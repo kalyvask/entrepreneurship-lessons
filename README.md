@@ -10,7 +10,7 @@ Around that spine, the library layers in the methodologies and texts that make t
 
 - **Steve Blank's Customer Development** — the systematic discipline of "getting out of the building"
 - **Eric Ries's Lean Startup** — the build-measure-learn loop, validated learning
-- **Research Driven Inspiration (RDI)** — for the upstream work of finding an insight worth pursuing
+- **Scott Brady and Brett Jordan's Research Driven Inspiration (RDI)** — for the upstream work of finding an insight worth pursuing
 - **The Lean Launchpad methodology** — week-by-week execution, Business Model Canvas, the practical artifacts
 - **Rob Fitzpatrick's Mom Test** — how to talk to customers without poisoning the data
 - **Geoffrey Moore's Crossing the Chasm** — early-adopter vs. pragmatist dynamics

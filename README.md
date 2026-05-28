@@ -1,18 +1,31 @@
-# Stanford Lessons on Entrepreneurship
+# Lessons on Entrepreneurship
 
 A practitioner's library and Claude Code agent partner for the journey from **a curious mind** to **product-market fit**.
 
-Distilled from Stanford GSB's entrepreneurship coursework — Andy Rachleff and John Vrionis's STRAMGT 514 (Product-Market Fit), Steve Blank and Mar Hershenson's ENG 245 (Lean Launchpad), Scott Brady and Brett Jordan's STRAMGT 546 (Research Driven Inspiration), and the MKTG 535 Product Launch case method — plus the foundational texts the courses assign: *The Lean Startup* (Ries), *The Four Steps to the Epiphany* (Blank), *Crossing the Chasm* (Moore), *The Innovator's Solution* (Christensen), *The Mom Test* (Fitzpatrick), *Sprint* (Knapp), *Think Again* (Grant), and *Testing Business Ideas* (Bland/Osterwalder).
+The spine of this repo is **Andy Rachleff's product-market fit framework** — the vocabulary, the discipline, and the rules of thumb behind the term *product-market fit*. Rachleff coined the term, co-founded Benchmark Capital and Wealthfront, and has taught the framework for over a decade.
 
-This is not class notes. It is a working library plus an agent that helps you execute.
+Around that spine, the library layers in the methodologies and texts that make Rachleff's framework executable in practice:
+
+- **Steve Blank's Customer Development** — the systematic discipline of "getting out of the building"
+- **Eric Ries's Lean Startup** — the build-measure-learn loop, validated learning
+- **Research Driven Inspiration (RDI)** — for the upstream work of finding an insight worth pursuing
+- **The Lean Launchpad methodology** — week-by-week execution, Business Model Canvas, the practical artifacts
+- **Rob Fitzpatrick's Mom Test** — how to talk to customers without poisoning the data
+- **Geoffrey Moore's Crossing the Chasm** — early-adopter vs. pragmatist dynamics
+- **Clayton Christensen's Jobs to Be Done and Disruption Theory** — how to identify problems incumbents structurally can't address
+- **Jake Knapp's Design Sprint** — 5-day implementation testing
+- **Adam Grant's Think Again** — the rethinking mindset
+- **Bland & Osterwalder's Testing Business Ideas** — the experiment library
+
+The result is a single, coherent path from "I have a vague interest in a space" to "I have a market desperate for my product, validated by organic growth."
 
 ## What this repo is
 
 Three things in one:
 
-1. **A guide.** A stage-by-stage map from the moment you start exploring an industry to the moment you can confidently say "we have product-market fit." Every stage names what to do, what trap to avoid, and what to read.
-2. **A reference library.** The frameworks themselves — Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Mom Test — in tight standalone files you can cite, lend, or come back to in 6 months.
-3. **An agent partner.** Twelve Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, and pushes back when you're kidding yourself.
+1. **A guide.** A stage-by-stage map from the moment you start exploring an industry to the moment you can confidently claim PMF. Every stage names what to do, what trap to avoid, and what to read.
+2. **A reference library.** The frameworks themselves — Rachleff's PMF, Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Mom Test, RDI — in tight standalone files you can cite, lend, or come back to in 6 months.
+3. **An agent partner.** Thirteen Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, and pushes back when you're kidding yourself.
 
 ## How to use it
 
@@ -31,18 +44,19 @@ mkdir -p ~/.claude/skills
 cp -r .claude/skills/* ~/.claude/skills/
 ```
 
-Then open Claude Code in a project directory where you're tracking your venture (a notes folder, a workspace, anything). Tell it what you're working on. The skills auto-load based on the stage you're in:
+Then open Claude Code in a project directory where you're tracking your venture (a notes folder, a workspace, anything). Tell it what you're working on. The skills auto-load based on what you ask:
 
 - `/ent-stage-router` — "I'm working on [X]. What stage am I in and what should I focus on?"
-- `/ent-rdi-coach` — Pick a space and run the RDI methodology
+- `/ent-rdi-coach` — Pick a space and run research-driven inspiration end-to-end
 - `/ent-interview-prep` — Prep before a customer conversation
 - `/ent-interview-debrief` — Capture and synthesize after
 - `/ent-value-hypothesis-builder` — Write a Rachleff-grade value hypothesis
 - `/ent-mvp-scoper` — Decide the smallest thing that tests your leap of faith
-- `/ent-pmf-evaluator` — Diagnose whether you have product-market fit (and you almost certainly don't)
+- `/ent-pmf-evaluator` — Diagnose whether you have product-market fit
 - `/ent-pivot-coach` — Decide if and how to pivot
 - `/ent-cold-email` — Write outreach that gets responses
 - `/ent-synthesis-coach` — Turn 50 interviews into a thesis
+- `/ent-idea-coach` — Convert research into a falsifiable bet
 - `/ent-prompt-troubleshoot` — When the AI is giving you slop
 - `/ent-red-team` — Pressure-test a hypothesis against the strongest arguments against it
 
@@ -50,21 +64,38 @@ Then open Claude Code in a project directory where you're tracking your venture 
 
 The `frameworks/` directory is designed to be lent. If a co-founder, employee, or advisor needs to get up to speed on Customer Development, send them [`frameworks/customer_development.md`](frameworks/customer_development.md). One file. Self-contained.
 
+## The spine — Rachleff's framework
+
+Andy Rachleff's framework is built around a few load-bearing claims. Memorize them.
+
+> *"Execution doesn't matter. The success or failure of an information-technology company can almost always be traced to the quality of its product-market fit, not its execution. If the dogs are not eating the dog food, no amount of execution will help."*
+
+> *"The most important variable in a startup is the rate at which you learn."*
+
+> *"Need is irrelevant. Desperation is everything."*
+
+> *"Iterate the *who*. Sometimes the *how*. Never the *what*. Adding features does not make someone desperate."*
+
+> *"Competitors are irrelevant before product-market fit."*
+
+> *"First to product-market fit wins, not first to market."*
+
+The full treatment is in [`frameworks/rachleff_pmf.md`](frameworks/rachleff_pmf.md).
+
 ## The map
 
-| Stage | What it's for | Anchor |
-|---|---|---|
-| **00. Prepared mind** | You don't yet know what problem matters | RDI |
-| **01. Insight & idea selection** | Turn research into a falsifiable bet | Inflection points + opportunity rubric |
-| **02. Customer discovery** | Find who is desperate for what you'd build | Mom Test, customer development |
-| **03. Problem–solution fit** | Confirm you've found a real, hot problem | Rachleff's "desperation" markers |
-| **04. Value hypothesis** | Articulate what / who / how + leap of faith | Rachleff value hypothesis |
-| **05. MVP — Build & test** | Smallest thing that proves leap of faith | Lean Startup MVP |
-| **06. Validate** | Three-phase: concept → implementation → MVP | Rachleff validation sequence |
-| **07. PMF measurement** | Are dogs eating the dog food? | Sean Ellis test, organic growth, retention |
-| **08. Pivot or persevere** | What changes when things aren't working | Iterate the *who*, not the *what* |
+| Stage | What it's for | The Rachleff anchor | Supporting frameworks |
+|---|---|---|---|
+| **00. Prepared mind** | You don't yet know what problem matters | Insight as prerequisite | RDI |
+| **01. Insight & idea selection** | Turn research into a falsifiable bet | The non-consensus insight | Disruption Theory, opportunity rubric |
+| **02. Customer discovery** | Find who is desperate for what you'd build | Desperation, not need | Customer Development (Blank), Mom Test (Fitzpatrick) |
+| **03. Problem–solution fit** | Confirm a real, hot problem | The desperation markers | Unit economics, JTBD |
+| **04. Value hypothesis** | Articulate what / who / how + leap of faith | **The core of the framework** | Business Model Canvas |
+| **05. MVP — Build & test** | Smallest thing that proves leap of faith | Three-phase validation | Lean Startup (Ries), Design Sprint (Knapp) |
+| **06. PMF measurement** | Are dogs eating the dog food? | Validated value hypothesis with organic growth | Sean Ellis test, retention curves |
+| **07. Pivot or persevere** | What changes when things aren't working | Iterate the *who*, not the *what* | Pivot taxonomies, savor the surprise |
 
-After PMF, you're in execution land — that's a different methodology (Crossing the Chasm, Inside the Tornado), partially covered in [`frameworks/crossing_the_chasm.md`](frameworks/crossing_the_chasm.md).
+After PMF, you're in execution land — a different methodology (Crossing the Chasm, Inside the Tornado), partially covered in [`frameworks/crossing_the_chasm.md`](frameworks/crossing_the_chasm.md).
 
 ## The one paragraph version
 
@@ -93,20 +124,70 @@ Words on this list are used **precisely**. Mixing them up is how teams confuse t
 
 If you read nothing else, read [`stages/04_value_hypothesis.md`](stages/04_value_hypothesis.md) and [`frameworks/rachleff_pmf.md`](frameworks/rachleff_pmf.md). Then come back.
 
-## Acknowledgments and attribution
+## Repo structure
 
-The substance here is not original. It is synthesized from:
-
-- **Stanford STRAMGT 514** — Product-Market Fit (Andy Rachleff, John Vrionis)
-- **Stanford ENG 245** — Lean Launchpad (Steve Blank, Mar Hershenson, lecturers including Jeff Epstein, George John, and others)
-- **Stanford STRAMGT 546** — Research Driven Inspiration (Scott Brady, Brett Jordan)
-- **Stanford MKTG 535** — Product Launch (Jonathan Levav, Sarah Tavel and others)
-- **Texts:** *The Lean Startup* (Ries), *The Four Steps to the Epiphany* (Blank), *Crossing the Chasm* (Moore), *The Innovator's Solution* and *The Innovator's Dilemma* (Christensen), *The Mom Test* (Fitzpatrick), *Sprint* (Knapp), *Think Again* (Grant), *Testing Business Ideas* (Bland/Osterwalder), *Influence* (Cialdini)
-
-The synthesis is mine — Alex Kalyvas. Errors are mine; the underlying ideas belong to the people listed above. Student names, specific case details, and any class-internal material has been stripped or anonymized.
+```
+stanford-lessons-on-enterpreneurship/
+├── README.md
+├── stages/
+│   ├── 00_prepared_mind.md
+│   ├── 01_insight_and_idea.md
+│   ├── 02_customer_discovery.md
+│   ├── 03_problem_solution_fit.md
+│   ├── 04_value_hypothesis.md
+│   ├── 05_mvp_build.md
+│   ├── 06_pmf_measurement.md
+│   └── 07_pivot_or_persevere.md
+├── frameworks/
+│   ├── rachleff_pmf.md           ← the spine
+│   ├── lean_startup.md
+│   ├── customer_development.md
+│   ├── rdi.md
+│   ├── the_mom_test.md
+│   ├── crossing_the_chasm.md
+│   ├── jobs_to_be_done.md
+│   ├── disruption_theory.md
+│   ├── pmf_measurement.md
+│   ├── business_model_canvas.md
+│   ├── unit_economics.md
+│   ├── design_sprint.md
+│   └── ai_lifecycle.md
+├── playbooks/
+│   ├── customer_interview.md
+│   ├── cold_email.md
+│   ├── synthesis.md
+│   ├── run_outreach.md
+│   ├── build_industry_primer.md
+│   ├── validation_sequence.md
+│   ├── mvp_scoping.md
+│   ├── pmf_assessment.md
+│   └── pivot_decision.md
+├── templates/
+│   ├── opportunity_rubric.md
+│   ├── value_hypothesis.md
+│   ├── insight_statement.md
+│   ├── problem_statement.md
+│   ├── interview_script.md
+│   ├── interview_debrief.md
+│   ├── pmf_survey.md
+│   ├── pivot_memo.md
+│   └── industry_primer.md
+└── .claude/skills/
+    ├── ent-stage-router/SKILL.md
+    ├── ent-rdi-coach/SKILL.md
+    ├── ent-idea-coach/SKILL.md
+    ├── ent-interview-prep/SKILL.md
+    ├── ent-interview-debrief/SKILL.md
+    ├── ent-value-hypothesis-builder/SKILL.md
+    ├── ent-mvp-scoper/SKILL.md
+    ├── ent-pmf-evaluator/SKILL.md
+    ├── ent-pivot-coach/SKILL.md
+    ├── ent-cold-email/SKILL.md
+    ├── ent-synthesis-coach/SKILL.md
+    ├── ent-red-team/SKILL.md
+    └── ent-prompt-troubleshoot/SKILL.md
+```
 
 ## Status
 
-Living document. Stages 00–08 are written. Frameworks are filling out — see [`frameworks/`](frameworks/) for the current set. The agent partner skills are in [`.claude/skills/`](.claude/skills/).
-
-PRs and issues welcome.
+Living document. PRs and issues welcome.

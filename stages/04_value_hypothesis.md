@@ -218,7 +218,7 @@ Before you commit, run the hypothesis through these:
 
 ## Founders' feedback meeting
 
-Rachleff's course includes a Session 5 ritual: the **founders' feedback meeting**. You present your value hypothesis to a panel of advisors, customers, and skeptics. The panel's job is to **criticize, not to approve.** Your job is to **listen, not to defend.**
+Rachleff's framework includes a specific ritual: the **founders' feedback meeting**. You present your value hypothesis to a panel of advisors, customers, and skeptics. The panel's job is to **criticize, not to approve.** Your job is to **listen, not to defend.**
 
 The exit criterion: the team owns the decision to proceed. Not the panel.
 

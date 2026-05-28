@@ -172,10 +172,10 @@ A "forward this" intro converts at 70–90%+. A name without an intro converts a
 
 ## Beyond email — non-traditional outreach
 
-Three illustrative non-email approaches from past Stanford RDI teams:
+Three illustrative non-email approaches from past RDI teams:
 
 - A team researching ports hired a **taco truck**, parked it by the docks, gave free tacos, and asked workers about their day. Wealth of information; high goodwill.
-- A team **hosted a virtual conference** on their topic at the GSB. Gave insiders a platform, drew speakers eager for an academic audience, demonstrated the team's passion, and produced an attendee list that became further outreach fuel.
+- A team **hosted a virtual conference** on their topic. Gave insiders a platform, drew speakers eager for an academic audience, demonstrated the team's passion, and produced an attendee list that became further outreach fuel.
 - A team **publicly published its learnings** as it went — articles, summaries, LinkedIn posts, industry magazine pieces. Originally intended as giving back, became their most powerful outreach channel: executives at the largest companies in their space reached out directly, leading to job offers, mentorship, investment.
 
 Common thread: **reduce friction, demonstrate genuine interest, meet people where they already are.**
@@ -212,4 +212,4 @@ The single most underleveraged activity:
 
 ## Source
 
-Stanford GSB STRAMGT 546 (RDI) outreach playbook (Brady/Jordan) + Stanford ENG 245 (Lean Launchpad) Week 2 cold email lecture.
+RDI outreach playbook (Brady/Jordan) + Lean Launchpad Week 2 cold email lecture.

@@ -105,7 +105,7 @@ The Christensen-aligned playbook for a startup:
 
 A famous version: **Salesforce.** Cloud CRM in 2000 was *worse* than Siebel on traditional axes (limited functionality, no customization, "just" subscription). Better on new axes (no IT, fast to deploy, no upfront cost). Siebel's RPV — enterprise sales motion, perpetual licenses, on-prem deployment — couldn't profitably pursue cloud SaaS at the price points Salesforce offered. By the time Siebel tried, Salesforce had the references, the cost structure, and the developer ecosystem locked in.
 
-(Rachleff teaches a version of this case explicitly in Session 4.)
+(Rachleff uses this case explicitly in his framework's *Defining the How* segment.)
 
 ## What disruption is NOT
 

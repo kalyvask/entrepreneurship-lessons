@@ -275,4 +275,4 @@ Founders who treat AI as a magic answer machine produce slop. Founders who treat
 
 ## Source
 
-Synthesized from the "AI Across the Company Lifecycle" Notion guide (alex-kalyvas-kasopatidis, 2025–2026) and the practice patterns embedded in Stanford's STRAMGT 546 (RDI) AI Toolbox section. Updated for 2026 tooling.
+Synthesized from the "AI Across the Company Lifecycle" guide (alex-kalyvas-kasopatidis, 2025–2026) and the practice patterns embedded in the RDI AI Toolbox. Updated for 2026 tooling.

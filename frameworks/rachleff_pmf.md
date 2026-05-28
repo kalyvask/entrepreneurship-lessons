@@ -2,7 +2,7 @@
 
 > *"Execution doesn't matter. The success or failure of an information-technology company can almost always be traced to the quality of its product-market fit, not its execution. If the dogs are not eating the dog food, no amount of execution will help. Conversely, if the dogs are eating the dog food, you can screw up almost everything and still succeed."* — Andy Rachleff
 
-Andy Rachleff coined the term *product–market fit*. He cofounded Benchmark Capital and Wealthfront. He has taught Stanford GSB's STRAMGT 514 (Product-Market Fit) for over a decade, originally as the only instructor and now with John Vrionis of Unusual Ventures. This file distills his framework — counterintuitive on purpose, dense with first-person stories, built around one load-bearing claim.
+Andy Rachleff coined the term *product–market fit*. He cofounded Benchmark Capital and Wealthfront. He has taught his product-market fit framework for over a decade, originally as the only instructor and now alongside John Vrionis of Unusual Ventures. This file distills his framework — counterintuitive on purpose, dense with first-person stories, built around one load-bearing claim.
 
 ## The load-bearing claim
 
@@ -62,7 +62,7 @@ Examples:
 
 ## Need is irrelevant. Desperation is everything.
 
-This is the strongest claim in the course. Rachleff says he has lived with it for 45 years.
+This is the strongest claim in the framework. Rachleff says he has lived with it for 45 years.
 
 > *"Need is absolutely irrelevant. Desperation is everything. I had many failed startups in which there was need but not desperation. So the only way you're going to succeed is if you find a desperate customer."*
 
@@ -126,7 +126,7 @@ But carry one VC bias: **slugging percentage, not batting average.** *"What matt
 
 > *"For your friends without this vocabulary, product-market fit means you have found a market that is desperate for your product. The technical definition is a validated value hypothesis. You cannot have a validated value hypothesis without organic growth. Paid growth is irrelevant; anyone with a credit card can buy attention. The only sustainable growth signal is organic word of mouth, and word of mouth requires desperation."*
 
-## The path the course teaches
+## The path the framework teaches
 
 Compressed to ten steps:
 
@@ -141,7 +141,7 @@ Compressed to ten steps:
 9. Confirm economic sustainability (path-to-positive, not positive today).
 10. Only then scale.
 
-## The 20 graduating principles (Session 9 final list)
+## The 20 graduating principles
 
 1. Probability of success = quality of insight × rate of learning
 2. Execution doesn't matter pre-PMF
@@ -180,11 +180,11 @@ Compressed to ten steps:
 - *"Stockholders rent your stock."*
 - *"Almost every successful tech company followed this path — but they followed it by accident. You now have the deliberate version."*
 
-## The biases the course names out loud
+## The biases the framework names out loud
 
-**The course is for big companies.** Selling a company for $20–30M is failure relative to the goal. *"It takes the same amount of work to build a $100M revenue business as a $5M one."* Aim accordingly.
+**The framework is for big companies.** Selling a company for $20–30M is failure relative to the goal. *"It takes the same amount of work to build a $100M revenue business as a $5M one."* Aim accordingly.
 
-**The course is for tech.** Businesses whose advantage comes from intellectual property — software, semiconductors, anything where defensibility lives in code or architecture. Not luxury goods, not marketing-driven brands, not regulated insurers.
+**The framework is for tech.** Businesses whose advantage comes from intellectual property — software, semiconductors, anything where defensibility lives in code or architecture. Not luxury goods, not marketing-driven brands, not regulated insurers.
 
 **Logic over examples (in writing). Examples everywhere (in conversation).** Examples become substitutes for thinking in writing. Examples are how memory works in speech. *"Examples can represent outliers."*
 
@@ -205,4 +205,4 @@ John Vrionis, Rachleff's co-teacher, adds shorter cadence one-liners:
 
 ## Source
 
-Synthesized from Andy Rachleff's STRAMGT 514 course at Stanford GSB; John Vrionis's lectures and writing; the [course audiobook in Stanford materials]; and the original sources Rachleff cites (Blank, Ries, Moore, Christensen).
+Synthesized from Andy Rachleff's published framework and lectures; John Vrionis's lectures and writing; and the original sources Rachleff cites (Blank, Ries, Moore, Christensen).

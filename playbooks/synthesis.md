@@ -209,4 +209,4 @@ When synthesis is broken:
 
 ## Source
 
-Stanford GSB STRAMGT 546 (RDI) — particularly Session 7 (Pile Building + Cluster Analysis) workshop materials. Brady/Jordan. The 2x2 / stakeholder comparison / hypothesis tracking patterns are standard in strategy and design research; RDI's contribution is the discipline of "active insight" cluster naming and the explicit rule that *tensions are signal.*
+RDI methodology (Brady/Jordan) — particularly the Pile Building + Cluster Analysis workshop techniques. The 2x2 / stakeholder comparison / hypothesis tracking patterns are standard in strategy and design research; RDI's contribution is the discipline of "active insight" cluster naming and the explicit rule that *tensions are signal.*

@@ -1,6 +1,6 @@
 # The Cold Email Playbook
 
-Adapted from Stanford ENG 245 (Lean Launchpad) Week 2 — *Writing Winning Cold Emails* — combined with the RDI outreach playbook. Battle-tested by founders running 100+ cold outreach campaigns.
+Adapted from the Lean Launchpad methodology's Week 2 lecture — *Writing Winning Cold Emails* — combined with the RDI outreach playbook. Battle-tested by founders running 100+ cold outreach campaigns.
 
 ## Why cold email works (when it works)
 
@@ -12,7 +12,7 @@ Most cold outreach in professional contexts is transactional — someone wants a
 
 ## Response rates: what's realistic
 
-Based on observed data from Stanford GSB teams running RDI outreach:
+Based on observed data from teams running RDI outreach:
 
 - **Boilerplate blast (zero personalization):** ~1–3% — not worth doing
 - **Semi-tailored batched (by role/segment, name-aware):** 20–30%
@@ -53,9 +53,9 @@ Researching [specific topic] — [referrer name] ref
 Examples:
 
 ```
-Stanford GSB student researching mid-market vertical farming ops
+[School] student researching mid-market vertical farming ops
 Researching CEA production planning — Sarah Chen ref
-Stanford alum researching DPC clinic workflows — quick chat?
+[School] alum researching DPC clinic workflows — quick chat?
 ```
 
 **Templates that don't work:**
@@ -75,7 +75,7 @@ The body should be **short** — under 150 words. The reader is scanning. Five e
 
 Who you are, why you're exploring this space, relevant background.
 
-> *"I'm a Stanford GSB student exploring software opportunities in mid-market vertical farming. I'm working with a team of two; we've spent the last 3 months reading and talking to ~30 people across the space, from operators to investors to academics."*
+> *"I'm a [School] student exploring software opportunities in mid-market vertical farming. I'm working with a team of two; we've spent the last 3 months reading and talking to ~30 people across the space, from operators to investors to academics."*
 
 **(b) Explain why them (1–2 sentences)**
 
@@ -114,7 +114,7 @@ Brief. Affiliation. Link to anything credibility-building (LinkedIn, your work).
 ```
 Best,
 [Name]
-[Year], Stanford GSB
+[Year], [School]
 [LinkedIn URL]
 ```
 
@@ -122,12 +122,12 @@ Best,
 
 ### Example 1: Cold to a senior operator (segment they care about)
 
-**Subject:** Stanford GSB researching mid-market vertical farming ops — quick chat?
+**Subject:** [School] researching mid-market vertical farming ops — quick chat?
 
 ```
 Hi [Name],
 
-I'm a Stanford GSB student exploring software opportunities for mid-market vertical farms (10–50K sq ft). My team has spent the last 3 months talking to operators, suppliers, and investors across the space — most recently [referrer] suggested I reach out.
+I'm a [School] student exploring software opportunities for mid-market vertical farms (10–50K sq ft). My team has spent the last 3 months talking to operators, suppliers, and investors across the space — most recently [referrer] suggested I reach out.
 
 I came across [Company]'s growth story (saw the Forbes piece) and was particularly struck by how you've scaled harvest coordination as you've added square footage. We've heard from a few other operators that this exact transition — from one site to multiple — is where existing tools break down.
 
@@ -137,7 +137,7 @@ Feel free to propose a time, or here's a Calendly: [link].
 
 Best,
 Alex
-1st year, Stanford GSB
+1st year, [School]
 [LinkedIn]
 ```
 
@@ -148,7 +148,7 @@ Alex
 ```
 Hi [Name],
 
-Saw your Series A announcement last week — congrats! I'm a Stanford GSB student exploring opportunities in direct primary care software. Specifically how DPC practices handle async patient communication (which we've found is a major source of friction in 2-5 physician practices).
+Saw your Series A announcement last week — congrats! I'm a [School] student exploring opportunities in direct primary care software. Specifically how DPC practices handle async patient communication (which we've found is a major source of friction in 2-5 physician practices).
 
 You'd be the second DPC-focused founder I've spoken with, and the first who's specifically built async tooling. I'm not building anything yet — really still in research mode — but would love to learn how you've thought about this space and what surprised you.
 
@@ -166,7 +166,7 @@ Alex
 ```
 Hi [Name],
 
-[Mutual contact] mentioned you'd be a great person to talk to. I'm a Stanford GSB student exploring AI opportunities in regulated industries — specifically focused on healthcare and financial services compliance workflows.
+[Mutual contact] mentioned you'd be a great person to talk to. I'm a [School] student exploring AI opportunities in regulated industries — specifically focused on healthcare and financial services compliance workflows.
 
 She mentioned your perspective on [specific topic] would be especially valuable. Would love to learn from you.
 
@@ -293,4 +293,4 @@ Common thread: **reduce friction, demonstrate genuine interest, meet people wher
 
 ## Source
 
-Stanford ENG 245 (Lean Launchpad) Week 2 cold email lecture (Glenn Kramon); RDI outreach methodology (Brady/Jordan); operator playbooks from past founders.
+Lean Launchpad methodology Week 2 cold email lecture (Glenn Kramon); RDI outreach methodology (Brady/Jordan); operator playbooks from past founders.

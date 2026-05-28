@@ -28,7 +28,7 @@ This stage covers Phase 3. Phases 1 and 2 are covered in [`playbooks/validation_
 - Direct evidence on the **leap of faith** — true, false, or genuinely uncertain (and a clear next test to disambiguate).
 - An honest answer to: *Are dogs eating the dog food?* — which leads into [Stage 06 — PMF Measurement](06_pmf_measurement.md).
 
-## Two definitions of MVP that the course holds in parallel
+## Two definitions of MVP held in parallel
 
 You will encounter both. Hold them both. They are complementary, not contradictory.
 
@@ -44,7 +44,7 @@ The Ries MVP is the smallest possible product that *generates the data you need 
 
 The Blank MVP forces an economic threshold — pay matters. A landing page is not a Blank MVP because nothing was sold. The discipline forces you to confront pricing, willingness-to-pay, and friction *as part of the test.*
 
-### The course's synthesis
+### The framework's synthesis
 
 Rachleff and Vrionis synthesize: **"A usable product that either allows you to prove your leap of faith OR gets a customer to pay you."** The OR is important. Sometimes one is more important than the other — depending on what your leap of faith is.
 

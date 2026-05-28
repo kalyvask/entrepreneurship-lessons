@@ -1,6 +1,6 @@
 # The Three-Phase Validation Sequence
 
-Stanford STRAMGT 514's discipline for validating a value hypothesis. The sequence runs concept test → implementation test → MVP test, each cheaper to run and more rigorous than the next. **Skip a phase only when you're confident the data from a prior phase makes the next one unambiguous.**
+Rachleff's discipline for validating a value hypothesis. The sequence runs concept test → implementation test → MVP test, each cheaper to run and more rigorous than the next. **Skip a phase only when you're confident the data from a prior phase makes the next one unambiguous.**
 
 ## Why three phases
 
@@ -184,4 +184,4 @@ In retrospect, Phase 1 and 2 saved this team from a likely 3-month wrong build t
 
 ## Source
 
-Synthesized from Andy Rachleff's STRAMGT 514 lectures (validation as concept→implementation→MVP sequence); Jake Knapp's *Sprint*; Steve Blank's customer development.
+Synthesized from Andy Rachleff's framework (validation as concept→implementation→MVP sequence); Jake Knapp's *Sprint*; Steve Blank's customer development.

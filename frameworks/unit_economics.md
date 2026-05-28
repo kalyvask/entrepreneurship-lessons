@@ -183,4 +183,4 @@ For pre-PMF this is irrelevant. For post-PMF it becomes a useful benchmark.
 
 ## Source
 
-Standard SaaS literature: David Skok's "For Entrepreneurs" blog. Brad Feld's *Startup Communities*. SaaStr (Jason Lemkin). Bessemer Venture Partners' "State of the Cloud" reports. The unit-economics math is standard; the discipline of using it as a *sanity check rather than a forecast* is what Stanford's ENG 245 and STRAMGT 514 emphasize.
+Standard SaaS literature: David Skok's "For Entrepreneurs" blog. Brad Feld's *Startup Communities*. SaaStr (Jason Lemkin). Bessemer Venture Partners' "State of the Cloud" reports. The unit-economics math is standard; the discipline of using it as a *sanity check rather than a forecast* is what early-stage methodology emphasizes.

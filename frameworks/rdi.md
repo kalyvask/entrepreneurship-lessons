@@ -4,9 +4,9 @@
 
 RDI is a structured framework for building what its authors call a **prepared mind**: a depth of understanding of an industry or space that lets you see where it's heading and act on it before others can. Instead of starting with a solution and trying to validate it, you start with curiosity about a space and let discovery drive you toward conviction — and ultimately toward a hypothesis about the future: *what's changing, what's becoming possible, and where the opportunity lives.*
 
-Developed by Scott Brady and Brett Jordan and taught at Stanford GSB (STRAMGT 546).
+Developed by Scott Brady and Brett Jordan.
 
-This file is a condensed reference for RDI. The full synthesis is at [`_research/03_rdi_synthesis.md`](../_research/03_rdi_synthesis.md).
+This file is a condensed reference for RDI.
 
 ## The intellectual heritage
 
@@ -14,7 +14,7 @@ RDI draws from:
 
 - **Pasteur's *prepared mind*** — observation favors those who have done the prep work.
 - **Peter Thiel and Mike Maples' *earned secrets*** — insights you can't Google, only discover through deliberate inquiry, real conversations, and sharp synthesis.
-- **Jim Ellis's *high-tide markets*** (Stanford) — industries that are growing and accumulating value.
+- **Jim Ellis's *high-tide markets*** — industries that are growing and accumulating value.
 - **Porter's Five Forces / PIE framework** — for analyzing competitive dynamics.
 
 The claim: by deliberately synthesizing across the experiences of thought leaders, stakeholders, and industry experts, an outsider can spot gaps, shifts, and second-order effects that even insiders miss. Where insiders are siloed, you are unconstrained.
@@ -224,4 +224,4 @@ Past RDI teams have substantially reduced cold outreach once inbound momentum bu
 
 ## Source
 
-The "Research Driven Inspiration — Full Guide" by Scott Brady and Brett Jordan, Stanford GSB STRAMGT 546. Pile Building and Cluster Analysis synthesis techniques additionally drawn from the Session 7 workshop materials for the course. Full synthesis: [`_research/03_rdi_synthesis.md`](../_research/03_rdi_synthesis.md).
+The "Research Driven Inspiration — Full Guide" by Scott Brady and Brett Jordan. Pile Building and Cluster Analysis synthesis techniques additionally drawn from workshop materials.

@@ -79,7 +79,7 @@ If they reference their article only generically — push: which article? what s
 
 ### Real connection points
 
-If the connection is weak ("we both went to Stanford") — push: better than weak, but pair it with something they care about (their specific work).
+If the connection is weak ("we went to the same school") — push: better than weak, but pair it with something they care about (their specific work).
 
 If there's no connection at all — be honest. Then: shift weight to elements 2 and 4 (why them; what you offer).
 
@@ -112,11 +112,11 @@ Specific. Not "would you have time to chat?" — instead: "30 minutes in the nex
 ### Pattern A — Cold to a senior operator
 
 ```
-SUBJECT: Stanford GSB student researching [SEGMENT] ops — quick chat?
+SUBJECT: [School] student researching [SEGMENT] ops — quick chat?
 
 Hi [Name],
 
-I'm a Stanford GSB student researching software opportunities for [SEGMENT]. Spent the last [N] months talking to operators, investors, and academics across the space — [REFERRER if any] suggested I reach out.
+I'm a [School] student researching software opportunities for [SEGMENT]. Spent the last [N] months talking to operators, investors, and academics across the space — [REFERRER if any] suggested I reach out.
 
 [SPECIFIC THING ABOUT THEM AND WHY]
 
@@ -126,7 +126,7 @@ Open to whenever works for you — happy to send a Calendly link if easier.
 
 Best,
 [User]
-1st year, Stanford GSB
+1st year, [School]
 [LinkedIn]
 ```
 
@@ -152,7 +152,7 @@ SUBJECT: Loved your piece on [TOPIC] — quick research chat?
 
 Hi [Name],
 
-I read your [PUBLICATION] piece on [SPECIFIC CLAIM in the piece] recently and it crystallized something I've been wrestling with as a Stanford GSB student researching [BROADER TOPIC].
+I read your [PUBLICATION] piece on [SPECIFIC CLAIM in the piece] recently and it crystallized something I've been wrestling with as a [School] student researching [BROADER TOPIC].
 
 Specifically, your point about [SPECIFIC THING] — I've heard echoes of this from operators in [ADJACENT SEGMENT] but not seen it framed that way before.
 

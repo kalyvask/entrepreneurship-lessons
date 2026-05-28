@@ -160,4 +160,4 @@ Match motion to psychographic.
 
 ## Source
 
-*Crossing the Chasm* — Geoffrey A. Moore, originally 1991, 3rd edition 2014. The companion volume is *Inside the Tornado* (1995). Both are course-required reading for Rachleff's Session 3 ("Defining the Who"). 50% of the value is in the first 100 pages.
+*Crossing the Chasm* — Geoffrey A. Moore, originally 1991, 3rd edition 2014. The companion volume is *Inside the Tornado* (1995). Both are central to Rachleff's treatment of *Defining the Who*. 50% of the value is in the first 100 pages.

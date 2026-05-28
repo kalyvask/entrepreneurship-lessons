@@ -198,4 +198,4 @@ If you cannot fill this in cleanly, you do not yet have PMF *or* the data to cla
 
 ## Source
 
-The Sean Ellis test is from Sean Ellis, growth advisor at Dropbox, Eventbrite, LogMeIn. Retention curve discipline is standard in startup analytics; Brian Balfour and Lenny Rachitsky's writing has popularized the cohort-curve diagnostic. The Rachleff framing of organic-only signal is from STRAMGT 514. See [`frameworks/rachleff_pmf.md`](rachleff_pmf.md).
+The Sean Ellis test is from Sean Ellis, growth advisor at Dropbox, Eventbrite, LogMeIn. Retention curve discipline is standard in startup analytics; Brian Balfour and Lenny Rachitsky's writing has popularized the cohort-curve diagnostic. The Rachleff framing of organic-only signal is from his published PMF framework. See [`frameworks/rachleff_pmf.md`](rachleff_pmf.md).

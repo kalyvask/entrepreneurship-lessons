@@ -210,4 +210,4 @@ If your pivot candidates all involve dramatic changes, ask: is there a narrower 
 
 ## Source
 
-Rachleff's STRAMGT 514 pivot discipline; Ries's pivot taxonomy; Blank's customer development; the Wealthfront and Broadcom case studies cited throughout.
+Rachleff's pivot discipline; Ries's pivot taxonomy; Blank's customer development; the Wealthfront and Broadcom case studies cited throughout.

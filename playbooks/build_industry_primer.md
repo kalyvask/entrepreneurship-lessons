@@ -182,4 +182,4 @@ But: **drafts of frameworks, observations, or specific takes** can be published 
 
 ## Source
 
-Stanford GSB STRAMGT 546 (RDI) "Building a Primer" methodology (Brady/Jordan); informed by Steve Blank's "Ten Steps to Map Any Industry" (2022).
+RDI "Building a Primer" methodology (Brady/Jordan); informed by Steve Blank's "Ten Steps to Map Any Industry" (2022).

@@ -1,6 +1,6 @@
 # Business Model Canvas (Osterwalder)
 
-A single-page visualization of how a business creates, delivers, and captures value. Developed by Alexander Osterwalder; central tool of *Business Model Generation* (2010); core teaching device of Stanford ENG 245 (Lean Launchpad).
+A single-page visualization of how a business creates, delivers, and captures value. Developed by Alexander Osterwalder; central tool of *Business Model Generation* (2010); core teaching device of Lean Launchpad methodology.
 
 The canvas is not a strategy; it's a **structure for hypotheses**. Each block is a guess about how the business will work. The canvas's value is in forcing you to make those guesses explicit, then test them.
 
@@ -65,7 +65,7 @@ Hypothesis: *we believe cost structure looks like [specific breakdown] at scale.
 
 ## How the canvas is used in Lean Launchpad
 
-Stanford's ENG 245 (Lean Launchpad) uses the BMC as the central organizing tool:
+The Lean Launchpad methodology uses the BMC as the central organizing tool:
 
 - **Week 1**: each team fills out their initial BMC. Every block is hypothesis at this point.
 - **Each subsequent week**: teams go talk to ~10–15 customers/partners/suppliers and **test** the hypotheses in specific blocks. They mark blocks Green (validated), Yellow (need more evidence), or Red (disproved).
@@ -150,4 +150,4 @@ See [`frameworks/value_prop_canvas.md`](value_prop_canvas.md) for the detail.
 
 ## Source
 
-*Business Model Generation* — Alexander Osterwalder and Yves Pigneur (2010). Companion: *Value Proposition Design* — Osterwalder et al. (2014). Both are central in Stanford ENG 245 (Lean Launchpad) and broadly in early-stage methodology.
+*Business Model Generation* — Alexander Osterwalder and Yves Pigneur (2010). Companion: *Value Proposition Design* — Osterwalder et al. (2014). Both are central in the Lean Launchpad methodology and broadly in early-stage practice.

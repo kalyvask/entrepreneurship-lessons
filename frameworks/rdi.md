@@ -53,7 +53,44 @@ Sub-steps:
 7. **Extended support systems** — advisors, river guides, peer thought partners
 8. **Getting organized** — workspace, tools, AI as research companion
 
-**Outputs:** team formed, opportunity rubric, goals and norms documented.
+#### Co-founder selection (deeper treatment of step 2–4)
+
+If you're picking a co-founder rather than just RDI research partners, the bar is higher. A co-founder is the person you'll fight with, hire with, fire with, and run a board with for the next decade. The wrong choice is one of the single most expensive mistakes a founder can make.
+
+**The right co-founder has** complementary skills (not just additive), enough overlapping mental model that you can "mind-meld" on big decisions, and enough independence that you can disagree, argue, and repair without it ending the relationship.
+
+**Don't pick cold.** Picking a co-founder from a meetup, a LinkedIn intro, or a "co-founder dating" event is the *exception* path. It can work, but the failure rate is high. Default path: start from your existing network — people you've worked with, classmates, colleagues. Lean on super-connectors (investors, mentors, former bosses) to surface candidates.
+
+**The best filter is working on something together.** A few months of side-by-side work on a hard project — not coffee, not resumes — tells you what you need to know:
+- Do we make each other better?
+- Can we disagree without it becoming personal?
+- Do our work styles compose (one's strengths covering the other's gaps)?
+- Do we both want to keep going at the end?
+
+Treat the trial period explicitly. Set check-ins. Be honest about what's not working before it compounds.
+
+**Set expectations early and revisit them often.** Sit down explicitly (in writing) on:
+- Roles and responsibilities (who owns what, who decides what)
+- Equity split (and vesting — usually 4 years, 1-year cliff)
+- Board structure (who's on it, how votes work)
+- Desired outcomes (what does success look like — venture-scale exit? lifestyle? IPO?)
+- Personal concerns and fears (what would break this for you?)
+- What happens if one of us leaves
+- How we'll handle disagreement
+
+This is not a one-time conversation. Revisit as the company evolves. The thing you agreed on at incorporation may need updating at Series A.
+
+**Solo founders.** Not every great company has two names on the masthead. Solo founders succeed, but the bar is the same as for co-founded teams from an investor's perspective. You need **bedrock conviction** in yourself: deep domain knowledge, a special skill, or the ability to recruit and inspire the early team.
+
+Four paths if you don't have a co-founder yet:
+- **Start solo and stay solo** — if your skill profile covers the bases and you have a strong network for hiring
+- **Start solo, add a co-founder later** — risky on equity / control negotiation; do this only if you have a clear plan
+- **Wait until you find the right person** — slows you down but reduces the largest single risk
+- **Decide not to do it** — sometimes the honest answer
+
+Better to be **solo and strong than partnered and misaligned.** A misaligned co-founder is worse than no co-founder.
+
+**Outputs:** team formed (or explicit solo decision), opportunity rubric, goals and norms documented, written agreement on roles / equity / outcomes.
 
 ### Phase 2: Ramp-up and bench-level analysis
 

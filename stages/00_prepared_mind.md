@@ -35,7 +35,7 @@ The systematic discipline for this stage is **Research Driven Inspiration (RDI)*
 The work starts before the topic is locked in. You decide who you are doing this with, why, and how.
 
 - **Self-reflect.** Working style, strengths, fears, what you will and won't tolerate. (See [`templates/self_reflection.md`](../templates/self_reflection.md).)
-- **Pick research partners** if you want them (2–3 max). Diverse, complementary, compatible goals. Not co-founders. *Yet.*
+- **Pick research partners** if you want them (2–3 max). Diverse, complementary, compatible goals. Not co-founders. *Yet.* (If a research partner becomes a co-founder candidate later, the bar is higher — see the co-founder selection section in [`frameworks/rdi.md`](../frameworks/rdi.md).)
 - **Build your opportunity rubric.** What does a good opportunity look like to you? Must-haves, deal-breakers, red flags. The act of writing this is more valuable than the rubric itself. (See [`templates/opportunity_rubric.md`](../templates/opportunity_rubric.md).)
 - **Set norms.** Cadence, tools, how you'll make decisions when you disagree.
 

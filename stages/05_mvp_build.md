@@ -177,6 +177,14 @@ You move to [Stage 06 — PMF Measurement](06_pmf_measurement.md) when:
 
 If you don't have at least 5 paying customers despite shipping an MVP, you do not have problem-solution-fit. Go back to Stage 02 or 03.
 
+## A note on building the software itself
+
+This repo tells you **what to build and whether anyone wants it** — the value hypothesis, the leap of faith, the smallest testable wedge. It does not cover **how to build the software well**: code review, QA, security audits, shipping, deployment. That's a different layer, and it matters once you're actually writing the MVP.
+
+For the build layer, point yourself at engineering tooling. [gstack](https://github.com/garrytan/gstack) (Garry Tan, MIT) turns Claude Code into a virtual engineering team — planning review, code review that catches production bugs, browser QA, security audits, and release automation. It runs the *build → review → test → ship* half of the sprint that begins where this repo leaves off.
+
+The handoff: this repo gets you to a scoped MVP that tests your leap of faith; a build-layer toolchain helps you ship it without slop. Keep them distinct — *what to build* is a discovery problem; *how to build it well* is an execution problem, and they need different disciplines.
+
 ## Required reading
 
 - [`frameworks/lean_startup.md`](../frameworks/lean_startup.md) — Build-Measure-Learn, MVP definitions

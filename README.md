@@ -26,8 +26,8 @@ The result is a single, coherent path from "I have a vague interest in a space" 
 Three things in one:
 
 1. **A guide.** A stage-by-stage map from the moment you start exploring an industry to the moment you can confidently claim PMF. Every stage names what to do, what trap to avoid, and what to read.
-2. **A reference library.** The frameworks themselves — PMF, Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Mom Test, RDI, Design Partners, Value Dimensions, Ideation Templates — in tight standalone files you can cite, lend, or come back to in 6 months.
-3. **An agent partner.** Nineteen Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, and pushes back when you're kidding yourself.
+2. **A reference library.** The frameworks themselves — PMF, Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Mom Test, RDI, Design Partners, Value Dimensions, Ideation Templates, the 10-Star Product — in tight standalone files you can cite, lend, or come back to in 6 months.
+3. **An agent partner.** Twenty Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, and pushes back when you're kidding yourself.
 
 ## How to use it
 
@@ -48,6 +48,7 @@ cp -r .claude/skills/* ~/.claude/skills/
 
 Then open Claude Code in a project directory where you're tracking your venture (a notes folder, a workspace, anything). Tell it what you're working on. The skills auto-load based on what you ask:
 
+- `/ent-office-hours` — The front door. Bring a raw idea; it reframes the pain, challenges premises, and points you at the narrowest wedge
 - `/ent-stage-router` — "I'm working on [X]. What stage am I in and what should I focus on?"
 - `/ent-rdi-coach` — Pick a space and run research-driven inspiration end-to-end
 - `/ent-interview-prep` — Prep before a customer conversation
@@ -147,7 +148,7 @@ enterpreneurship-lessons/
 │   ├── 05_mvp_build.md
 │   ├── 06_pmf_measurement.md
 │   └── 07_pivot_or_persevere.md
-├── frameworks/          (16 reference docs)
+├── frameworks/          (18 reference docs)
 │   ├── pmf.md           ← the spine
 │   ├── lean_startup.md
 │   ├── customer_development.md
@@ -161,6 +162,7 @@ enterpreneurship-lessons/
 │   ├── value_prop_canvas.md
 │   ├── value_dimensions.md       (functional / economic / psychological)
 │   ├── ideation_templates.md     (breaking functional fixedness)
+│   ├── ten_star_product.md       (10-star vision + scope modes)
 │   ├── unit_economics.md
 │   ├── design_sprint.md
 │   ├── design_partners.md
@@ -190,7 +192,8 @@ enterpreneurship-lessons/
 │   ├── pmf_survey.md
 │   ├── retention_dashboard.md
 │   └── pivot_memo.md
-└── .claude/skills/      (19 Claude Code skills)
+└── .claude/skills/      (20 Claude Code skills)
+    ├── ent-office-hours/SKILL.md
     ├── ent-stage-router/SKILL.md
     ├── ent-rdi-coach/SKILL.md
     ├── ent-idea-coach/SKILL.md

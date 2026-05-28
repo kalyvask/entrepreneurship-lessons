@@ -4,7 +4,7 @@ A practitioner's library and Claude Code agent partner for the journey from **a 
 
 The spine of this repo is **the product-market fit framework** — the vocabulary, the discipline, and the rules of thumb behind the term *product-market fit*. Coined by Andy Rachleff (co-founder of Benchmark Capital and Wealthfront) and refined over decades alongside John Vrionis of Unusual Ventures.
 
-Around that spine, the library layers in the methodologies and texts that make Rachleff's framework executable in practice:
+Around that spine, the library layers in the methodologies and texts that make the PMF framework executable in practice:
 
 - **Steve Blank's Customer Development** — the systematic discipline of "getting out of the building"
 - **Eric Ries's Lean Startup** — the build-measure-learn loop, validated learning
@@ -24,7 +24,7 @@ The result is a single, coherent path from "I have a vague interest in a space" 
 Three things in one:
 
 1. **A guide.** A stage-by-stage map from the moment you start exploring an industry to the moment you can confidently claim PMF. Every stage names what to do, what trap to avoid, and what to read.
-2. **A reference library.** The frameworks themselves — Rachleff's PMF, Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Mom Test, RDI — in tight standalone files you can cite, lend, or come back to in 6 months.
+2. **A reference library.** The frameworks themselves — PMF, Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Mom Test, RDI — in tight standalone files you can cite, lend, or come back to in 6 months.
 3. **An agent partner.** Thirteen Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, and pushes back when you're kidding yourself.
 
 ## How to use it
@@ -50,7 +50,7 @@ Then open Claude Code in a project directory where you're tracking your venture 
 - `/ent-rdi-coach` — Pick a space and run research-driven inspiration end-to-end
 - `/ent-interview-prep` — Prep before a customer conversation
 - `/ent-interview-debrief` — Capture and synthesize after
-- `/ent-value-hypothesis-builder` — Write a Rachleff-grade value hypothesis
+- `/ent-value-hypothesis-builder` — Write a PMF-grade value hypothesis
 - `/ent-mvp-scoper` — Decide the smallest thing that tests your leap of faith
 - `/ent-pmf-evaluator` — Diagnose whether you have product-market fit
 - `/ent-pivot-coach` — Decide if and how to pivot
@@ -64,9 +64,9 @@ Then open Claude Code in a project directory where you're tracking your venture 
 
 The `frameworks/` directory is designed to be lent. If a co-founder, employee, or advisor needs to get up to speed on Customer Development, send them [`frameworks/customer_development.md`](frameworks/customer_development.md). One file. Self-contained.
 
-## The spine — Rachleff's framework
+## The spine — the PMF framework
 
-Andy Rachleff's framework is built around a few load-bearing claims. Memorize them.
+The PMF framework is built around a few load-bearing claims. Memorize them.
 
 > *"Execution doesn't matter. The success or failure of an information-technology company can almost always be traced to the quality of its product-market fit, not its execution. If the dogs are not eating the dog food, no amount of execution will help."*
 
@@ -84,7 +84,7 @@ The full treatment is in [`frameworks/pmf.md`](frameworks/pmf.md).
 
 ## The map
 
-| Stage | What it's for | The Rachleff anchor | Supporting frameworks |
+| Stage | What it's for | PMF anchor | Supporting frameworks |
 |---|---|---|---|
 | **00. Prepared mind** | You don't yet know what problem matters | Insight as prerequisite | RDI |
 | **01. Insight & idea selection** | Turn research into a falsifiable bet | The non-consensus insight | Disruption Theory, opportunity rubric |

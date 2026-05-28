@@ -96,7 +96,7 @@ Honest comparison across candidates. Don't pick the prettiest narrative — pick
 
 ### Day 11–13 — Stress-test with critics
 
-A founders' feedback meeting (Rachleff's term — see [Stage 04](../stages/04_value_hypothesis.md)). Present the leading candidate to:
+A founders' feedback meeting (a PMF-framework ritual — see [Stage 04](../stages/04_value_hypothesis.md)). Present the leading candidate to:
 
 - A co-founder or trusted advisor who can disagree without consequences
 - An existing customer (in the new *who* if possible)
@@ -210,4 +210,4 @@ If your pivot candidates all involve dramatic changes, ask: is there a narrower 
 
 ## Source
 
-Rachleff's pivot discipline; Ries's pivot taxonomy; Blank's customer development; the Wealthfront and Broadcom case studies cited throughout.
+The PMF framework's pivot discipline; Ries's pivot taxonomy; Blank's customer development; the Wealthfront and Broadcom case studies cited throughout.

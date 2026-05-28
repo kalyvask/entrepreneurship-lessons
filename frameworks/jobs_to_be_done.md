@@ -64,7 +64,7 @@ Don't ask "who is this for?" Ask "what job is this hired to do?" Then ask "in wh
 
 This reframes customer discovery away from demographic personas and toward observed behavior in specific contexts. Instead of "marketing managers at SaaS companies," you're looking for "marketing managers in their first 90 days at a SaaS company that just raised Series B, trying to demonstrate quick wins to the new VP."
 
-The shift is from broad to specific, from generic to situational. (Compatible with Rachleff's narrowing discipline — see [`frameworks/pmf.md`](pmf.md).)
+The shift is from broad to specific, from generic to situational. (Compatible with the PMF framework's narrowing discipline — see [`frameworks/pmf.md`](pmf.md).)
 
 ### When you're identifying competition
 
@@ -96,7 +96,7 @@ For a startup, this means: a great product alone is rarely enough. You need to a
 
 ## Where JTBD fits with other frameworks
 
-- **vs Rachleff's *who*:** JTBD answers the *who* with situational specificity. A great *who* is a "job + situation," not a demographic.
+- **vs the PMF framework's *who*:** JTBD answers the *who* with situational specificity. A great *who* is a "job + situation," not a demographic.
 - **vs Mom Test:** JTBD reframes interview questions. Instead of *"would you use a tool that does X?"*, you ask *"the last time you had to get X done, walk me through what you did and what you wished you had."* (See [`frameworks/the_mom_test.md`](the_mom_test.md).)
 - **vs Disruption Theory:** the JTBD lens identifies *underserved jobs* — jobs being done badly by current providers, where a simpler, cheaper, more convenient alternative can win. (See [`frameworks/disruption_theory.md`](disruption_theory.md).)
 - **vs Lean Startup:** JTBD sharpens the value hypothesis. The leap of faith is about whether a job exists in the form you've hypothesized. (See [`frameworks/lean_startup.md`](lean_startup.md).)

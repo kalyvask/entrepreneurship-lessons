@@ -48,7 +48,7 @@ Practical method:
 2. **Tension analysis.** Where do clusters contradict each other? Where do stakeholder perspectives diverge most? Those tensions are where insights live.
 3. **Magic wand re-analysis.** Read back every "I wish I could…" line from interviews. Aggregate. Look for the wishes that the speaker has tried to solve themselves (the desperation signal — see [Stage 03](03_problem_solution_fit.md)).
 4. **Change vector overlay.** For each candidate insight, ask: *what is changing right now that makes this possible/necessary now and not five years ago?* If the answer is "nothing in particular," it's not an insight — it's a perennial idea other people have already had.
-5. **The "If you put it in your paper that…" test.** Rachleff's filter: would informed people in this space disagree with this? If everyone in the space already agrees, it's consensus and you have no edge.
+5. **The "If you put it in your paper that…" test.** The PMF framework's filter: would informed people in this space disagree with this? If everyone in the space already agrees, it's consensus and you have no edge.
 
 ## The opportunity rubric
 

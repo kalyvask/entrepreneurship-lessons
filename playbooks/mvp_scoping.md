@@ -203,4 +203,4 @@ The sprint cadence forces you to incorporate evidence into the build. Without it
 
 ## Source
 
-Distilled from Rachleff/Vrionis MVP discipline; Ries's *Lean Startup*; Blank's customer development; Paul Graham's "do things that don't scale."
+Distilled from the PMF framework's MVP discipline; Ries's *Lean Startup*; Blank's customer development; Paul Graham's "do things that don't scale."

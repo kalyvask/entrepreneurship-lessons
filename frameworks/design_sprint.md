@@ -152,4 +152,4 @@ The sprint is a learning intervention. After it:
 
 ## Source
 
-*Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days* — Jake Knapp with John Zeratsky and Braden Kowitz (Simon & Schuster, 2016). Developed at Google Ventures. Knapp's writing and the GV website are good supplementary resources. Adopted in Rachleff's PMF framework as the recommended implementation-testing methodology.
+*Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days* — Jake Knapp with John Zeratsky and Braden Kowitz (Simon & Schuster, 2016). Developed at Google Ventures. Knapp's writing and the GV website are good supplementary resources. Adopted in the PMF framework as the recommended implementation-testing methodology.

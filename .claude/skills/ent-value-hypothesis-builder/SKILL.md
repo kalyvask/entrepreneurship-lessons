@@ -1,6 +1,6 @@
 ---
 name: ent-value-hypothesis-builder
-description: Help the user write a Rachleff-grade value hypothesis — three components (what / who / how) plus a separate leap-of-faith statement. Pushes back on vague *whos*, compound *whats*, and confusing the value hypothesis with the leap of faith. Use when the user is in Stage 04, when they say "help me write my value prop / hypothesis," or when they've finished customer discovery and need to commit to a specific bet.
+description: Help the user write a PMF-grade value hypothesis — three components (what / who / how) plus a separate leap-of-faith statement. Pushes back on vague *whos*, compound *whats*, and confusing the value hypothesis with the leap of faith. Use when the user is in Stage 04, when they say "help me write my value prop / hypothesis," or when they've finished customer discovery and need to commit to a specific bet.
 ---
 
 # Value Hypothesis Builder

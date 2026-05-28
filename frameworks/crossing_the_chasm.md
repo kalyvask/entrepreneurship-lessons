@@ -116,15 +116,15 @@ Most of the journey on this site is pre-chasm. After PMF, *Inside the Tornado* b
 
 ## The Rachleff caveat
 
-Moore's framework has a subtle tension with Rachleff's that's worth flagging.
+Moore's framework has a subtle tension with the PMF framework that's worth flagging.
 
 Moore implicitly assumes you'd want to *cross the chasm.* Most startups should. But Rachleff is sharp:
 
 > *"The whole product is opposite of the MVP. Stay in the MVP as long as you can. Building whole-product capabilities before the market validates value is one of the most expensive failure modes."*
 
-Rachleff's preference: extend the early-adopter phase aggressively. Hold the product narrow. Don't build the whole product until you've maxed out the visionary segment. The temptation to cross too early — adding integrations, hiring services teams, building enterprise features — burns capital and dilutes the product.
+The PMF framework's preference: extend the early-adopter phase aggressively. Hold the product narrow. Don't build the whole product until you've maxed out the visionary segment. The temptation to cross too early — adding integrations, hiring services teams, building enterprise features — burns capital and dilutes the product.
 
-Hold both: Moore's framework explains what you'll encounter. Rachleff's discipline keeps you from crossing too soon.
+Hold both: Moore's framework explains what you'll encounter. The PMF framework's discipline keeps you from crossing too soon.
 
 ## A subtle critique
 
@@ -160,4 +160,4 @@ Match motion to psychographic.
 
 ## Source
 
-*Crossing the Chasm* — Geoffrey A. Moore, originally 1991, 3rd edition 2014. The companion volume is *Inside the Tornado* (1995). Both are central to Rachleff's treatment of *Defining the Who*. 50% of the value is in the first 100 pages.
+*Crossing the Chasm* — Geoffrey A. Moore, originally 1991, 3rd edition 2014. The companion volume is *Inside the Tornado* (1995). Both are central to the PMF framework's treatment of *Defining the Who*. 50% of the value is in the first 100 pages.

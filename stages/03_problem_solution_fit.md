@@ -87,7 +87,7 @@ See [`frameworks/unit_economics.md`](../frameworks/unit_economics.md) for the ca
 
 ## "Savor the surprise"
 
-A phrase from Scott Cook of Intuit, repeated in Rachleff's course. Some of the most important learning in this stage comes from **what surprises you in conversations** — not what confirms you.
+A phrase from Scott Cook of Intuit, central to the PMF framework. Some of the most important learning in this stage comes from **what surprises you in conversations** — not what confirms you.
 
 Specifically:
 - A workaround a customer described that you'd never imagined.

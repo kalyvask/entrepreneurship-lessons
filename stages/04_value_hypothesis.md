@@ -87,7 +87,7 @@ This is the most important word in the methodology. Most teams confuse it with t
 
 **The leap of faith is the *one* thing that must be true for the business to work.** It is upstream of the value hypothesis: the value hypothesis is the *what, who, how* you chose *because* of the leap.
 
-Examples (from Rachleff's course):
+Examples:
 
 - **SpaceX leap of faith:** Reusable rockets can dramatically reduce launch costs. → Value hypothesis: A launch services company offering low-cost rocket launches.
 - **Airbnb leap of faith:** People will sleep in a stranger's house. → Value hypothesis: A marketplace where homeowners rent rooms to travelers.
@@ -218,7 +218,7 @@ Before you commit, run the hypothesis through these:
 
 ## Founders' feedback meeting
 
-Rachleff's framework includes a specific ritual: the **founders' feedback meeting**. You present your value hypothesis to a panel of advisors, customers, and skeptics. The panel's job is to **criticize, not to approve.** Your job is to **listen, not to defend.**
+The PMF framework includes a specific ritual: the **founders' feedback meeting**. You present your value hypothesis to a panel of advisors, customers, and skeptics. The panel's job is to **criticize, not to approve.** Your job is to **listen, not to defend.**
 
 The exit criterion: the team owns the decision to proceed. Not the panel.
 
@@ -258,5 +258,5 @@ You move to [Stage 05 — MVP Build](05_mvp_build.md) when:
 
 ## Agent partner
 
-- `/ent-value-hypothesis-builder` — walks you through writing a Rachleff-grade value hypothesis from your discovery notes; pushes back on vague *whos* and compound *whats*
+- `/ent-value-hypothesis-builder` — walks you through writing a PMF-grade value hypothesis from your discovery notes; pushes back on vague *whos* and compound *whats*
 - `/ent-red-team` — pressure-tests the hypothesis against the strongest arguments against it (best run on a copy of your draft, not the original)

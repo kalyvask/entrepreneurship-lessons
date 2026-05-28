@@ -69,7 +69,7 @@ The hypotheses your business depends on. Specifically the ones you have no evide
 - **Value hypothesis** — does the product create the value we think it does for the customer?
 - **Growth hypothesis** — will new customers find the product through the mechanism we think they will?
 
-(Rachleff's framing differs slightly: the value hypothesis is the *what/who/how* itself, and the *leap of faith* is the one assumption underneath it. Both vocabularies are useful; hold them parallel.)
+(The PMF framework's framing differs slightly: the value hypothesis is the *what/who/how* itself, and the *leap of faith* is the one assumption underneath it. Both vocabularies are useful; hold them parallel.)
 
 ## Minimum Viable Product (MVP)
 
@@ -109,16 +109,16 @@ Ries enumerates ten pivot types. The most useful ones for the journey:
 
 - **Zoom-in pivot** — a single feature becomes the whole product.
 - **Zoom-out pivot** — the whole product becomes one feature of a larger one.
-- **Customer segment pivot** — same product, different audience (Rachleff's *pivot the who*).
+- **Customer segment pivot** — same product, different audience (the PMF framework's *pivot the who*).
 - **Customer need pivot** — different problem in same audience.
 - **Platform pivot** — application becomes platform, or vice versa.
 - **Business architecture pivot** — high-margin/low-volume to low-margin/high-volume, or vice versa.
-- **Value capture pivot** — different monetization model (Rachleff's *pivot the how*).
+- **Value capture pivot** — different monetization model (the PMF framework's *pivot the how*).
 - **Engine of growth pivot** — different growth engine.
 - **Channel pivot** — different distribution.
 - **Technology pivot** — different way to deliver same value.
 
-Rachleff compresses this into three options: change the *who* (pivot), the *how* (pivot), or the *what* (restart, rarely succeeds). The Ries taxonomy is more granular; Rachleff's is sharper for decision-making.
+The PMF framework compresses this into three options: change the *who* (pivot), the *how* (pivot), or the *what* (restart, rarely succeeds). The Ries taxonomy is more granular; the PMF framework's is sharper for decision-making.
 
 See [Stage 07 — Pivot or Persevere](../stages/07_pivot_or_persevere.md).
 
@@ -179,7 +179,7 @@ Both disagree (subtly) on:
 - The role of explicit growth-hypothesis testing pre-PMF (Rachleff is stricter: don't test growth until value is validated).
 - What counts as an MVP (Rachleff: usable, paid; Ries: anything that tests the leap of faith).
 
-In practice, hold both: Ries's vocabulary for the loop, Rachleff's discipline for the threshold of what counts as PMF.
+In practice, hold both: Ries's vocabulary for the loop, the PMF framework's discipline for the threshold of what counts as PMF.
 
 ## Where this lives in the journey
 

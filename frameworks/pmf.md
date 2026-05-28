@@ -190,7 +190,7 @@ Compressed to ten steps:
 
 ## Vrionis's voice
 
-John Vrionis, Rachleff's co-teacher, adds shorter cadence one-liners:
+John Vrionis (Unusual Ventures) adds shorter cadence one-liners:
 - *"Ideas are everywhere. Insights are rare."*
 - *"Ideas are cheap. Insights are investable."*
 - *"An MVP is a usable product that either proves your leap of faith or gets a customer to pay you."*

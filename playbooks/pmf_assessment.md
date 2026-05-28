@@ -218,4 +218,4 @@ If you cannot fill this in cleanly, you do not yet have PMF *or* the data to cla
 
 ## Source
 
-Sean Ellis test by Sean Ellis. Retention curve discipline from broad startup analytics (Brian Balfour, Lenny Rachitsky). Rachleff's PMF framework. The "enhance the good" principle is Rachleff's reformulation of "savor the surprise" (Scott Cook).
+Sean Ellis test by Sean Ellis. Retention curve discipline from broad startup analytics (Brian Balfour, Lenny Rachitsky). The PMF framework. The "enhance the good" principle is the PMF framework's reformulation of "savor the surprise" (Scott Cook).

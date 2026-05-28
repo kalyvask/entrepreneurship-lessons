@@ -250,7 +250,7 @@ You move to [Stage 05 — MVP Build](05_mvp_build.md) when:
 
 ## Required reading
 
-- [`frameworks/rachleff_pmf.md`](../frameworks/rachleff_pmf.md) — the value hypothesis framework in full
+- [`frameworks/pmf.md`](../frameworks/pmf.md) — the value hypothesis framework in full
 - [`frameworks/lean_startup.md`](../frameworks/lean_startup.md) — Ries on leap of faith and MVPs
 - [`frameworks/customer_development.md`](../frameworks/customer_development.md) — Blank's parallel framing
 - [`templates/value_hypothesis.md`](../templates/value_hypothesis.md) — fill-in template

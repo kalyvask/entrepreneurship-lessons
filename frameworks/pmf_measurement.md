@@ -26,7 +26,7 @@ This is folkloric — there is no magic in 40 specifically — but the principle
 - Active users only (not signed-up users, not trial users — *active*)
 - Within your narrow *who* (not broadened)
 - N >= 50 for meaningful signal (less than that, individual responses dominate)
-- Mine the comment box of the "very disappointed" cohort — their reasons should map to the desperation markers ([`frameworks/rachleff_pmf.md`](rachleff_pmf.md))
+- Mine the comment box of the "very disappointed" cohort — their reasons should map to the desperation markers ([`frameworks/pmf.md`](pmf.md))
 
 **Common misuses:**
 - Running on all users instead of active users
@@ -198,4 +198,4 @@ If you cannot fill this in cleanly, you do not yet have PMF *or* the data to cla
 
 ## Source
 
-The Sean Ellis test is from Sean Ellis, growth advisor at Dropbox, Eventbrite, LogMeIn. Retention curve discipline is standard in startup analytics; Brian Balfour and Lenny Rachitsky's writing has popularized the cohort-curve diagnostic. The Rachleff framing of organic-only signal is from his published PMF framework. See [`frameworks/rachleff_pmf.md`](rachleff_pmf.md).
+The Sean Ellis test is from Sean Ellis, growth advisor at Dropbox, Eventbrite, LogMeIn. Retention curve discipline is standard in startup analytics; Brian Balfour and Lenny Rachitsky's writing has popularized the cohort-curve diagnostic. The Rachleff framing of organic-only signal is from his published PMF framework. See [`frameworks/pmf.md`](pmf.md).

@@ -198,7 +198,7 @@ The sprint cadence forces you to incorporate evidence into the build. Without it
 
 - [Stage 04 — Value Hypothesis](../stages/04_value_hypothesis.md) — leap of faith articulation
 - [Stage 05 — MVP Build](../stages/05_mvp_build.md) — the home of MVP work
-- [`frameworks/rachleff_pmf.md`](../frameworks/rachleff_pmf.md) — MVP definitions
+- [`frameworks/pmf.md`](../frameworks/pmf.md) — MVP definitions
 - [`frameworks/lean_startup.md`](../frameworks/lean_startup.md) — Build-Measure-Learn
 
 ## Source

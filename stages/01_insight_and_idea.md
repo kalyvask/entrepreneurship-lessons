@@ -151,7 +151,7 @@ If no — Stage 00 isn't done. That's fine. The output of staying in Stage 00 lo
 
 ## Required reading
 
-- [`frameworks/rachleff_pmf.md`](../frameworks/rachleff_pmf.md) — the value hypothesis, insight, leap of faith
+- [`frameworks/pmf.md`](../frameworks/pmf.md) — the value hypothesis, insight, leap of faith
 - [`frameworks/disruption_theory.md`](../frameworks/disruption_theory.md) — Christensen on why incumbents miss disruptive moves
 - [`templates/opportunity_rubric.md`](../templates/opportunity_rubric.md)
 - [`templates/insight_statement.md`](../templates/insight_statement.md)

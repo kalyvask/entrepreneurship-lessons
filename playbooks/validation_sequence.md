@@ -180,7 +180,7 @@ In retrospect, Phase 1 and 2 saved this team from a likely 3-month wrong build t
 - [Stage 04 — Value Hypothesis](../stages/04_value_hypothesis.md) — articulated before Phase 1
 - [Stage 05 — MVP Build](../stages/05_mvp_build.md) — Phase 2 and 3
 - [`frameworks/design_sprint.md`](../frameworks/design_sprint.md) — Phase 2 specifics
-- [`frameworks/rachleff_pmf.md`](../frameworks/rachleff_pmf.md) — overall validation discipline
+- [`frameworks/pmf.md`](../frameworks/pmf.md) — overall validation discipline
 
 ## Source
 

@@ -67,7 +67,7 @@ Christensen's framework for understanding what an organization can and cannot do
 
 An organization's RPV is optimized for the work it's done before. It is **structurally incapable** of pursuing work that requires a different RPV. A company built to sell $100k-a-year enterprise contracts cannot pursue a $99/year SaaS product profitably — their RPV's *values* (gross margin requirements, sales cycle assumptions, customer success cost structure) reject it.
 
-Implication for a startup: **identify what incumbents *can't* do without rewriting their RPV.** That's where you have structural advantage. (Related: Rachleff on insight → "structural reason incumbents are blind to it" — see [`frameworks/rachleff_pmf.md`](rachleff_pmf.md).)
+Implication for a startup: **identify what incumbents *can't* do without rewriting their RPV.** That's where you have structural advantage. (Related: Rachleff on insight → "structural reason incumbents are blind to it" — see [`frameworks/pmf.md`](pmf.md).)
 
 ### 3. Upmarket Migration
 

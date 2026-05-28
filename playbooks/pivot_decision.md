@@ -205,7 +205,7 @@ If your pivot candidates all involve dramatic changes, ask: is there a narrower 
 ## Where this lives in the journey
 
 - [Stage 07 — Pivot or Persevere](../stages/07_pivot_or_persevere.md) — the home of pivot decisions
-- [`frameworks/rachleff_pmf.md`](../frameworks/rachleff_pmf.md) — iterating the who not the what
+- [`frameworks/pmf.md`](../frameworks/pmf.md) — iterating the who not the what
 - [`templates/pivot_memo.md`](../templates/pivot_memo.md) — the written commitment
 
 ## Source

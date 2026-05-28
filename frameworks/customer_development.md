@@ -84,7 +84,7 @@ Blank's term for the early adopters who buy MVPs from unknown companies. The beh
 
 The strongest enterprise signal that someone is an earlyvangelist: **they have tried to build the solution themselves.** They've hacked together something. Their engineering team has an internal tool. They've hired a consultant. They've already spent money on this problem.
 
-That is the signature Rachleff codified later as *desperation* — see [`frameworks/rachleff_pmf.md`](rachleff_pmf.md).
+That is the signature Rachleff codified later as *desperation* — see [`frameworks/pmf.md`](pmf.md).
 
 ## Customer development ≠ market research
 

@@ -180,7 +180,7 @@ If you don't have at least 5 paying customers despite shipping an MVP, you do no
 ## Required reading
 
 - [`frameworks/lean_startup.md`](../frameworks/lean_startup.md) — Build-Measure-Learn, MVP definitions
-- [`frameworks/rachleff_pmf.md`](../frameworks/rachleff_pmf.md) — validation sequence, voting exercise
+- [`frameworks/pmf.md`](../frameworks/pmf.md) — validation sequence, voting exercise
 - [`frameworks/crossing_the_chasm.md`](../frameworks/crossing_the_chasm.md) — MVP vs whole product
 - [`playbooks/validation_sequence.md`](../playbooks/validation_sequence.md) — concept → implementation → MVP
 - [`playbooks/mvp_scoping.md`](../playbooks/mvp_scoping.md) — how to decide what's in v1

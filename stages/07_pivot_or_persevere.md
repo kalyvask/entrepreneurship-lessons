@@ -184,7 +184,7 @@ If you reach the point where you've pivoted twice without finding the desperate 
 
 ## Required reading
 
-- [`frameworks/rachleff_pmf.md`](../frameworks/rachleff_pmf.md) — iterating the *who*, not the *what*
+- [`frameworks/pmf.md`](../frameworks/pmf.md) — iterating the *who*, not the *what*
 - [`frameworks/lean_startup.md`](../frameworks/lean_startup.md) — Ries's pivot taxonomy
 - [`frameworks/disruption_theory.md`](../frameworks/disruption_theory.md) — RPV; why incumbents fail
 - [`playbooks/pivot_decision.md`](../playbooks/pivot_decision.md) — running a pivot decision in practice

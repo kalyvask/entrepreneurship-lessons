@@ -2,7 +2,7 @@
 
 A practitioner's library and Claude Code agent partner for the journey from **a curious mind** to **product-market fit**.
 
-The spine of this repo is **Andy Rachleff's product-market fit framework** — the vocabulary, the discipline, and the rules of thumb behind the term *product-market fit*. Rachleff coined the term, co-founded Benchmark Capital and Wealthfront, and has taught the framework for over a decade.
+The spine of this repo is **the product-market fit framework** — the vocabulary, the discipline, and the rules of thumb behind the term *product-market fit*. Coined by Andy Rachleff (co-founder of Benchmark Capital and Wealthfront) and refined over decades alongside John Vrionis of Unusual Ventures.
 
 Around that spine, the library layers in the methodologies and texts that make Rachleff's framework executable in practice:
 
@@ -80,7 +80,7 @@ Andy Rachleff's framework is built around a few load-bearing claims. Memorize th
 
 > *"First to product-market fit wins, not first to market."*
 
-The full treatment is in [`frameworks/rachleff_pmf.md`](frameworks/rachleff_pmf.md).
+The full treatment is in [`frameworks/pmf.md`](frameworks/pmf.md).
 
 ## The map
 
@@ -122,7 +122,7 @@ Words on this list are used **precisely**. Mixing them up is how teams confuse t
 - **Implementation test** — proves people would use the specific design (a Figma sprint, a Knapp 5-day sprint).
 - **MVP test** — proves the leap of faith and/or generates revenue.
 
-If you read nothing else, read [`stages/04_value_hypothesis.md`](stages/04_value_hypothesis.md) and [`frameworks/rachleff_pmf.md`](frameworks/rachleff_pmf.md). Then come back.
+If you read nothing else, read [`stages/04_value_hypothesis.md`](stages/04_value_hypothesis.md) and [`frameworks/pmf.md`](frameworks/pmf.md). Then come back.
 
 ## Repo structure
 
@@ -139,7 +139,7 @@ stanford-lessons-on-enterpreneurship/
 │   ├── 06_pmf_measurement.md
 │   └── 07_pivot_or_persevere.md
 ├── frameworks/
-│   ├── rachleff_pmf.md           ← the spine
+│   ├── pmf.md           ← the spine
 │   ├── lean_startup.md
 │   ├── customer_development.md
 │   ├── rdi.md

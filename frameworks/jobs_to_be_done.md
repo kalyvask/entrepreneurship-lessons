@@ -64,7 +64,7 @@ Don't ask "who is this for?" Ask "what job is this hired to do?" Then ask "in wh
 
 This reframes customer discovery away from demographic personas and toward observed behavior in specific contexts. Instead of "marketing managers at SaaS companies," you're looking for "marketing managers in their first 90 days at a SaaS company that just raised Series B, trying to demonstrate quick wins to the new VP."
 
-The shift is from broad to specific, from generic to situational. (Compatible with Rachleff's narrowing discipline — see [`frameworks/rachleff_pmf.md`](rachleff_pmf.md).)
+The shift is from broad to specific, from generic to situational. (Compatible with Rachleff's narrowing discipline — see [`frameworks/pmf.md`](pmf.md).)
 
 ### When you're identifying competition
 

@@ -126,7 +126,7 @@ If you can't get to all of these in 4 weeks, look hard at what's missing. Someti
 
 ## Required reading
 
-- [`frameworks/rachleff_pmf.md`](../frameworks/rachleff_pmf.md) — leap of faith, value hypothesis
+- [`frameworks/pmf.md`](../frameworks/pmf.md) — leap of faith, value hypothesis
 - [`frameworks/unit_economics.md`](../frameworks/unit_economics.md) — back-of-envelope checks
 - [`playbooks/concept_test.md`](../playbooks/concept_test.md) — running concept tests cheaply
 - [`templates/problem_statement.md`](../templates/problem_statement.md)

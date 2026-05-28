@@ -174,4 +174,4 @@ ___________________________________________________________________
 **Discipline:** changes to the value hypothesis should be driven by *evidence*, not by *new ideas*. Track what evidence triggered each version.
 
 See [`stages/04_value_hypothesis.md`](../stages/04_value_hypothesis.md) for the discussion.
-See [`frameworks/rachleff_pmf.md`](../frameworks/rachleff_pmf.md) for the framework.
+See [`frameworks/pmf.md`](../frameworks/pmf.md) for the framework.

@@ -120,7 +120,7 @@ If the answer is "nothing major" — your structural blindspot is weak. Reconsid
 
 3. ___________________________________________________________________
 
-**Discipline:** If you can't name three sophisticated people who'd disagree, your insight is probably consensus. Consensus means no edge. (See [`frameworks/rachleff_pmf.md`](../frameworks/rachleff_pmf.md) on the Marks 2x2.)
+**Discipline:** If you can't name three sophisticated people who'd disagree, your insight is probably consensus. Consensus means no edge. (See [`frameworks/pmf.md`](../frameworks/pmf.md) on the Marks 2x2.)
 
 ---
 
@@ -199,5 +199,5 @@ Am I excited about that future?
 ---
 
 See [`stages/01_insight_and_idea.md`](../stages/01_insight_and_idea.md) for the discussion.
-See [`frameworks/rachleff_pmf.md`](../frameworks/rachleff_pmf.md) for the framework.
+See [`frameworks/pmf.md`](../frameworks/pmf.md) for the framework.
 See [`frameworks/disruption_theory.md`](../frameworks/disruption_theory.md) for the RPV concept that supports Part 3.

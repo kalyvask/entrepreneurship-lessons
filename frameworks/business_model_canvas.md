@@ -115,7 +115,7 @@ A working sequence:
 
 1. **First pass at BMC.** Hypotheses across all 9 blocks. ~30 min.
 2. **Identify the 1–3 riskiest hypotheses.** What would kill the business if wrong?
-3. **Articulate the leap of faith.** Of the risky hypotheses, which is *the* one? (See [`frameworks/rachleff_pmf.md`](rachleff_pmf.md).)
+3. **Articulate the leap of faith.** Of the risky hypotheses, which is *the* one? (See [`frameworks/pmf.md`](pmf.md).)
 4. **Write the value hypothesis** in the *what / who / how* shape. Use [Stage 04](../stages/04_value_hypothesis.md) discipline.
 5. **Test the leap of faith first.** Design the cheapest possible concept test.
 6. **Update the BMC** as you learn. Mark blocks Red/Yellow/Green.

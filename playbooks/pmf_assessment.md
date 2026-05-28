@@ -68,7 +68,7 @@ Options:
 
 Most pre-PMF startups land at 10–25%. Climbing the curve from there means narrowing the *who* and serving them better.
 
-After running the survey: **read the comment box of the "very disappointed" cohort.** Their reasons should describe the desperation markers (see [`frameworks/rachleff_pmf.md`](../frameworks/rachleff_pmf.md)).
+After running the survey: **read the comment box of the "very disappointed" cohort.** Their reasons should describe the desperation markers (see [`frameworks/pmf.md`](../frameworks/pmf.md)).
 
 ### Question 6 — The "tell" tests
 

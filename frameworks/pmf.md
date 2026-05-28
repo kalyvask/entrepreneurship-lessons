@@ -1,8 +1,8 @@
-# Rachleff's Product–Market Fit Framework
+# The Product–Market Fit Framework
 
 > *"Execution doesn't matter. The success or failure of an information-technology company can almost always be traced to the quality of its product-market fit, not its execution. If the dogs are not eating the dog food, no amount of execution will help. Conversely, if the dogs are eating the dog food, you can screw up almost everything and still succeed."* — Andy Rachleff
 
-Andy Rachleff coined the term *product–market fit*. He cofounded Benchmark Capital and Wealthfront. He has taught his product-market fit framework for over a decade, originally as the only instructor and now alongside John Vrionis of Unusual Ventures. This file distills his framework — counterintuitive on purpose, dense with first-person stories, built around one load-bearing claim.
+Andy Rachleff coined the term *product–market fit*. He cofounded Benchmark Capital and Wealthfront. The framework distilled in this file is his — refined over decades of investing, building, and writing, alongside John Vrionis of Unusual Ventures — counterintuitive on purpose, dense with first-person stories, built around one load-bearing claim.
 
 ## The load-bearing claim
 
@@ -12,7 +12,7 @@ Three companion sentences worth memorizing:
 - *When a lousy management team meets a great market, market wins.*
 - *When a great management team meets a great market, something very special happens.*
 
-Rachleff repeats this every year because nobody believes it the first time. The defense rests on one observation: 25-year-olds run hundred-million-dollar companies. Zuckerberg, Chesky, Collison did it without conventional execution chops. They were learning operations on the job, badly, at scale, while the company was already worth billions. **The market was forgiving every operational mistake because the market wanted the product.**
+Rachleff repeats this every time he presents the framework because nobody believes it the first time. The defense rests on one observation: 25-year-olds run hundred-million-dollar companies. Zuckerberg, Chesky, Collison did it without conventional execution chops. They were learning operations on the job, badly, at scale, while the company was already worth billions. **The market was forgiving every operational mistake because the market wanted the product.**
 
 Therefore he redefines what makes a great startup management team: **not "do they execute well?" but "do they optimize their potential product-market fit well?"** Execution is an optimization problem. Finding product-market fit is a discovery problem. The two require categorically different organizations.
 
@@ -58,7 +58,7 @@ Examples:
 - **Anthropic.** People care about AI being more responsible. *"Their entire strategy reinforces it. The leap of faith comes first. The strategy is downstream."*
 - **Wealthfront.** People will allow software to manage their investments.
 
-**One sentence. One assumption.** The discipline is to surface the one thing that must be true, write it down separately, and design your MVP to test that one thing as directly as possible. The most common mistake teams make every year: conflating the value hypothesis with the leap of faith, baking five assumptions into one MVP, and being unable to interpret the results.
+**One sentence. One assumption.** The discipline is to surface the one thing that must be true, write it down separately, and design your MVP to test that one thing as directly as possible. The most common mistake teams make: conflating the value hypothesis with the leap of faith, baking five assumptions into one MVP, and being unable to interpret the results.
 
 ## Need is irrelevant. Desperation is everything.
 
@@ -126,7 +126,7 @@ But carry one VC bias: **slugging percentage, not batting average.** *"What matt
 
 > *"For your friends without this vocabulary, product-market fit means you have found a market that is desperate for your product. The technical definition is a validated value hypothesis. You cannot have a validated value hypothesis without organic growth. Paid growth is irrelevant; anyone with a credit card can buy attention. The only sustainable growth signal is organic word of mouth, and word of mouth requires desperation."*
 
-## The path the framework teaches
+## The path the framework prescribes
 
 Compressed to ten steps:
 

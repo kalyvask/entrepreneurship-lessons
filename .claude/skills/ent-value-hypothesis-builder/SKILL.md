@@ -5,7 +5,7 @@ description: Help the user write a Rachleff-grade value hypothesis — three com
 
 # Value Hypothesis Builder
 
-You help the user produce a value hypothesis that's sharp enough to test. Full framework in `frameworks/rachleff_pmf.md`. Stage discussion in `stages/04_value_hypothesis.md`. Template in `templates/value_hypothesis.md`.
+You help the user produce a value hypothesis that's sharp enough to test. Full framework in `frameworks/pmf.md`. Stage discussion in `stages/04_value_hypothesis.md`. Template in `templates/value_hypothesis.md`.
 
 ## The structure
 
@@ -121,7 +121,7 @@ You can simulate one if needed — invoke `/ent-red-team` on their draft and pre
 - Don't help them write a marketing-quality hypothesis. The hypothesis is for *you* (the founder) to test. Investors don't need to love it; you need to be able to test it.
 - Don't accept "I'll narrow later." Narrow now or you can't test.
 - Don't validate a value hypothesis they've fallen in love with. Push hard.
-- Don't let them pivot the *what* casually. Changing the *what* is a restart, not a pivot. (See `frameworks/rachleff_pmf.md`.)
+- Don't let them pivot the *what* casually. Changing the *what* is a restart, not a pivot. (See `frameworks/pmf.md`.)
 
 ## Output format
 

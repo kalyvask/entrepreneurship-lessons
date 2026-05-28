@@ -123,7 +123,7 @@ For at least 3 specific real people in this segment, mark the desperation marker
 - [ ] Mentioned the pain unprompted
 - [ ] Wants it now, not next quarter
 
-**Discipline:** if you can't list 3 specific real people with 3+ desperation markers each, you don't have desperation evidence. You have polite interest. (See [`frameworks/rachleff_pmf.md`](../frameworks/rachleff_pmf.md) on the four markers.)
+**Discipline:** if you can't list 3 specific real people with 3+ desperation markers each, you don't have desperation evidence. You have polite interest. (See [`frameworks/pmf.md`](../frameworks/pmf.md) on the four markers.)
 
 ---
 

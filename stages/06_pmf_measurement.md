@@ -176,7 +176,7 @@ Most teams at this stage will discover they do not have PMF.
 
 The right move is not to keep pushing. The right move is to **pivot** — change the *who*, sometimes the *how*. (See [Stage 07 — Pivot or Persevere](07_pivot_or_persevere.md).)
 
-It is almost never to change the *what.* The insight that brought you here was real; the *who* may have been wrong, but the underlying belief about the inflection probably wasn't. (See [`frameworks/rachleff_pmf.md`](../frameworks/rachleff_pmf.md) on why iterating the *what* obsoletes your own insight.)
+It is almost never to change the *what.* The insight that brought you here was real; the *who* may have been wrong, but the underlying belief about the inflection probably wasn't. (See [`frameworks/pmf.md`](../frameworks/pmf.md) on why iterating the *what* obsoletes your own insight.)
 
 Holding the *what* and changing the *who* is what Rachleff calls a pivot. Restarts (changing the *what*) are different and almost always fatal.
 
@@ -196,7 +196,7 @@ Or — when you can answer **no** clearly on 4+ of the 6 — you have a pivot de
 
 ## Required reading
 
-- [`frameworks/rachleff_pmf.md`](../frameworks/rachleff_pmf.md) — PMF definition and signals
+- [`frameworks/pmf.md`](../frameworks/pmf.md) — PMF definition and signals
 - [`frameworks/pmf_measurement.md`](../frameworks/pmf_measurement.md) — Sean Ellis, retention curves, organic % math
 - [`playbooks/pmf_assessment.md`](../playbooks/pmf_assessment.md) — running the self-check
 - [`templates/pmf_survey.md`](../templates/pmf_survey.md) — Sean Ellis survey

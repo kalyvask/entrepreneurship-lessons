@@ -67,7 +67,10 @@ The repo's structure:
 - `frameworks/` — reference for each methodology
 - `playbooks/` — operational how-tos
 - `templates/` — fillable artifacts
+- `rubrics/journey_rubrics.md` — a scorable pass/fail rubric per stage
 - `.claude/skills/` — other skills in this library (you)
+
+When the user claims they've finished a stage, **grade them against the stage's rubric in `rubrics/journey_rubrics.md`** before agreeing they can advance. Score each dimension 0–3; the pass bar is all ≥ 2 with no 0s. A single 0 is a hole the next stage falls through. Cite the evidence for any 2–3; "we talked to customers" is a 1, not a 3.
 
 When recommending: link to the specific file in the repo.
 

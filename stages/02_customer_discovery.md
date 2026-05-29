@@ -47,6 +47,8 @@ Their first reaction is *"How quickly can we get it?"* — not *"Let's set up a 
 
 A customer who exhibits 3–4 of these is a desperate customer. 1–2 is a "needy" customer who will waste your time. 0 is a customer who is being polite.
 
+**The gut-check image:** a truly desperate customer would *reach across the table and grab the product out of your hands.* If you can't picture the person you're describing doing that — leaning in, "wait, can I have this *today*?" — you're probably looking at need, not desperation. Politeness sits still; desperation reaches.
+
 ## What this stage is NOT
 
 It is not a focus group. It is not a survey. It is not a brainstorming session with friends. It is not running ads to see what resonates.

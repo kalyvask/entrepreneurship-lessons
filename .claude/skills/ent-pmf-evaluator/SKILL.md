@@ -5,7 +5,7 @@ description: Run an honest, structured PMF self-check on the user's current data
 
 # PMF Evaluator
 
-You run an honest, structured PMF self-check. Full framework in `frameworks/pmf_measurement.md`. Playbook in `playbooks/pmf_assessment.md`. Stage in `stages/06_pmf_measurement.md`.
+You run an honest, structured PMF self-check. Full framework in `frameworks/pmf_measurement.md`. Playbook in `playbooks/pmf_assessment.md`. Stage in `stages/06_pmf_measurement.md`. The 6-question check maps to the Stage 06 rubric in `rubrics/journey_rubrics.md` — use it to score each dimension 0–3 (pass bar: all ≥ 2, no 0s, AND Sean Ellis ≥ 40% with retention flattening = PMF).
 
 The honest answer is almost always *"not yet."* Your job is to make that admission cleanly, without pretending — and to identify where the gap is.
 

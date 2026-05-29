@@ -25,9 +25,9 @@ The result is a single, coherent path from "I have a vague interest in a space" 
 
 Three things in one:
 
-1. **A guide.** A stage-by-stage map from the moment you start exploring an industry to the moment you can confidently claim PMF. Every stage names what to do, what trap to avoid, and what to read.
+1. **A guide.** A stage-by-stage map from the moment you start exploring an industry to the moment you can confidently claim PMF. Every stage names what to do, what trap to avoid, and what to read — and a scorable **rubric** so you can honestly grade whether the stage is actually done.
 2. **A reference library.** The frameworks themselves — PMF, Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Mom Test, RDI, Design Partners, Value Dimensions, Ideation Templates, the 10-Star Product — in tight standalone files you can cite, lend, or come back to in 6 months.
-3. **An agent partner.** Twenty Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, and pushes back when you're kidding yourself.
+3. **An agent partner.** Twenty-one Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, grades you against the rubric, and pushes back when you're kidding yourself.
 
 ## How to use it
 
@@ -63,6 +63,7 @@ Then open Claude Code in a project directory where you're tracking your venture 
 - `/ent-mvp-review` — Run a two-week product review during the build
 - `/ent-design-partners` — For B2B: identify, qualify, and manage the 2–5 design partners who co-create your MVP
 - `/ent-pmf-evaluator` — Diagnose whether you have product-market fit
+- `/ent-pmf-memo` — Synthesize the whole journey into a shareable 1–2 page PMF memo
 - `/ent-pivot-coach` — Decide if and how to pivot
 - `/ent-cold-email` — Write outreach that gets responses
 - `/ent-synthesis-coach` — Turn 50 interviews into a thesis
@@ -179,7 +180,9 @@ enterpreneurship-lessons/
 │   ├── value_hypothesis_critique.md  (founders' feedback meeting)
 │   ├── pmf_assessment.md
 │   └── pivot_decision.md
-├── templates/           (12 fillable artifacts)
+├── rubrics/             (score yourself at every stage)
+│   └── journey_rubrics.md        (pass/fail rubric for stages 00–07)
+├── templates/           (13 fillable artifacts)
 │   ├── self_reflection.md
 │   ├── opportunity_rubric.md
 │   ├── insight_statement.md
@@ -191,10 +194,12 @@ enterpreneurship-lessons/
 │   ├── industry_primer.md
 │   ├── pmf_survey.md
 │   ├── retention_dashboard.md
+│   ├── pmf_memo.md               (the capstone synthesis)
 │   └── pivot_memo.md
-└── .claude/skills/      (20 Claude Code skills)
+└── .claude/skills/      (21 Claude Code skills)
     ├── ent-office-hours/SKILL.md
     ├── ent-stage-router/SKILL.md
+    ├── ent-pmf-memo/SKILL.md
     ├── ent-rdi-coach/SKILL.md
     ├── ent-idea-coach/SKILL.md
     ├── ent-interview-prep/SKILL.md

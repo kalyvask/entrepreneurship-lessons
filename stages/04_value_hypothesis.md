@@ -79,6 +79,8 @@ How you deliver, monetize, and distribute. Three sub-components:
 
 The How is where unit economics live. A great *what* sold the wrong way (e.g., self-serve product to a buyer who needs hand-holding) fails on the *how*. A weak *what* can sometimes survive a great *how* (the right channel matched to the right buyer).
 
+**Charge from day one (unless you're ad-based).** A default heuristic: build payment into the *how* from the start, even a small amount. Free pilots and "we'll monetize later" filter for curiosity, not desperation — and the friction of payment is itself the cleanest desperation test. A desperate customer pays. The exception is genuinely ad-supported / network-effect consumer models where usage must precede monetization; everywhere else, the inability to charge early is a signal the pain isn't acute enough.
+
 This is also the part of the hypothesis most likely to need iteration after MVP. Many companies that look like pivots in retrospect were *how* changes, not *what* changes. **Iterate the who, sometimes the how, almost never the what.** (See [Stage 07 — Pivot or Persevere](07_pivot_or_persevere.md).)
 
 ## The leap of faith

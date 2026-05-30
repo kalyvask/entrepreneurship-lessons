@@ -54,27 +54,6 @@ verbatim quotation, that is a bug — open an issue.
 
 See `NOTICE` for the adaptation statement.
 
-## Attributed ideas (paraphrased, not quoted)
-
-These ideas are credited to their originators and appear throughout the repo **in our own
-words** — no verbatim text is reproduced:
-
-- **Andy Rachleff** — desperation over need; iterate the *who* (not the *what*); PMF over
-  execution; competitors are irrelevant before PMF; first to PMF beats first to market; the
-  rate of learning as the key variable; the Instagram-as-restart distinction
-  (`stages/07_pivot_or_persevere.md`).
-- **Louis Pasteur** — preparation is what lets you recognize an opportunity when it appears
-  (`stages/00_prepared_mind.md`, `frameworks/rdi.md`).
-- **Brian Chesky** — designing several stars beyond "five" to surface delight
-  (`frameworks/ten_star_product.md`), via Reid Hoffman's *Masters of Scale*.
-- **Scott Cook** — savor the surprise: the over-performing slice is the signal
-  (`stages/03_problem_solution_fit.md`, the PMF evaluator).
-- **Sean Ellis** — the 40%-"would be very disappointed" test for PMF.
-- **Peter Thiel & Mike Maples** — earned secrets.
-- **Howard Marks** — the consensus / non-consensus 2x2.
-- **Clayton Christensen** — Jobs to Be Done; disruption; RPV.
-- **Jim Ellis** (via RDI) — high-tide markets.
-
 ## Disclaimer
 
 This is an independent educational synthesis. Trademarks and book titles belong to their

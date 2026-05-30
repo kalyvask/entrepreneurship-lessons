@@ -69,6 +69,15 @@ doesn't yet answer]
 - Don't skip the surprise or the risks sections.
 - Don't polish away the open hypotheses — flagging them is the point.
 
+## The endgame — synthesize the durable learnings
+
+The PMF memo is the capstone of *this venture*. It is not the end of the journey. Whatever the
+verdict — PMF, approaching, pivot, or kill — this is the moment with the most to teach, so route the
+founder to `/ent-thesis` to fold what they learned into the three cross-venture outputs that outlast
+any single company: their **PMF insights**, their **investment / founder-style memo**, and their
+**value-hypothesis stance** (held in `thesis_ledger.md`). That synthesis is the real destination; the
+PMF memo is the evidence it draws on.
+
 ## Where this fits
 
 - `templates/pmf_memo.md` — the template

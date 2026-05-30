@@ -87,7 +87,8 @@ WHAT COUNTS: [behavioral signals]
 WHAT DOESN'T: [vanity signals to ignore]
 
 CONFIDENCE / INCONCLUSIVE: [what would make this result unreliable — too few qualified prospects, wrong who, tested on friends]
-LOG: record the test, its pre-registered threshold, and the result in experiment_log.md
+LOG: record the test + pre-registered threshold + result in experiment_log.md, update the
+     leap-of-faith status in lof_ledger.md, then read the change back to the founder
 
 IF PASS → proceed to implementation test (/ent-mvp-scoper) or MVP build
 IF FAIL → diagnose: concept wrong? who wrong? messaging wrong?

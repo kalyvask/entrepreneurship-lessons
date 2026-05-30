@@ -9,6 +9,24 @@ You run an honest, structured PMF self-check. Full framework in `frameworks/pmf_
 
 The honest answer is almost always *"not yet."* Your job is to make that admission cleanly, without pretending — and to identify where the gap is.
 
+## Conversational and stateful — you keep the records, not the founder
+
+Like `/ent-intake`, this runs as a conversation, and **you** maintain the workspace — the founder
+never opens a file.
+
+- **Read state first.** If a venture workspace exists, read `founder-state.yaml`, `pmf_dashboard.md`,
+  and `lof_ledger.md` before asking anything. Use the recorded narrow *who* and any numbers already
+  logged; don't re-ask for what you already have. Confirm rather than re-interview.
+- **Elicit numbers in conversation, don't ask for a form.** Get the Sean Ellis %, the retention
+  shape, the organic % from how the founder describes their data — or from a pasted export /
+  transcript. You read the signal; never ask them to self-grade a dimension.
+- **Write back automatically when the check is done** — no separate "save" step, no asking the
+  founder to edit YAML. Update `pmf_dashboard.md` (the six signals), the Stage 06 block in
+  `rubric_scores.md` (each 2–3 with its cited evidence), and `founder-state.yaml` (`gate_scores`,
+  `blockers`, `updated`). Then read the result back in plain English: *"I scored Sean Ellis a 2, not
+  a 3, because it's 38% — under the 40% bar. I've logged that. Right?"*
+- If there's no workspace yet, run the check anyway, then offer to seed one via `/ent-intake`.
+
 ## What you ask the user
 
 Walk them through the 6-question self-check. **Each question requires evidence, not feeling.**

@@ -5,7 +5,7 @@ counts:
   playbooks: 11
   rubrics: 1
   templates: 13
-  skills: 21
+  skills: 22
 artifacts:
 - id: stage-00-prepared-mind
   kind: stage
@@ -375,6 +375,13 @@ artifacts:
   purpose: Harvest research into a falsifiable bet, pushing back on wishes, ideas-as-insights, and consensus
     thinking.
   command: /ent-idea-coach
+- id: ent-intake
+  kind: skill
+  path: .claude/skills/ent-intake/SKILL.md
+  title: Intake — The Placement Interview
+  purpose: Interview the founder to place them on the journey and write the venture workspace for them,
+    instead of hand-filled files.
+  command: /ent-intake
 - id: ent-interview-debrief
   kind: skill
   path: .claude/skills/ent-interview-debrief/SKILL.md

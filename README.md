@@ -27,7 +27,7 @@ Four things in one:
 
 1. **A guide.** A stage-by-stage map from the moment you start exploring an industry to the moment you can confidently claim PMF. Every stage names what to do, what trap to avoid, and what to read — and a scorable **rubric** so you can honestly grade whether the stage is actually done.
 2. **A reference library.** The frameworks themselves — PMF, Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Mom Test, RDI, Design Partners, Value Dimensions, Ideation Templates, the 10-Star Product — plus a map of [where they disagree](frameworks/conflicts.md). In tight standalone files you can cite, lend, or come back to in 6 months.
-3. **An agent partner.** Twenty-one Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, grades you against the rubric, and pushes back when you're kidding yourself.
+3. **An agent partner.** Twenty-two Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, grades you against the rubric, and pushes back when you're kidding yourself.
 4. **A venture workspace.** A small set of state files ([`scaffold/`](scaffold/)) so the agent picks up where you left off instead of re-diagnosing you every session — and so a stage only advances on evidence, not a checked box.
 
 ## How to use it
@@ -58,7 +58,8 @@ The skills then appear as `/entrepreneurship-lessons:ent-…`. Run inside the cl
 
 The skills auto-load based on what you ask:
 
-- `/ent-office-hours` — The front door. Bring a raw idea; it reframes the pain, challenges premises, and points you at the narrowest wedge
+- `/ent-intake` — Start here. The agent interviews you, places you on the 00→07 map, and writes your venture state for you (no file to fill in by hand)
+- `/ent-office-hours` — The front door for a raw idea; it reframes the pain, challenges premises, and points you at the narrowest wedge
 - `/ent-stage-router` — "I'm working on [X]. What stage am I in and what should I focus on?"
 - `/ent-rdi-coach` — Pick a space and run research-driven inspiration end-to-end
 - `/ent-interview-prep` — Prep before a customer conversation
@@ -88,7 +89,7 @@ The library is the knowledge; [`scaffold/`](scaffold/) is the state. Copy it int
 cp -r scaffold my-venture
 ```
 
-It holds `founder-state.yaml` (current stage, gate scores, blockers), `lof_ledger.md` (the one leap of faith and its status over time), `interviews.csv` (conversations scored on the four desperation markers), `experiment_log.md`, `rubric_scores.md`, `pmf_dashboard.md`, and a running `decision_dossier.md`. The one rule that makes it work: **a gate score of 2–3 requires a cited artifact in the workspace** — the agent won't advance a stage on an unevidenced claim. A filled, end-to-end example is in [`examples/example-venture/`](examples/example-venture/).
+You don't fill these in by hand. Run `/ent-intake` and the agent interviews you — what you're building, what evidence you have — then writes `founder-state.yaml` for you and keeps it current as you work. It holds `founder-state.yaml` (current stage, gate scores, blockers), `lof_ledger.md` (the one leap of faith and its status over time), `interviews.csv` (conversations scored on the four desperation markers), `experiment_log.md`, `rubric_scores.md`, `pmf_dashboard.md`, and a running `decision_dossier.md`. The one rule that makes it work: **a gate score of 2–3 requires a cited artifact in the workspace** — the agent won't advance a stage on an unevidenced claim. A filled, end-to-end example is in [`examples/example-venture/`](examples/example-venture/).
 
 ### As a reference for collaborators
 
@@ -229,7 +230,8 @@ entrepreneurship-lessons/
 ├── .github/workflows/   (content-integrity CI)
 ├── .claude-plugin/
 │   └── plugin.json
-└── .claude/skills/      (21 Claude Code skills)
+└── .claude/skills/      (22 Claude Code skills)
+    ├── ent-intake/SKILL.md
     ├── ent-office-hours/SKILL.md
     ├── ent-stage-router/SKILL.md
     ├── ent-pmf-memo/SKILL.md

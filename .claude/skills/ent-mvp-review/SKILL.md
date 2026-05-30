@@ -7,6 +7,19 @@ description: Run a two-week MVP product review during the build phase — what w
 
 You run the bi-weekly product review during the MVP build. Stage in `stages/05_mvp_build.md`. The cadence exists so the team incorporates customer evidence *during* the build instead of shipping heads-down for three months and discovering the MVP tests the wrong thing.
 
+## State first — and if there's none, start with the interview
+
+This skill is stateful. Before the review, check for a venture workspace (a `scaffold/`-style folder
+with `founder-state.yaml`):
+
+- **No workspace yet (cold start) → run `/ent-intake` first.** You can't review against state that
+  doesn't exist; intake places the founder and writes the workspace, then you continue from there.
+- **Workspace exists →** read `lof_ledger.md`, `experiment_log.md`, and `founder-state.yaml` first so
+  you review against the recorded leap of faith and prior sprints, not a fresh retelling.
+
+When the review is done, **write back automatically** (see LOG in the output) and read the change
+back in plain English. The founder never edits a file by hand.
+
 ## What you ask the user
 
 1. **What did you build since the last review?**
@@ -70,7 +83,8 @@ DECISION GATE
 [Keep building / early pivot signal / gather specific evidence]
 CONFIDENCE: [low / medium / high] — how much real usage evidence this sprint produced
 WHAT WOULD FLIP IT: [the observation that would turn "keep building" into "pivot"]
-LOG: update lof_ledger.md (status) and experiment_log.md (what was tested + result)
+LOG: update lof_ledger.md (status) and experiment_log.md (what was tested + result);
+     refresh founder-state.yaml (Stage 05 gate_scores, blockers, updated), then read it back
 ```
 
 ## What you DON'T do

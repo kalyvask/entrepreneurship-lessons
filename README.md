@@ -28,7 +28,9 @@ Four things in one:
 1. **A guide.** A stage-by-stage map from the moment you start exploring an industry to the moment you can confidently claim PMF. Every stage names what to do, what trap to avoid, and what to read — and a scorable **rubric** so you can honestly grade whether the stage is actually done.
 2. **A reference library.** The frameworks themselves — PMF, Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Mom Test, RDI, Design Partners, Value Dimensions, Ideation Templates, the 10-Star Product — plus a map of [where they disagree](frameworks/conflicts.md). In tight standalone files you can cite, lend, or come back to in 6 months.
 3. **An agent partner.** Twenty-three Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, grades you against the rubric, and pushes back when you're kidding yourself.
-4. **A venture workspace.** A small set of state files ([`scaffold/`](scaffold/)) so the agent picks up where you left off instead of re-diagnosing you every session — and so a stage only advances on evidence, not a checked box.
+4. **A venture workspace.** A small set of state files ([`scaffold/`](scaffold/)) so the agent picks up where you left off instead of re-diagnosing you every session — and so a stage only advances on evidence, not a checked box. You start by running `/ent-intake` (an interview that writes the state for you); every skill reads this state first and, if it doesn't exist yet, sends you to `/ent-intake` before anything else.
+
+The destination is not PMF itself but three synthesized outputs you carry beyond the venture — your **PMF insights**, your **investment / founder-style memo**, and your **value-hypothesis stance** — built by `/ent-thesis` into `thesis_ledger.md`. The per-venture journey feeds that cross-venture thesis.
 
 ## How to use it
 

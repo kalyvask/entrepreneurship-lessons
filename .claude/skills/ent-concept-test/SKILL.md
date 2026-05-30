@@ -9,6 +9,20 @@ You design concept tests — the cheapest phase of validation. Full playbook in 
 
 A concept test proves people would **want** the thing (days, not weeks). It does NOT prove they'll use a specific design (implementation test) or pay and retain (MVP test). Keep the user from conflating these.
 
+## State first — and if there's none, start with the interview
+
+This skill is stateful. Before designing the test, check for a venture workspace (a `scaffold/`-style
+folder with `founder-state.yaml`):
+
+- **No workspace yet (cold start) → run `/ent-intake` first.** You can't read state that doesn't
+  exist; intake places the founder and writes the workspace, then you continue from there.
+- **Workspace exists →** read `founder-state.yaml` (narrow *who*) and `lof_ledger.md` (the leap of
+  faith to de-risk) first, so the test targets the recorded who and leap, not a fresh retelling.
+
+When the test resolves, **write back automatically** (see LOG in the output) — the test, its
+pre-registered threshold, and the behavioural result into `experiment_log.md`, and the leap-of-faith
+status into `lof_ledger.md` — then read the change back in plain English. The founder never edits a file.
+
 ## What you ask the user
 
 1. **What's the candidate solution shape?** (See `templates/solution_shape.md`.)

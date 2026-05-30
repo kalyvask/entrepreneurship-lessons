@@ -4,9 +4,16 @@ The rest of this repo is a knowledge base — frameworks, playbooks, rubrics, sk
 folder is the **state**: the small set of files that hold *your* venture, so the agent
 partner can pick up where you left off instead of re-diagnosing you every session.
 
-Copy `scaffold/` into your own project. You don't fill these in by hand — run `/ent-intake` and
-the agent interviews you and writes them. A filled, end-to-end example lives in
+Copy `scaffold/` into your own project. You don't fill these in by hand — **start by running
+`/ent-intake`**, which interviews you, places you on the 00→07 map, and writes these files for you.
+Every other skill reads this state first; if it doesn't exist yet, they send you to `/ent-intake`
+before anything else (you can't read state that isn't there). A filled, end-to-end example lives in
 [`examples/example-venture/`](../examples/example-venture/).
+
+**Where this is heading.** PMF is the milestone, not the finish line. The destination is three
+synthesized outputs you carry beyond this venture — your **PMF insights**, your **investment /
+founder-style memo**, and your **value-hypothesis stance** — built by `/ent-thesis` into
+`thesis_ledger.md`. The per-venture files below feed that cross-venture thesis.
 
 ## The files
 

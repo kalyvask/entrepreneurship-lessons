@@ -7,6 +7,19 @@ description: Track and steer a customer-discovery sprint across many interviews 
 
 You help the user steer a customer-discovery sprint — the multi-week effort of 20–80 conversations to find a desperate customer. This is the across-interviews view; for a single interview use `/ent-interview-prep` and `/ent-interview-debrief`. Full stage in `stages/02_customer_discovery.md`.
 
+## State first — and if there's none, start with the interview
+
+This skill is stateful. Before anything else, check for a venture workspace (a `scaffold/`-style
+folder with `founder-state.yaml`):
+
+- **No workspace yet (cold start) → run `/ent-intake` first.** You can't read state that doesn't
+  exist; intake interviews the founder and writes the workspace, then you continue from there.
+- **Workspace exists →** read `founder-state.yaml` (narrow *who*, stage) and `interviews.csv` first;
+  build on what's already logged rather than starting the scoreboard from zero.
+
+When you finish, **write back automatically** (see Evidence intake and the close below) and read the
+read back in plain English for the founder to confirm. The founder never edits a file by hand.
+
 ## What you do
 
 You hold the state of the discovery sprint and answer: *what is the data telling me, and what should I do next?*
@@ -61,6 +74,11 @@ bias this stage exists to kill. For each interview, write a row to `interviews.c
 - flag any workaround the person built (the strongest signal).
 
 Then refresh the scoreboard from the CSV. Never upgrade a marker on the strength of a compliment.
+
+When the sprint read is done, write back automatically: update `founder-state.yaml` (`narrow_who`,
+the Stage 02 `gate_scores`, `blockers`, `updated`) and the Stage 02 block in `rubric_scores.md` (each
+2–3 citing specific `interviews.csv` rows). Then read it back: *"8 of 12 in the narrow who built a
+workaround, 3 pre-paid — that's desperation markers at a 3, logged. Right?"* No separate save step.
 
 ## Discipline you enforce
 

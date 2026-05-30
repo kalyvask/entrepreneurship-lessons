@@ -1,0 +1,49 @@
+# Founder state — the single source of truth for where this venture is.
+# The agent (/ent-stage-router) reads and updates this. Keep it honest:
+# score the evidence, not the hope. A gate score of 2-3 needs a cited artifact
+# in this workspace (see scaffold/README.md).
+#
+# This is a FILLED worked example. The venture (Croplane) is at Stage 06,
+# approaching PMF but not there. The history shows a who-pivot. Numbers are small
+# and honest. See README.md in this folder for the stage-by-stage map.
+
+venture: "Croplane"
+one_liner: "Daily-harvest scheduling that turns a CEA farm's crop plan into per-worker cut assignments by 5am, for mid-market multi-site leafy-green farms."
+updated: "2026-05-28"
+
+stage:
+  current: "stage-06-pmf-measurement"
+  entered: "2025-08-11"
+  # Gate scores for the CURRENT stage (Stage 06), 0-3 each (see rubrics/journey_rubrics.md).
+  # Advance only when every dimension >= 2 and none = 0. Stage 06 also requires
+  # Sean Ellis >= 40% with retention flattening to be PMF. We are NOT there yet.
+  # Each score of 2-3 cites an artifact in this workspace (see rubric_scores.md).
+  gate_scores:
+    held_narrow_who: 3        # 7 paying all in the narrow who (pmf_dashboard.md)
+    sean_ellis: 2             # 38% and climbing; below the 40% bar (pmf_dashboard.md)
+    retention: 2              # flattens above zero, only 8 weeks flat (experiment_log EXP-04)
+    organic_acquisition: 2    # ~35% and climbing; under the >40% bar (pmf_dashboard.md)
+    lof_verified: 2           # WTP verified by behaviour; retention depth not yet (lof_ledger.md)
+    the_tells: 2              # 2 of 3 present: referrals + shrinking cycle, no pricing-power test yet
+
+leap_of_faith: "Mid-market multi-site leafy-green farms will pay monthly and run Monday harvest off Croplane instead of the whiteboard, because the 5am scheduling scramble is a recurring labour cost they already absorb by hand."
+narrow_who: "Mid-market leafy-green CEA farms, 20-80 staff, 2+ sites, running Argus or Priva climate control, scheduling harvest by hand (can name 10: see interviews.csv rows 6-15)."
+
+blockers:
+  - "Sean Ellis is 38%, two points under the 40% PMF bar (pmf_dashboard.md)."
+  - "Retention depth, not just shape: 1 of 7 reverted to the whiteboard under a staff transition; 5 of 7 accounts are single-seat (experiment_log EXP-04, hypotheses H7)."
+  - "Retention read may be a planting-season artifact; need a dormant-season cohort to confirm (founder-state risks)."
+
+# Append-only log of stage transitions. Don't edit past rows.
+# The who-pivot (2025-01-20) is the spine of this example: the first who was too
+# broad, and a FAILED pre-registered concept test (experiment_log EXP-00) drove the narrowing.
+history:
+  - { date: "2024-09-02", from: "",                          to: "stage-00-prepared-mind",  why: "Spark. Two seasons working harvest on an indoor leafy-green farm; crews stood idle waiting to be told what to cut; the plan lived in one grower's head." }
+  - { date: "2024-10-14", from: "stage-00-prepared-mind",    to: "stage-01-insight-and-idea", why: "Insight: the harvest schedule sits in the gap between 'crop is ready' and 'this person cuts that bed'; the climate stack (Argus/Priva) ignores labour." }
+  - { date: "2024-11-26", from: "stage-01-insight-and-idea", to: "stage-02-customer-discovery", why: "15 interviews. Pain real but uneven; desperation split hard by farm size (interviews.csv rows 1-15)." }
+  - { date: "2025-01-20", from: "stage-02-customer-discovery", to: "stage-02-customer-discovery", why: "WHO-PIVOT. First who ('indoor vertical farms, all sizes') was too broad. Dropped tech-forward single-site farms (easy to reach, no live pain) after a failed concept test; narrowed to mid-market multi-site leafy-green on legacy climate control (lof_ledger history; experiment_log EXP-00)." }
+  - { date: "2025-02-17", from: "stage-02-customer-discovery", to: "stage-03-problem-solution-fit", why: "Found the workaround at 7 of 8 in-segment farms: whiteboard redrawn at 5am, 9-tab spreadsheets, 5am texts to crew leads (interviews.csv rows 6,9,11,14)." }
+  - { date: "2025-03-24", from: "stage-03-problem-solution-fit", to: "stage-04-value-hypothesis", why: "Concept test passed its pre-registered bar: 6 of 9 booked a follow-up unprompted, 4 sent a real crop schedule (experiment_log EXP-01)." }
+  - { date: "2025-04-21", from: "stage-04-value-hypothesis", to: "stage-05-mvp-build", why: "Value hypothesis written and stress-tested; one behavioural leap of faith isolated (lof_ledger.md). Cut the weekly-planner scope (hypotheses H4)." }
+  - { date: "2025-08-11", from: "stage-05-mvp-build", to: "stage-06-pmf-measurement", why: "MVP test passed: 5 of first 8 invited farms converted to paid monthly within 30 days, zero 30-day churn (experiment_log EXP-03)." }
+  - { date: "2026-05-28", from: "stage-06-pmf-measurement", to: "stage-06-pmf-measurement", why: "Checkpoint, not advancement. 7 paying in the narrow who; Sean Ellis 26% to 38%; retention flattening above zero; organic ~35% rising. Approaching PMF, not at it. Holding the who, deepening retention (pmf_dashboard.md, rubric_scores.md)." }

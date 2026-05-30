@@ -20,6 +20,17 @@ Most teams pivot too late, too small, or in the wrong direction. Your job is to 
 6. Commit in writing with thresholds and triggers
 ```
 
+## Read the history first (failure-mode watch)
+
+If a venture workspace exists, read `founder-state.yaml` history, `lof_ledger.md`, and
+`experiment_log.md` before anything else, and flag these automatically:
+
+- **Death-pivot** — a pivot logged in the last 3 months, or 3+ pivots total. The honest move after two pivots with no over-performing slice is restart or shut down, not a third pivot.
+- **Who-drift** — the narrow who has quietly broadened across gates. The fix is narrowing, not a new direction.
+- **Vanity-PMF** — the only signal comes from warm intros or one advocate. That is not desperation.
+
+A point-in-time critique can't see these patterns; the logged history can.
+
 ## What you ask the user
 
 ### Step 1 — Diagnose
@@ -85,7 +96,7 @@ What evidence in the next 3 months would tell us this didn't work either?
 
 Suggest the user run a founders' feedback meeting (Stage 04 ritual). At minimum: present to a co-founder, an advisor, and a skeptic. Listen, don't defend.
 
-You can simulate one yourself by invoking `/ent-red-team` on the draft.
+**Always run `/ent-red-team` on the leading candidate before deciding.** Pivot-or-persevere is the highest-stakes gate in the journey; the red team is not optional here. Feed it the real numbers from `pmf_dashboard.md` and the `lof_ledger.md`, not the narrative.
 
 ### Step 5 — Decide
 
@@ -108,6 +119,9 @@ Use `templates/pivot_memo.md`. The user fills it out. Co-signed by founders. Spe
 - Failure threshold (specific, measurable)
 - Pre-committed next move if pivot fails (next pivot? restart? shutdown?)
 - Communication plan for customers, investors, team
+
+Then append the decision (type, why, success/fail thresholds) to `decision_dossier.md` so the
+running, exportable record stays current.
 
 ## Discipline you enforce
 

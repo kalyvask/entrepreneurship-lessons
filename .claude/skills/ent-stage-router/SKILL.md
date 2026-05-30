@@ -7,6 +7,21 @@ description: Diagnose which entrepreneurship stage the user is in (from prepared
 
 You are the entry point of an entrepreneurship agent partner. Your job is to **figure out where the user actually is** in their journey from curiosity-about-a-space to product-market-fit — and route them to the right next step.
 
+## Before you route — load the venture state
+
+This library can run statefully. If a venture workspace exists (a `scaffold/`-style folder
+with `founder-state.yaml`):
+
+- **Read `founder-state.yaml` first.** Use the recorded `stage.current`, `gate_scores`, and
+  `blockers` instead of re-diagnosing from scratch; confirm with one question rather than the
+  full intake.
+- After you route, **write back** the updated stage, any new blockers, and append a `history`
+  row if the stage changed.
+
+If there is no workspace yet (cold start), run the diagnosis below once, then create
+`founder-state.yaml` from `scaffold/` and record the stage you placed them in. Don't make them
+answer the full intake every session.
+
 ## The stages (from this repo)
 
 - **Stage 00 — Prepared mind** — exploring a space; no specific problem yet; RDI methodology
@@ -71,6 +86,10 @@ The repo's structure:
 - `.claude/skills/` — other skills in this library (you)
 
 When the user claims they've finished a stage, **grade them against the stage's rubric in `rubrics/journey_rubrics.md`** before agreeing they can advance. Score each dimension 0–3; the pass bar is all ≥ 2 with no 0s. A single 0 is a hole the next stage falls through. Cite the evidence for any 2–3; "we talked to customers" is a 1, not a 3.
+
+Record the scored gate in `rubric_scores.md` with cited evidence; a score of 2–3 needs an
+artifact, not a claim. Before the Stage 06 → 07 gate, run `/ent-red-team` automatically — it is
+the highest-stakes decision in the journey.
 
 When recommending: link to the specific file in the repo.
 

@@ -4,7 +4,7 @@ A practitioner's library and Claude Code agent partner for the journey from **a 
 
 The spine of this repo is **the product-market fit framework** — the vocabulary, the discipline, and the rules of thumb behind the term *product-market fit*. Coined by Andy Rachleff (co-founder of Benchmark Capital and Wealthfront) and refined over decades alongside John Vrionis of Unusual Ventures.
 
-**Sources.** This repo is synthesized entirely from the published books cited throughout (Ries, Blank, Moore, Christensen, Fitzpatrick, Knapp, Grant, Bland/Osterwalder, Cialdini) and from Unusual Ventures' publicly available [Field Guide](https://www.unusual.vc/handbook).
+**Sources.** This repo is synthesized entirely from the published books cited throughout (Ries, Blank, Moore, Christensen, Fitzpatrick, Knapp, Grant, Bland/Osterwalder, Cialdini) and from Unusual Ventures' publicly available [Field Guide](https://www.unusual.vc/handbook). Full provenance, including which passages are quotation, synthesis, or original adaptation, is in [`SOURCES.md`](SOURCES.md).
 
 Around that spine, the library layers in the methodologies and texts that make the PMF framework executable in practice:
 
@@ -23,11 +23,12 @@ The result is a single, coherent path from "I have a vague interest in a space" 
 
 ## What this repo is
 
-Three things in one:
+Four things in one:
 
 1. **A guide.** A stage-by-stage map from the moment you start exploring an industry to the moment you can confidently claim PMF. Every stage names what to do, what trap to avoid, and what to read — and a scorable **rubric** so you can honestly grade whether the stage is actually done.
-2. **A reference library.** The frameworks themselves — PMF, Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Mom Test, RDI, Design Partners, Value Dimensions, Ideation Templates, the 10-Star Product — in tight standalone files you can cite, lend, or come back to in 6 months.
+2. **A reference library.** The frameworks themselves — PMF, Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Mom Test, RDI, Design Partners, Value Dimensions, Ideation Templates, the 10-Star Product — plus a map of [where they disagree](frameworks/conflicts.md). In tight standalone files you can cite, lend, or come back to in 6 months.
 3. **An agent partner.** Twenty-one Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, grades you against the rubric, and pushes back when you're kidding yourself.
+4. **A venture workspace.** A small set of state files ([`scaffold/`](scaffold/)) so the agent picks up where you left off instead of re-diagnosing you every session — and so a stage only advances on evidence, not a checked box.
 
 ## How to use it
 
@@ -39,14 +40,23 @@ Each stage points to the frameworks you need (in `frameworks/`), the playbooks t
 
 ### With the Claude Code agent partner
 
-Install the skills:
+The skills reference the frameworks, playbooks, and templates by their path in this repo, so the reliable way to use them is to **run Claude Code inside the cloned repo**:
 
 ```bash
-mkdir -p ~/.claude/skills
-cp -r .claude/skills/* ~/.claude/skills/
+git clone https://github.com/kalyvask/entrepreneurship-lessons
+cd entrepreneurship-lessons
+claude   # skills auto-load from .claude/skills/, and every framework/playbook/template reference resolves
 ```
 
-Then open Claude Code in a project directory where you're tracking your venture (a notes folder, a workspace, anything). Tell it what you're working on. The skills auto-load based on what you ask:
+To make the coaching skills available from anywhere, install the repo as a plugin:
+
+```
+/plugin install github.com/kalyvask/entrepreneurship-lessons
+```
+
+The skills then appear as `/entrepreneurship-lessons:ent-…`. Run inside the cloned repo when a skill needs to open its supporting framework or template files.
+
+The skills auto-load based on what you ask:
 
 - `/ent-office-hours` — The front door. Bring a raw idea; it reframes the pain, challenges premises, and points you at the narrowest wedge
 - `/ent-stage-router` — "I'm working on [X]. What stage am I in and what should I focus on?"
@@ -58,7 +68,6 @@ Then open Claude Code in a project directory where you're tracking your venture 
 - `/ent-problem-statement` — Turn discovery notes into a defensible problem statement
 - `/ent-concept-test` — Design a cheap test that proves demand before you build
 - `/ent-unit-econ-check` — Back-of-envelope LTV/CAC sanity check
-- `/ent-value-hypothesis-builder` — Write a PMF-grade value hypothesis
 - `/ent-mvp-scoper` — Decide the smallest thing that tests your leap of faith
 - `/ent-mvp-review` — Run a two-week product review during the build
 - `/ent-design-partners` — For B2B: identify, qualify, and manage the 2–5 design partners who co-create your MVP
@@ -70,6 +79,16 @@ Then open Claude Code in a project directory where you're tracking your venture 
 - `/ent-idea-coach` — Convert research into a falsifiable bet
 - `/ent-prompt-troubleshoot` — When the AI is giving you slop
 - `/ent-red-team` — Pressure-test a hypothesis against the strongest arguments against it
+
+### Operate from it — the venture workspace
+
+The library is the knowledge; [`scaffold/`](scaffold/) is the state. Copy it into your venture so the agent works from where you actually are:
+
+```bash
+cp -r scaffold my-venture
+```
+
+It holds `founder-state.yaml` (current stage, gate scores, blockers), `lof_ledger.md` (the one leap of faith and its status over time), `interviews.csv` (conversations scored on the four desperation markers), `experiment_log.md`, `rubric_scores.md`, `pmf_dashboard.md`, and a running `decision_dossier.md`. The one rule that makes it work: **a gate score of 2–3 requires a cited artifact in the workspace** — the agent won't advance a stage on an unevidenced claim. A filled, end-to-end example is in [`examples/example-venture/`](examples/example-venture/).
 
 ### As a reference for collaborators
 
@@ -91,7 +110,7 @@ The PMF framework is built around a few load-bearing claims. Memorize them.
 
 > *"First to product-market fit wins, not first to market."*
 
-The full treatment is in [`frameworks/pmf.md`](frameworks/pmf.md).
+The full treatment is in [`frameworks/pmf.md`](frameworks/pmf.md). Where this spine collides with the other methods, [`frameworks/conflicts.md`](frameworks/conflicts.md) says which wins and why.
 
 ## The map
 
@@ -138,8 +157,13 @@ If you read nothing else, read [`stages/04_value_hypothesis.md`](stages/04_value
 ## Repo structure
 
 ```
-enterpreneurship-lessons/
+entrepreneurship-lessons/
 ├── README.md
+├── LICENSE                  (MIT)
+├── NOTICE                   (attribution for adapted material)
+├── SOURCES.md               (provenance: quotation / synthesis / adaptation)
+├── CONTRIBUTING.md
+├── library.yaml             (machine-readable manifest — source of truth for counts)
 ├── stages/
 │   ├── 00_prepared_mind.md
 │   ├── 01_insight_and_idea.md
@@ -149,7 +173,7 @@ enterpreneurship-lessons/
 │   ├── 05_mvp_build.md
 │   ├── 06_pmf_measurement.md
 │   └── 07_pivot_or_persevere.md
-├── frameworks/          (18 reference docs)
+├── frameworks/          (19 reference docs)
 │   ├── pmf.md           ← the spine
 │   ├── lean_startup.md
 │   ├── customer_development.md
@@ -159,6 +183,7 @@ enterpreneurship-lessons/
 │   ├── jobs_to_be_done.md
 │   ├── disruption_theory.md
 │   ├── pmf_measurement.md
+│   ├── conflicts.md         (where the methods disagree, and which wins)
 │   ├── business_model_canvas.md
 │   ├── value_prop_canvas.md
 │   ├── value_dimensions.md       (functional / economic / psychological)
@@ -168,7 +193,7 @@ enterpreneurship-lessons/
 │   ├── design_sprint.md
 │   ├── design_partners.md
 │   └── ai_lifecycle.md
-├── playbooks/           (10 operational how-tos)
+├── playbooks/           (11 operational how-tos)
 │   ├── customer_interview.md
 │   ├── cold_email.md
 │   ├── synthesis.md
@@ -196,6 +221,14 @@ enterpreneurship-lessons/
 │   ├── retention_dashboard.md
 │   ├── pmf_memo.md               (the capstone synthesis)
 │   └── pivot_memo.md
+├── scaffold/            (the venture workspace — copy this into your project)
+├── examples/
+│   └── example-venture/          (a filled, end-to-end worked journey)
+├── evals/               (behavioural fixtures for the skills)
+├── tools/               (manifest + link + skill checks, run in CI)
+├── .github/workflows/   (content-integrity CI)
+├── .claude-plugin/
+│   └── plugin.json
 └── .claude/skills/      (21 Claude Code skills)
     ├── ent-office-hours/SKILL.md
     ├── ent-stage-router/SKILL.md
@@ -219,6 +252,20 @@ enterpreneurship-lessons/
     ├── ent-red-team/SKILL.md
     └── ent-prompt-troubleshoot/SKILL.md
 ```
+
+The counts above are validated against [`library.yaml`](library.yaml) by CI, so they can't quietly drift.
+
+## When the frameworks disagree
+
+The methods here mostly reinforce each other, but sometimes they give opposite advice at the same moment (ship-fast vs. research-first; whole-product vs. minimum; pivot-fast vs. persevere). [`frameworks/conflicts.md`](frameworks/conflicts.md) names those conflicts and says which to follow, when. The tie-breaker is always the same: **the PMF learnings win** — desperation over need, iterate the who not the what, narrow, learning rate over shipping rate.
+
+## Integrity, sources & license
+
+- **`library.yaml`** is the machine-readable manifest of every stage, framework, playbook, template, rubric, and skill. It is the source of truth for the counts in this README.
+- **CI** (`.github/workflows/content-integrity.yml`) checks the manifest, internal links, and skill frontmatter on every change. Run the same checks locally with `python tools/manifest.py check && python tools/check_links.py && python tools/check_skills.py` (needs `pip install pyyaml`).
+- **`evals/`** holds behavioural fixtures for the skills (e.g. the stage router must not over-advance; the PMF evaluator must reject weak evidence).
+- **`SOURCES.md`** records provenance for every source, tagged quotation / synthesis / original adaptation. **`NOTICE`** credits adapted, openly licensed material.
+- Licensed under the **MIT License** (see [`LICENSE`](LICENSE)).
 
 ## Books
 
@@ -254,4 +301,4 @@ The published works this repo synthesizes — buy them, read them, internalize t
 
 ## Status
 
-Living document. PRs and issues welcome.
+Living document, MIT-licensed (see [`LICENSE`](LICENSE)). PRs and issues welcome — see [`CONTRIBUTING.md`](CONTRIBUTING.md).

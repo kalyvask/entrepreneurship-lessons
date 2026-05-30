@@ -1,0 +1,5 @@
+date,name,segment,role,how_reached,pays_with_little_proof,built_workaround,mentions_unprompted,wants_it_now,desperation_score,past_behavior_quote,source_link,notes
+# One row per customer conversation. The four marker columns are 0 or 1 (behaviour you OBSERVED,
+# not opinions you heard). desperation_score = their sum (0-4): 3-4 = desperate, 1-2 = needy, 0 = polite.
+# past_behavior_quote = something they DID or said about the past (signal), never "I would" (noise).
+# Delete these comment lines once you start; they are here to explain the schema.

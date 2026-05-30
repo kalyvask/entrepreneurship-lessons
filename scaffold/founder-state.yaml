@@ -1,0 +1,33 @@
+# Founder state — the single source of truth for where this venture is.
+# The agent (/ent-stage-router) reads and updates this. Keep it honest:
+# score the evidence, not the hope. A gate score of 2-3 needs a cited artifact
+# in this workspace (see scaffold/README.md).
+
+venture: ""            # short name
+one_liner: ""          # what / who, one sentence (fine to leave blank early)
+updated: ""            # YYYY-MM-DD
+
+stage:
+  current: "stage-00-prepared-mind"   # one of the 8 stage ids (00..07)
+  entered: ""                         # YYYY-MM-DD you entered this stage
+  # Gate scores for the CURRENT stage, 0-3 each (see rubrics/journey_rubrics.md).
+  # Advance only when every dimension >= 2 and none = 0.
+  # Each score of 2-3 must cite an artifact in this workspace.
+  gate_scores: {}
+  # e.g. for stage 00:
+  #   fluency: 2
+  #   research_network: 2
+  #   earned_secrets: 1
+  #   conviction_vs_enthusiasm: 2
+  #   specific_problem: 1
+  #   rubric_fit: 2
+
+leap_of_faith: ""      # the ONE behavioral assumption (see lof_ledger.md)
+narrow_who: ""         # the current narrow who (push for "can name 10 real people")
+
+blockers:              # what is preventing advancement right now
+  - ""
+
+# Append-only log of stage transitions. Don't edit past rows.
+history:
+  - { date: "", from: "", to: "", why: "" }

@@ -72,6 +72,9 @@ PASS THRESHOLD (pre-registered)
 WHAT COUNTS: [behavioral signals]
 WHAT DOESN'T: [vanity signals to ignore]
 
+CONFIDENCE / INCONCLUSIVE: [what would make this result unreliable — too few qualified prospects, wrong who, tested on friends]
+LOG: record the test, its pre-registered threshold, and the result in experiment_log.md
+
 IF PASS → proceed to implementation test (/ent-mvp-scoper) or MVP build
 IF FAIL → diagnose: concept wrong? who wrong? messaging wrong?
           (usually who/messaging before concept — see frameworks/pmf.md)

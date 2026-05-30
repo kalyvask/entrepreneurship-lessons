@@ -77,6 +77,8 @@ LTV / CAC:          [x]  → [healthy / weak / broken]
 Payback:            [x] months → [verdict]
 
 VERDICT: [Math works / structurally weak / broken]
+CONFIDENCE: [low / medium / high] — how rough are the inputs?
+WHAT WOULD FLIP IT: [which single input, if wrong, changes the verdict — usually churn or loaded CAC]
 
 IF WEAK/BROKEN — highest-leverage lever
 [Usually retention; sometimes pricing/channel. Specific recommendation.]

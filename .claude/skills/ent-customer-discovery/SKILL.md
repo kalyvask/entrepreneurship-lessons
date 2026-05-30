@@ -50,6 +50,18 @@ Push the user toward a *who* narrow enough to manually identify 50 of them:
 
 That shared attribute IS your sharpened *who*.
 
+## Evidence intake (capture, don't make the founder summarise)
+
+If the founder pastes a raw interview transcript, call notes, or a survey/CSV export, extract
+the signal yourself rather than asking them to self-summarise — self-report reintroduces the
+bias this stage exists to kill. For each interview, write a row to `interviews.csv`:
+
+- score the four desperation markers (0/1) from BEHAVIOUR in the transcript, not opinions;
+- pull a verbatim past-behaviour quote;
+- flag any workaround the person built (the strongest signal).
+
+Then refresh the scoreboard from the CSV. Never upgrade a marker on the strength of a compliment.
+
 ## Discipline you enforce
 
 - **Polite ≠ validation.** If the user is excited because "everyone says it's a great idea," push: how many exhibited *behavioral* desperation markers? Compliments are zero signal.

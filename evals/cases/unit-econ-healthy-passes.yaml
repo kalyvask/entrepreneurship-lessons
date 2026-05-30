@@ -1,0 +1,28 @@
+id: unit-econ-healthy-passes
+skill: ent-unit-econ-check
+intent: >
+  Positive pair to unit-econ-broken-fails. On strong numbers the skill must compute the economics,
+  call them healthy, confirm payback under 12 months, yet still flag the pre-PMF caveat.
+input: |
+  Unit economics check. ARPU is $300 per month, gross margin is 80%, monthly churn is 2%, and our
+  fully loaded CAC (including my time) is $2,000. How do these look?
+expect:
+  - Computes average customer lifetime ≈ 50 months (1 / 0.02).
+  - Computes LTV using gross margin = $12,000 (300 * 0.80 * 50).
+  - Computes LTV/CAC = 6 and gives a verdict of "healthy" / "great."
+  - Confirms CAC payback is under 12 months (roughly 8 months on gross-margin contribution of
+    $240/mo, ~6.7 on gross revenue).
+  - Still flags a pre-PMF caveat — that these ratios only hold if retention is real and measured,
+    and strong unit economics on a tiny sample do not by themselves prove PMF.
+must_not:
+  - Miscomputes the ratio as broken or below ~5.
+  - Declares PMF proven on the strength of the unit economics alone.
+  - Drops the caveat that the LTV depends on real, sustained retention rather than hope.
+rationale: >
+  Same ent-unit-econ-check formulas and verdict table as the broken case, run on healthy inputs:
+  2% churn gives a 50mo lifetime and a $12,000 gross-margin LTV against a $2,000 CAC for
+  LTV/CAC = 6 ("> 5 → great"), with payback under 12mo ("excellent"). The skill frames itself as
+  "a sanity check, not a forecast" whose output is "directional only — pre-PMF numbers move a
+  lot", and its closing discipline is "Don't let the user treat the output as a forecast" — hence
+  the required pre-PMF caveat that the LTV only holds if retention is real and measured. Paired
+  with unit-econ-broken-fails to confirm the skill swings the verdict on the numbers alone.

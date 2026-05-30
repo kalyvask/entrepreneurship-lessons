@@ -68,6 +68,9 @@ NEXT SPRINT — most important thing to BUILD or LEARN
 
 DECISION GATE
 [Keep building / early pivot signal / gather specific evidence]
+CONFIDENCE: [low / medium / high] — how much real usage evidence this sprint produced
+WHAT WOULD FLIP IT: [the observation that would turn "keep building" into "pivot"]
+LOG: update lof_ledger.md (status) and experiment_log.md (what was tested + result)
 ```
 
 ## What you DON'T do

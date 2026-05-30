@@ -1,0 +1,38 @@
+name: content-integrity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install pyyaml
+
+      # --- the gate: these must pass ---
+      - name: Manifest (paths exist + counts agree)
+        run: python tools/manifest.py check
+
+      - name: Internal Markdown links resolve
+        run: python tools/check_links.py
+
+      - name: Skill frontmatter + no duplicate commands
+        run: python tools/check_skills.py
+
+      # --- advisory: style, non-blocking ---
+      - name: Markdown lint
+        continue-on-error: true
+        run: npx --yes markdownlint-cli2 "**/*.md" "#node_modules"
+
+      - name: Spellcheck
+        continue-on-error: true
+        run: npx --yes cspell --no-progress "**/*.md"

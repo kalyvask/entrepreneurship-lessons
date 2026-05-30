@@ -7,22 +7,22 @@ so the content is intellectually and legally sturdy.
 
 ## Citation conventions
 
-Every section of this repo is one of three things:
+Every section of this repo is one of two things:
 
-- **Quotation (Q)** — verbatim words from a named source, shown in quotes and attributed
-  at the point of use. Quotations are short and used for commentary/education.
 - **Synthesis (S)** — the source's ideas, restated and combined with others in our own
   words. The substantive majority of this repo.
 - **Original adaptation (A)** — a method or structure adapted from openly licensed work,
   rewritten to fit this repo. Tracked in `NOTICE`.
 
-If you find a passage that should be tagged differently, open an issue.
+This repository **paraphrases** its sources; it does not reproduce their text. Ideas are
+attributed to their originators; the words are ours. If you find a passage that reads as a
+verbatim quotation, that is a bug — open an issue.
 
 ## The spine
 
 | Source | Author(s) | Used in | Type |
 |---|---|---|---|
-| The product-market-fit framework | Andy Rachleff; refined with John Vrionis | `frameworks/pmf.md`, the whole spine | Q + S |
+| The product-market-fit framework | Andy Rachleff; refined with John Vrionis | `frameworks/pmf.md`, the whole spine | S |
 | Unusual Ventures [Field Guide](https://www.unusual.vc/handbook) | John Vrionis & the Unusual team | `frameworks/pmf.md`, `frameworks/design_partners.md`, value-hypothesis & MVP measurement | S |
 | Research Driven Inspiration (RDI) | Scott Brady & Brett Jordan | `frameworks/rdi.md`, `stages/00_prepared_mind.md` | S |
 
@@ -54,31 +54,26 @@ If you find a passage that should be tagged differently, open an issue.
 
 See `NOTICE` for the adaptation statement.
 
-## Direct quotations (Q) and their attribution
+## Attributed ideas (paraphrased, not quoted)
 
-These verbatim lines appear in the repo and are attributed to:
+These ideas are credited to their originators and appear throughout the repo **in our own
+words** — no verbatim text is reproduced:
 
-- **Andy Rachleff** — "Need is irrelevant. Desperation is everything."; "Iterate the *who*.
-  Sometimes the *how*. Never the *what*. Adding features does not make someone desperate.";
-  "Execution doesn't matter… If the dogs are not eating the dog food, no amount of execution
-  will help."; "Competitors are irrelevant before product-market fit."; "First to
-  product-market fit wins, not first to market."; the Instagram-as-restart correction
-  (`stages/07_pivot_or_persevere.md`). The "rate at which you learn" line is attributed to
-  the PMF framework as taught by Rachleff.
-- **Louis Pasteur** — "In the fields of observation, chance favors only the prepared mind."
+- **Andy Rachleff** — desperation over need; iterate the *who* (not the *what*); PMF over
+  execution; competitors are irrelevant before PMF; first to PMF beats first to market; the
+  rate of learning as the key variable; the Instagram-as-restart distinction
+  (`stages/07_pivot_or_persevere.md`).
+- **Louis Pasteur** — preparation is what lets you recognize an opportunity when it appears
   (`stages/00_prepared_mind.md`, `frameworks/rdi.md`).
-- **Brian Chesky** — "What's the 11-star experience?" (`frameworks/ten_star_product.md`),
-  as told on Reid Hoffman's *Masters of Scale*.
-- **Scott Cook** — "All the value lies in the surprise…" and "savor the surprise"
-  (`stages/03_problem_solution_fit.md`, PMF evaluator).
-
-## Concepts attributed inline (S)
-
-- **Sean Ellis test** (40% "very disappointed") — Sean Ellis.
-- **Earned secrets** — Peter Thiel and Mike Maples.
-- **Consensus / non-consensus 2x2** — Howard Marks.
-- **Jobs to Be Done** — Clayton Christensen and colleagues.
-- **High-tide markets** — Jim Ellis (via RDI).
+- **Brian Chesky** — designing several stars beyond "five" to surface delight
+  (`frameworks/ten_star_product.md`), via Reid Hoffman's *Masters of Scale*.
+- **Scott Cook** — savor the surprise: the over-performing slice is the signal
+  (`stages/03_problem_solution_fit.md`, the PMF evaluator).
+- **Sean Ellis** — the 40%-"would be very disappointed" test for PMF.
+- **Peter Thiel & Mike Maples** — earned secrets.
+- **Howard Marks** — the consensus / non-consensus 2x2.
+- **Clayton Christensen** — Jobs to Be Done; disruption; RPV.
+- **Jim Ellis** (via RDI) — high-tide markets.
 
 ## Disclaimer
 

@@ -1,6 +1,6 @@
 # Stage 07 — Pivot or Persevere
 
-> *"Iterate the who. Sometimes the how. Never the what. Adding features does not make someone desperate."* — Andy Rachleff
+> Rachleff's rule: iterate the *who*, sometimes the *how*, never the *what* — adding features does not make anyone desperate.
 
 The pivot decision is the most important strategic decision a pre-PMF company makes. It is also the most commonly mishandled.
 
@@ -76,7 +76,7 @@ Changing the *what* is what Rachleff calls a **restart**, not a pivot. Restarts 
 
 The seductive example everyone raises: **Instagram.** Started as Burbn (a location check-in app). Pivoted to photo sharing. Looks like a *what* change.
 
-Rachleff's correction: *"Instagram is a restart, not a pivot. The original product had nothing to do with photos. The thing that succeeded was the mobile photo upload to Facebook. It's a complete restart. The percentage of restarts that succeed is exceptionally low. We don't use examples because outliers distort probability."*
+Rachleff's correction: he treats Instagram as a restart, not a pivot. The original product had nothing to do with photos; what actually succeeded was the mobile photo upload to Facebook, which makes it a complete restart. The share of restarts that succeed is exceptionally low, and he avoids using such examples because outliers distort the probabilities.
 
 The point: don't model your decision on the rare exceptions.
 
@@ -150,7 +150,7 @@ The pivot has communication consequences:
 
 | Failure | What it looks like | Why it kills you |
 |---|---|---|
-| Adding features to lukewarm customers | "If we just add X, they'll convert" | Rachleff: "lunacy." Features don't make people desperate. |
+| Adding features to lukewarm customers | "If we just add X, they'll convert" | Rachleff calls this lunacy. Features don't make people desperate. |
 | Restart instead of pivot | "This product isn't working, let's build something else" | You waste the insight. The *who* was almost certainly the issue. |
 | Death pivot | Pivoting in circles every 2 months | You don't give any single hypothesis time to play out. |
 | Pivoting too late | "We'll give it one more quarter" — repeated 4 times | Runway evaporates; emotional sunk cost mounts. |

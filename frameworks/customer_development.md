@@ -1,8 +1,8 @@
 # Customer Development (Steve Blank)
 
-> *"Get out of the building."* — Steve Blank
+> Steve Blank's first principle, compressed to four words: get out of the building.
 
-Steve Blank invented Customer Development. His 2005 book *The Four Steps to the Epiphany* is what Andy Rachleff calls *"the Old Testament"* — hard to read, highly influential, the book Eric Ries simplified into *The Lean Startup*.
+Steve Blank invented Customer Development. His 2005 book *The Four Steps to the Epiphany* is what Andy Rachleff calls the Old Testament of the field — hard to read, highly influential, the book Eric Ries simplified into *The Lean Startup*.
 
 The book that changed how engineers thought about startups. Before Blank, the dominant model was *Product Development* — engineers built what they thought customers wanted, shipped it, then "sold" the result. Blank's contribution: a *parallel* discipline, *Customer Development*, run by founders, dedicated to validating that what you're building has a desperate customer with a problem worth solving.
 
@@ -90,7 +90,7 @@ That is the signature Rachleff codified later as *desperation* — see [`framewo
 
 Rachleff is sharp on this point — and it's worth repeating because it's the most common misunderstanding of Blank's work:
 
-> *"Customer development is selling people what you have and learning from their reaction. Market research is asking people what they want. They are categorically different."*
+> Rachleff's distinction: customer development is selling people what you have and learning from their reaction; market research is asking people what they want. The two are categorically different.
 
 Real customer development:
 - You already have an insight and a hypothesis.
@@ -101,10 +101,10 @@ When Blank's book opens with chapters about market hypothesis, market research, 
 
 ## Two MVP definitions to hold in parallel
 
-- **Blank MVP:** *"The smallest feature set that will get a customer to pay for it."* — Economic validation focus.
-- **Ries MVP:** *"The minimum functionality required to prove your leap-of-faith assumptions critical to the success of your business."* — Learning focus.
+- **Blank MVP:** the smallest feature set that gets a customer to pay for it — an economic-validation focus.
+- **Ries MVP:** the minimum functionality needed to prove the leap-of-faith assumptions critical to the business — a learning focus.
 
-Different emphasis. Both useful. Rachleff/Vrionis synthesis: *"A usable product that either allows you to prove your leap of faith or gets a customer to pay you."* The OR matters.
+Different emphasis. Both useful. The Rachleff/Vrionis synthesis splits the difference: an MVP is a usable product that either proves your leap of faith or gets a customer to pay you. The OR matters.
 
 For a behavioral leap of faith, focus on usable. For a willingness-to-pay leap of faith, focus on paid. Pick the primary.
 

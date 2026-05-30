@@ -1,6 +1,6 @@
 # Stage 01 — Insight and Idea Selection
 
-> *"Ideas are everywhere. Insights are rare. Ideas are cheap. Insights are investable."* — John Vrionis
+> John Vrionis's distinction: ideas are everywhere and cheap; insights are rare, and they're the thing worth investing in.
 
 The deliverable of this stage is a **falsifiable bet** built on a **non-consensus insight** about a **technological or market inflection**.
 

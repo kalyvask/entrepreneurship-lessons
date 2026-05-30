@@ -6,9 +6,7 @@ You cannot manage what you do not measure. The trap is that PMF can be measured 
 
 The most reliable single-number diagnostic.
 
-**The question, asked of active users:**
-
-> *"How would you feel if you could no longer use [product]?"*
+**The question, asked of active users:** how they would feel if they could no longer use the product.
 
 **The options:**
 - Very disappointed
@@ -107,7 +105,7 @@ Where "organic" means: referrals, direct, search (non-paid), word-of-mouth, orga
 **The kill signal:**
 - Revenue growth is high but organic % is declining. You're scaling paid acquisition; the bucket may have a hole. Stop pouring fuel until you fix it.
 
-Rachleff: *"Paid growth is irrelevant; anyone with a credit card can buy attention. The only sustainable growth signal is organic word of mouth, and word of mouth requires desperation."*
+Rachleff's framing: paid growth is irrelevant because anyone with a credit card can buy attention. The only sustainable growth signal is organic word of mouth, and word of mouth requires desperation.
 
 ## Composite signals
 

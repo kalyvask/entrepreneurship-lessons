@@ -1,6 +1,6 @@
 # Stage 05 — MVP Build and Test
 
-> *"An MVP is a usable product that either proves your leap of faith or gets a customer to pay you."* — John Vrionis
+> John Vrionis's definition: an MVP is a usable product that either proves your leap of faith or gets a customer to pay you.
 
 A lot of confusion lives in the term MVP. This file clarifies it.
 
@@ -34,19 +34,19 @@ You will encounter both. Hold them both. They are complementary, not contradicto
 
 ### Ries (The Lean Startup): the learning MVP
 
-> *"The minimum functionality required to prove your leap-of-faith assumptions that are critical to the success of your business."*
+> In Ries's terms: the minimum functionality required to prove the leap-of-faith assumptions that are critical to whether the business succeeds.
 
 The Ries MVP is the smallest possible product that *generates the data you need to falsify the leap of faith.* Could be a video. Could be a landing page with a price. Could be a "concierge" service where you hand-deliver the value before you've built the software.
 
 ### Blank (The Four Steps to the Epiphany): the economic MVP
 
-> *"The smallest feature set that will get a customer to pay for it."*
+> In Blank's terms: the smallest feature set that will get a customer to pay for it.
 
 The Blank MVP forces an economic threshold — pay matters. A landing page is not a Blank MVP because nothing was sold. The discipline forces you to confront pricing, willingness-to-pay, and friction *as part of the test.*
 
 ### The framework's synthesis
 
-Rachleff and Vrionis synthesize: **"A usable product that either allows you to prove your leap of faith OR gets a customer to pay you."** The OR is important. Sometimes one is more important than the other — depending on what your leap of faith is.
+Rachleff and Vrionis synthesize the two into a usable product that **either lets you prove your leap of faith OR gets a customer to pay you.** The OR is important. Sometimes one is more important than the other — depending on what your leap of faith is.
 
 For a behavioral leap of faith (will people use this? will they trust this? will they adopt this?), focus on the **usable** part. The Ries spirit.
 
@@ -83,13 +83,13 @@ Concierge MVP — you do the work manually behind the scenes. This is *not* chea
 **4. For features that *can't* be human-replaced, ask: is the lightest implementation good enough?**
 Often a feature can be built in 1/10th the time if you accept that it'll break, won't scale, and isn't pretty. That's fine pre-PMF. The whole point is *unsustainably good.* You're optimizing for learning, not for scale.
 
-A useful slogan: **"Do things that don't scale."** (Paul Graham.) Before PMF, scalability is a future problem. Your MVP should embarrass you slightly — if you're proud of the polish, you probably overbuilt.
+A useful slogan, from Paul Graham: do the things that don't scale. Before PMF, scalability is a future problem. Your MVP should embarrass you slightly — if you're proud of the polish, you probably overbuilt.
 
 ## The reduction principle (course-specific)
 
 A specific failure mode worth flagging. The course teaches it explicitly:
 
-> *"When an early adopter sees one benefit they want alongside two they don't, the reaction is 'this isn't for me' or 'I shouldn't pay full price for things I don't need.' Reducing features is the only permitted change to the what."*
+> The course's principle: when an early adopter sees one benefit they want bundled with two they don't, they conclude it isn't for them, or that they shouldn't pay full price for things they don't need. Reducing features is the only permitted change to the *what*.
 
 In other words: **too many features in your MVP can be as bad as too few.** Early adopters want a sharp, specific, usable answer to their problem — not a bundle of half-built features that solves their problem 80% and adjacent problems 30%.
 

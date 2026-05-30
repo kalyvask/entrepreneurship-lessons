@@ -1,6 +1,6 @@
 # Stage 00 — The Prepared Mind
 
-> *"In the fields of observation, chance favors only the prepared mind."* — Louis Pasteur
+> Pasteur's principle: in observation, chance favors only the mind that is already prepared to notice it.
 
 You are not yet an entrepreneur. You are an explorer.
 

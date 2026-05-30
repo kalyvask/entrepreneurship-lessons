@@ -1,6 +1,6 @@
 # Stage 04 — The Value Hypothesis
 
-> *"Adding fuel to a fire makes the fire bigger. But a growth hypothesis cannot start a fire. Only a value hypothesis can start a fire."* — Andy Rachleff
+> Rachleff's fire metaphor: a growth hypothesis only adds fuel to a fire that already exists. It can't start one. Only a value hypothesis can start the fire.
 
 The value hypothesis is the artifact this entire methodology has been preparing you to write. It is short. It is specific. It is testable. And nine out of ten teams write it wrong on the first try.
 

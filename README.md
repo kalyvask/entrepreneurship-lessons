@@ -98,17 +98,17 @@ The `frameworks/` directory is designed to be lent. If a co-founder, employee, o
 
 The PMF framework is built around a few load-bearing claims. Memorize them.
 
-> *"Execution doesn't matter. The success or failure of an information-technology company can almost always be traced to the quality of its product-market fit, not its execution. If the dogs are not eating the dog food, no amount of execution will help."*
+> Execution is rarely what decides a tech company; the quality of its product-market fit is. If the dogs are not eating the dog food, no amount of execution saves it.
 
-> *"The most important variable in a startup is the rate at which you learn."*
+> The most important variable in a startup is the rate at which it learns.
 
-> *"Need is irrelevant. Desperation is everything."*
+> What matters is desperation, not stated need.
 
-> *"Iterate the *who*. Sometimes the *how*. Never the *what*. Adding features does not make someone desperate."*
+> Iterate the *who*, sometimes the *how*, never the *what*. Adding features does not make anyone desperate.
 
-> *"Competitors are irrelevant before product-market fit."*
+> Competitors are irrelevant before product-market fit.
 
-> *"First to product-market fit wins, not first to market."*
+> Getting to product-market fit first is what wins, not getting to market first.
 
 The full treatment is in [`frameworks/pmf.md`](frameworks/pmf.md). Where this spine collides with the other methods, [`frameworks/conflicts.md`](frameworks/conflicts.md) says which wins and why.
 

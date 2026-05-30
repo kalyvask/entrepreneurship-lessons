@@ -1,6 +1,6 @@
 # Design Sprint (Jake Knapp)
 
-> *"A five-day process to answer critical business questions through design, prototyping, and testing ideas with customers."* — Jake Knapp
+> Jake Knapp's design sprint, in one line: a five-day process for answering critical business questions by designing, prototyping, and testing ideas with real customers.
 
 A focused, time-boxed methodology developed at Google Ventures for testing big questions before committing to a long build. Documented in *Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days* (Knapp, 2016).
 

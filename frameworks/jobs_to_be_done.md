@@ -1,6 +1,6 @@
 # Jobs to Be Done (Clayton Christensen)
 
-> *"People don't want a quarter-inch drill. They want a quarter-inch hole."* — attributed to Theodore Levitt; central to JTBD
+> The idea at the heart of JTBD, usually traced to Theodore Levitt: nobody wants a quarter-inch drill; what they want is a quarter-inch hole. People buy the outcome, not the tool.
 
 JTBD (Jobs To Be Done) is a way of understanding **what customers are actually hiring a product to do** — independent of demographics, segmentation, or product features. The framework's origin is Harvard professor Clayton Christensen's research on innovation and disruption; the most accessible treatment is *Competing Against Luck* (Christensen et al., 2016).
 

@@ -1,0 +1,33 @@
+name: skill-evals
+
+# Opt-in LLM-judge evals for the ent-* skills. NOT a PR gate — it needs an API
+# key (unavailable to fork PRs) and costs tokens. Run it by hand from the Actions
+# tab (workflow_dispatch) or on the weekly schedule. The deterministic
+# content-integrity workflow is the actual gate on every PR.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 * * 1" # Mondays 09:00 UTC
+
+jobs:
+  evals:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install anthropic pyyaml
+      - name: Run LLM-judge evals
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python tools/run_evals.py --json eval-report.json
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eval-report
+          path: eval-report.json
+          if-no-files-found: ignore

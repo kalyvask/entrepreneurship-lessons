@@ -27,7 +27,7 @@ Four things in one:
 
 1. **A guide.** A stage-by-stage map from the moment you start exploring an industry to the moment you can confidently claim PMF. Every stage names what to do, what trap to avoid, and what to read — and a scorable **rubric** so you can honestly grade whether the stage is actually done.
 2. **A reference library.** The frameworks themselves — PMF, Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Mom Test, RDI, Design Partners, Value Dimensions, Ideation Templates, the 10-Star Product — plus a map of [where they disagree](frameworks/conflicts.md). In tight standalone files you can cite, lend, or come back to in 6 months.
-3. **An agent partner.** Twenty-two Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, grades you against the rubric, and pushes back when you're kidding yourself.
+3. **An agent partner.** Twenty-three Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, grades you against the rubric, and pushes back when you're kidding yourself.
 4. **A venture workspace.** A small set of state files ([`scaffold/`](scaffold/)) so the agent picks up where you left off instead of re-diagnosing you every session — and so a stage only advances on evidence, not a checked box.
 
 ## How to use it
@@ -80,6 +80,7 @@ The skills auto-load based on what you ask:
 - `/ent-idea-coach` — Convert research into a falsifiable bet
 - `/ent-prompt-troubleshoot` — When the AI is giving you slop
 - `/ent-red-team` — Pressure-test a hypothesis against the strongest arguments against it
+- `/ent-thesis` — Cross-venture layer: log durable learnings and synthesize them into your PMF insights, investment-style memo, and value-hypothesis stance
 
 ### Operate from it — the venture workspace
 
@@ -230,8 +231,9 @@ entrepreneurship-lessons/
 ├── .github/workflows/   (content-integrity CI)
 ├── .claude-plugin/
 │   └── plugin.json
-└── .claude/skills/      (22 Claude Code skills)
+└── .claude/skills/      (23 Claude Code skills)
     ├── ent-intake/SKILL.md
+    ├── ent-thesis/SKILL.md
     ├── ent-office-hours/SKILL.md
     ├── ent-stage-router/SKILL.md
     ├── ent-pmf-memo/SKILL.md

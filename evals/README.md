@@ -63,6 +63,34 @@ fixture's `expect` + `must_not` lists. Ask it to return, per assertion, a verdic
 quote or paraphrase as evidence. Keep the judge blind to the `rationale` so it grades behaviour,
 not intent. Treat the judge as advisory; a human should spot-check disagreements and any `partial`.
 
+## Optional automated runner (LLM judge)
+
+`tools/run_evals.py` automates the manual loop above with an LLM judge, for running the whole
+suite at once. It is **opt-in and not the PR gate** — the deterministic content-integrity checks
+remain the only thing every PR must pass.
+
+```bash
+pip install anthropic pyyaml
+export ANTHROPIC_API_KEY=...        # without this, the runner exits 0 with a skip notice
+python tools/run_evals.py           # all fixtures
+python tools/run_evals.py --case unit-econ-broken-fails --votes 3
+```
+
+How it grades, and the honest limits:
+
+- For each fixture it sends the `input` to a candidate model (default `claude-opus-4-8`) with the
+  skill's `SKILL.md` as the system prompt, then asks a judge model (default `claude-sonnet-4-6`),
+  per assertion, whether the behaviour is present. It majority-votes across `--votes` judges (default 3).
+- **The gate is narrow: it fails only on a `must_not` hit** — an anti-pattern the response actually
+  exhibited. `must_not` is the bright line. `expect` misses print as warnings, not failures, because
+  a correct free-text response can satisfy an `expect` in wording a judge scores conservatively. So
+  the runner enforces "never do the forbidden thing" and advises on "did the good thing".
+- An LLM judge is **non-deterministic**; treat a single red as a prompt to look, not a verdict. That
+  is why it is not wired into the PR gate.
+
+CI: `.github/workflows/evals.yml` runs it on demand (Actions tab) and weekly, with
+`ANTHROPIC_API_KEY` from repo secrets. Fork PRs don't get the secret, so the runner skips cleanly.
+
 ## Coverage
 
 Eight fixtures, with positive and negative cases:

@@ -20,6 +20,7 @@ the agent interviews you and writes them. A filled, end-to-end example lives in
 | `rubric_scores.md` | The stage gates, scored 0–3, each 2–3 backed by a **cited artifact** | `ent-stage-router`, `ent-pmf-evaluator` |
 | `pmf_dashboard.md` | The only metrics that count at Stage 06 — and the vanity metrics we refuse to track | `ent-pmf-evaluator` |
 | `decision_dossier.md` | A running, exportable record of the decisions you can defend (insight → problem → value hypothesis → pivots → PMF) | every gate; capstone is `ent-pmf-memo` |
+| `thesis_ledger.md` | **Cross-venture, per person.** Durable learnings → your PMF insights, investment-style memo, and value-hypothesis stance | `ent-thesis` (keep one above all your ventures) |
 
 ## The one rule that makes this work
 

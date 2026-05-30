@@ -5,7 +5,7 @@ counts:
   playbooks: 11
   rubrics: 1
   templates: 13
-  skills: 22
+  skills: 23
 artifacts:
 - id: stage-00-prepared-mind
   kind: stage
@@ -477,6 +477,13 @@ artifacts:
   purpose: Synthesize a batch of interviews into clusters, patterns, and insights using pile-building
     and hypothesis tracking.
   command: /ent-synthesis-coach
+- id: ent-thesis
+  kind: skill
+  path: .claude/skills/ent-thesis/SKILL.md
+  title: Thesis & Learnings Coach
+  purpose: Maintain the cross-venture learnings ledger and synthesize it into PMF insights, an investment-style
+    memo, and a value-hypothesis stance.
+  command: /ent-thesis
 - id: ent-unit-econ-check
   kind: skill
   path: .claude/skills/ent-unit-econ-check/SKILL.md

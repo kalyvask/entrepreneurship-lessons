@@ -1,7 +1,8 @@
 # Founder state — the single source of truth for where this venture is.
-# The agent (/ent-stage-router) reads and updates this. Keep it honest:
-# score the evidence, not the hope. A gate score of 2-3 needs a cited artifact
-# in this workspace (see scaffold/README.md).
+# YOU DON'T HAND-FILL THIS. Run /ent-intake: the agent interviews you and writes
+# this file for you. /ent-stage-router then reads and updates it each session.
+# You can read it anytime. The agent keeps it honest — a gate score of 2-3 needs
+# a cited artifact in this workspace (see scaffold/README.md).
 
 venture: ""            # short name
 one_liner: ""          # what / who, one sentence (fine to leave blank early)

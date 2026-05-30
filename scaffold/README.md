@@ -4,8 +4,9 @@ The rest of this repo is a knowledge base — frameworks, playbooks, rubrics, sk
 folder is the **state**: the small set of files that hold *your* venture, so the agent
 partner can pick up where you left off instead of re-diagnosing you every session.
 
-Copy `scaffold/` into your own project (or run the installer) and fill it in as you go.
-A filled, end-to-end example lives in [`examples/example-venture/`](../examples/example-venture/).
+Copy `scaffold/` into your own project. You don't fill these in by hand — run `/ent-intake` and
+the agent interviews you and writes them. A filled, end-to-end example lives in
+[`examples/example-venture/`](../examples/example-venture/).
 
 ## The files
 
@@ -30,9 +31,14 @@ advance a stage on an unevidenced score.
 
 ## How the agent uses it
 
-1. Run `/ent-stage-router`. If `founder-state.yaml` is empty, it runs a short placement and
-   seeds it (cold start). Otherwise it reads your state and routes you to the next step.
-2. As you do the work, the relevant skill appends evidence to the workspace files above.
+You don't hand-fill these files. You talk to the agent; it writes them.
+
+1. **Start with `/ent-intake`.** It interviews you — what you're working on, what evidence you
+   have — places you on the 00→07 map, and writes `founder-state.yaml` for you. It scores the gates
+   from the behaviour and numbers you describe, not from a self-rating, then reads the result back
+   in plain English for you to confirm.
+2. Each session after, `/ent-stage-router` reads your state and routes you to the next step; as you
+   do the work, the relevant skill appends evidence to the files above. You never edit YAML by hand.
 3. Before the highest-stakes gate (Stage 06 → 07, pivot-or-persevere), `/ent-red-team` fires
    automatically against your `lof_ledger.md` and `pmf_dashboard.md`.
 

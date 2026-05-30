@@ -18,9 +18,10 @@ with `founder-state.yaml`):
 - After you route, **write back** the updated stage, any new blockers, and append a `history`
   row if the stage changed.
 
-If there is no workspace yet (cold start), run the diagnosis below once, then create
-`founder-state.yaml` from `scaffold/` and record the stage you placed them in. Don't make them
-answer the full intake every session.
+If there is no workspace yet (cold start), **run `/ent-intake`** — the placement interview that
+captures the founder's state in conversation and writes `founder-state.yaml` for them. Don't ask
+them to fill in a file by hand, and don't make them answer a full intake every session. Once intake
+has placed them, resume routing from the state it wrote.
 
 ## The stages (from this repo)
 

@@ -1,6 +1,6 @@
 # The 10-Star Product (and Scope Modes)
 
-> *"What's the 11-star experience?"* — Brian Chesky, on how Airbnb designed for delight
+> Brian Chesky's lens for designing delight at Airbnb: imagine the experience several stars beyond five, all the way to an absurd 11-star version, to surface improvements you'd never reach by aiming for "good."
 
 A lens for **setting ambition** — and then deliberately deciding how much of that ambition to build right now. It pairs with this repo's narrowing discipline: the 10-star vision tells you the *ceiling* (is this worth ten years?); the narrowest wedge tells you the *floor* (what do I test this week?). You need both, and they pull in opposite directions on purpose.
 
@@ -64,7 +64,7 @@ This repo hammers *narrow, narrow, narrow* (the Wealthfront staircase, the narro
 - **First move: narrowest wedge.** What you build and test *first* should be the smallest slice that proves your leap of faith.
 - **The bridge: the wedge is a credible path to the vision.** The narrow first move isn't a small ambition — it's the beachhead (see `frameworks/crossing_the_chasm.md` — bowling pins) from which the 10-star vision becomes reachable.
 
-Rachleff's "aim for a $100M business — it takes the same work as a $5M one" is the same idea: dream big on the destination, narrow hard on the first step.
+Rachleff's point that you should aim for a $100M business because it takes about the same work as a $5M one is the same idea: dream big on the destination, narrow hard on the first step.
 
 ## Common failure modes
 

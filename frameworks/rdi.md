@@ -1,6 +1,6 @@
 # Research Driven Inspiration (RDI)
 
-> *"In the fields of observation, chance favors only the prepared mind."* — Louis Pasteur
+> The framework takes its name from Louis Pasteur's observation that, in research, chance favors the prepared mind — the person who has done the groundwork to recognize an opportunity when it appears.
 
 RDI is a structured framework for building what its authors call a **prepared mind**: a depth of understanding of an industry or space that lets you see where it's heading and act on it before others can. Instead of starting with a solution and trying to validate it, you start with curiosity about a space and let discovery drive you toward conviction — and ultimately toward a hypothesis about the future: *what's changing, what's becoming possible, and where the opportunity lives.*
 

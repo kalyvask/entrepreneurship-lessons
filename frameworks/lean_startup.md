@@ -1,6 +1,6 @@
 # The Lean Startup (Eric Ries)
 
-> *"The scientific method has been the agreed-upon approach to achieving discovery for more than 400 years. Yet it was not applied to startups until Steve Blank started writing teaching notes that became Four Steps to the Epiphany. Eric Ries, Blank's student, then wrote The Lean Startup — same content, more accessible. Blank's is the Old Testament. Ries's is the New Testament."* — Andy Rachleff
+> Rachleff's framing of the lineage: the scientific method has guided discovery for more than 400 years, but nobody applied it to startups until Steve Blank's teaching notes became Four Steps to the Epiphany. Blank's student Eric Ries then wrote The Lean Startup — the same content, made more accessible. Blank's is the Old Testament; Ries's is the New.
 
 Eric Ries was Steve Blank's student. His book *The Lean Startup* (2011) is the accessible packaging of customer development. The vocabulary it introduced — *build-measure-learn*, *validated learning*, *MVP*, *pivot vs. persevere*, *innovation accounting*, *vanity metrics* — is now standard in entrepreneurship. This file is the compressed reference.
 
@@ -101,7 +101,7 @@ When something goes wrong (an outage, a deployment failure, a customer churn, a 
 
 The pattern: technical problems usually have human/process root causes 3–5 questions deep. The action item is at the deepest "why," not the surface symptom.
 
-Rachleff models the five whys in customer conversations too: drill past polite answers until you find the root objection. *"I do five whys to you all the time in this class. Have you noticed?"*
+Rachleff models the five whys in customer conversations too: drill past polite answers until you find the root objection. He points out that he runs the same five-whys technique on his own students throughout the class, often without their noticing.
 
 ## The pivot taxonomy
 
@@ -130,7 +130,7 @@ Tying leap-of-faith assumptions to quantitative milestones so the team can tell 
 2. **Tune the engine.** Run experiments to improve toward the leap of faith.
 3. **Pivot or persevere.** At the gate, decide.
 
-Rachleff endorses the idea in spirit but warns against vanity metrics: *"Revenue is signal, not source. Necessary but not sufficient. We don't need additional metrics. We need one good one and we track that obsessively."*
+Rachleff endorses the idea in spirit but warns against vanity metrics: revenue is signal, not source — necessary but not sufficient. His preference is not a pile of metrics but one good one, tracked obsessively.
 
 ## Vanity vs. actionable metrics
 

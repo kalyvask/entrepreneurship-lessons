@@ -1,6 +1,6 @@
 # The Three Value Dimensions (Functional / Economic / Psychological)
 
-> *"Products don't sell features — they sell making users appear more professional, capable, or tasteful."*
+> The lens of this framework: products don't really sell features. What they sell is a way for users to appear more professional, more capable, or more tasteful.
 
 A framework for understanding *why* customers pay, and *how much*. Every benefit a product delivers falls into one of three dimensions. The dimension determines willingness-to-pay (WTP) and defensibility.
 

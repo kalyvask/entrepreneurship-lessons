@@ -1,6 +1,6 @@
 # Stage 06 — Product-Market Fit Measurement
 
-> *"For your friends without this vocabulary, product-market fit means you have found a market that is desperate for your product. The technical definition is a validated value hypothesis. You cannot have a validated value hypothesis without organic growth. Paid growth is irrelevant; anyone with a credit card can buy attention. The only sustainable growth signal is organic word of mouth, and word of mouth requires desperation."* — Andy Rachleff
+> Rachleff's framing: in plain terms, product-market fit means you've found a market that is desperate for your product. The technical version is a validated value hypothesis, and you can't validate one without organic growth. Paid growth doesn't count — anyone with a credit card can buy attention. The only durable growth signal is organic word of mouth, and word of mouth only happens when customers are desperate.
 
 The most common mistake teams make at this stage is **claiming PMF before they have it.** Every metric becomes wishfully interpreted: a spike in signups becomes "traction"; a single enterprise pilot becomes "market validation"; a 30% MoM revenue growth becomes "PMF."
 

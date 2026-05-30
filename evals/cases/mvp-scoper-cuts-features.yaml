@@ -1,0 +1,38 @@
+id: mvp-scoper-cuts-features
+skill: ent-mvp-scoper
+intent: >
+  Faced with a bloated v1 feature list, the skill must cut to only what tests the single leap of
+  faith, push back on scope, and offer manual/concierge stand-ins for the rest.
+input: |
+  Here's our v1 scope for the MVP — we want to launch with all of it so it feels complete:
+  1) user auth + SSO, 2) onboarding wizard, 3) AI meeting summarizer (the core idea),
+  4) calendar integration, 5) Slack integration, 6) team workspaces, 7) admin roles &
+  permissions, 8) billing & subscriptions, 9) usage analytics dashboard, 10) mobile app,
+  11) email digests, 12) custom branding, 13) API/webhooks, 14) export to Notion, 15) dark mode.
+  Our riskiest assumption is that busy managers will actually trust and act on an AI-generated
+  meeting summary instead of reading the transcript. How should we scope this?
+expect:
+  - Names or anchors on the one leap of faith — that managers will trust and act on the AI summary
+    instead of the transcript — and scopes everything around testing it.
+  - Cuts the list aggressively, keeping essentially only the AI meeting summarizer (item 3) plus
+    the bare minimum needed to get a summary in front of a real user.
+  - Explicitly recommends dropping or deferring the supporting items (SSO, billing, team
+    workspaces, mobile app, integrations, dashboards, dark mode, etc.) as not needed to test the
+    assumption.
+  - Suggests doing non-core pieces manually / concierge (e.g. summaries produced by hand or
+    semi-manually, onboarding done over a call, distribution by email) instead of building them.
+  - Pushes back on the "launch with all of it so it feels complete" instinct.
+must_not:
+  - Endorses shipping all 15 features, or helps plan/sequence the full list as the MVP.
+  - Treats "feels complete" as a valid reason to keep scope.
+  - Adds features rather than cutting them.
+  - Leaves the leap of faith unaddressed while scoping.
+rationale: >
+  ent-mvp-scoper's stated principle is "every feature past what tests the leap of faith is wasted
+  work", and its five-step process scores each feature IN / OUT / HUMAN against the LOF, with the
+  discipline to "start by trying to put 80% of features in OUT." It explicitly pushes back on auth
+  + integrations + onboarding ("Does the customer need [auth/integration/dashboard] to do that
+  thing?"), on perfectionism ("Your MVP should embarrass you slightly"), and prescribes a HUMAN
+  concierge backstage for non-core work. The only feature that tests "will managers trust the AI
+  summary" is the summarizer itself. Anchors to the README "leap of faith" and "narrow who"
+  vocabulary.

@@ -1,6 +1,6 @@
 # Stage 02 — Customer Discovery
 
-> *"Customer development is selling people what you have and learning from their reaction. Market research is asking people what they want. They are categorically different."* — paraphrased from Steve Blank, via Andy Rachleff
+> The Steve Blank / Andy Rachleff distinction: customer development means showing people what you have and learning from how they react, whereas market research just asks people what they want. The two are categorically different.
 
 This is the stage where most ideas die — and most should.
 
@@ -27,7 +27,7 @@ If you have an MVP and live users, you are in [Stage 05 — MVP build and test](
 
 ## The desperation markers
 
-> *"Need is irrelevant. Desperation is everything."* — Andy Rachleff
+> Rachleff's claim: need is irrelevant; desperation is everything.
 
 Rachleff has lived with this claim for 45 years. The marketing language for "desperation" varies — some people prefer "burning problem", "hair-on-fire pain", "must-have problem" — but the operational test is the same. A desperate customer is identified by **behavior**, not by what they say. Stated preferences are nearly useless; observed behavior is dispositive.
 
@@ -94,7 +94,7 @@ The Wealthfront example — the way Andy Rachleff describes how narrow is narrow
 4. Engineers in *consumer-focused* tech companies about to go public
 5. Engineers in consumer-focused tech companies about to go public, with under $1M in assets, who were reluctant DIY index investors
 
-Level 5 is targetable. *"I can literally pick those people. I can manually go after them."*
+Level 5 is targetable. At that point, Rachleff's test is that you can literally pick those people out and go after them by hand.
 
 If you can't picture going to a specific person's LinkedIn and saying *"this is one of them"*, you have not narrowed enough.
 
@@ -118,7 +118,7 @@ What to listen for:
 - **Hypotheticals** (*"I might…", "I'd probably…", "It depends…"*) — low signal
 - **Emotion** (frustration, anger, excitement) — high signal
 - **Workarounds** they've already built — extremely high signal
-- **Compliments about your idea** — zero signal (in fact, suspicious — see Fitzpatrick on "compliments are the bane of a learning startup")
+- **Compliments about your idea** — zero signal (in fact, suspicious — Fitzpatrick treats compliments as actively harmful to a learning startup)
 
 Compare:
 - 🟢 *"Last quarter we lost 47 hours to manual reconciliation. We hired a contractor to write a script. It half worked. I'd pay $5k a year for something that actually solved this."* (Specific past behavior, named problem, named workaround, named willingness to pay.)
@@ -138,7 +138,7 @@ A specific failure mode worth naming. As you talk to people, some will get excit
 
 This is where most teams die.
 
-**Adding features in response to lukewarm customers is what Rachleff calls "lunacy."** If the customer was not desperate before the feature, the feature does not make them desperate. They will ask for more features, and more features, and you will run out of money building a product for someone who doesn't actually want it.
+**Adding features in response to lukewarm customers is, in Rachleff's word, lunacy.** If the customer was not desperate before the feature, the feature does not make them desperate. They will ask for more features, and more features, and you will run out of money building a product for someone who doesn't actually want it.
 
 The discipline:
 - Note the request.

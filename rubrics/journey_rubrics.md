@@ -11,6 +11,11 @@ The stages tell you *what to do*. The skills *coach* you. These rubrics let you 
 
 Anti-gaming rule: a dimension scores high **only with evidence**. "We talked to customers" is a 1; "8 of 12 in our narrow segment had built a workaround and 3 pre-paid" is a 3. Behavior and specifics beat assertions.
 
+**Evidence gate:** a score of 2 or 3 must cite a specific artifact in the venture workspace —
+a row in `interviews.csv`, a line in `experiment_log.md`, a signed LOI, a number in
+`pmf_dashboard.md`. No artifact, the score is at most 1. Record scores in `rubric_scores.md`.
+Before grading the Stage 06 → 07 gate, run `/ent-red-team` automatically.
+
 ---
 
 ## Stage 00 — Prepared Mind

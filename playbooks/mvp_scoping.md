@@ -80,9 +80,7 @@ If you can't get under 3 months even after cutting hard, the problem is upstream
 
 ## The reduction principle
 
-A specific course-taught discipline:
-
-> *"When an early adopter sees one benefit they want alongside two they don't, the reaction is 'this isn't for me' or 'I shouldn't pay full price for things I don't need.' Reducing features is the only permitted change to the what."*
+A specific course-taught discipline holds that when an early adopter sees one benefit they want bundled with two they don't, they conclude it isn't for them or balk at paying full price for things they don't need. The lesson: reducing features is the only change to the *what* the discipline permits.
 
 In other words: **too many features in your MVP can be as bad as too few.** Early adopters want a sharp, specific, usable answer to their problem — not a bundle of half-built features that solves their problem 80% and adjacent problems 30%.
 

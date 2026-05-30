@@ -132,6 +132,8 @@ Q6. Tells:                     [✅ / ⚠️ / ❌] — [list]
 SCORE: [X / 6]
 
 VERDICT: [PMF / approaching / not yet / pivot needed]
+CONFIDENCE: [low / medium / high] — the evidence this rests on
+WHAT WOULD FLIP IT: [the single piece of evidence that would change the verdict]
 
 DIAGNOSIS (if not PMF): [primary failure mode]
 
@@ -141,6 +143,12 @@ MOST IMPORTANT NEXT ACTION:
 OVER-PERFORMING SLICE (if any):
 [describe; this is where to focus]
 ```
+
+## Write it to the workspace
+
+If a venture workspace exists, write the six signals to `pmf_dashboard.md` and the Stage 06
+scores to `rubric_scores.md` — each 2–3 citing the specific evidence. State is what lets the
+journey resume and lets `/ent-red-team` fire on real numbers before the pivot gate.
 
 ## What you DON'T do
 

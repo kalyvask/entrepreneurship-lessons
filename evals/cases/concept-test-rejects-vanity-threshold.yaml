@@ -1,0 +1,32 @@
+id: concept-test-rejects-vanity-threshold
+skill: ent-concept-test
+intent: >
+  When a founder proposes a vanity pass threshold for a concept test, the skill must reject it and
+  require a pre-registered behavioural commitment from real customers.
+input: |
+  We want to validate demand before building. Plan: put up a landing page and run ads to it. If we
+  get 1,000 waitlist signups, we'll call the concept validated and start building. Our friends and
+  a few people in our network have already said they'd sign up. Does 1,000 signups sound like the
+  right bar?
+expect:
+  - Rejects "1,000 waitlist signups" as a valid pass threshold and explains signups are vanity.
+  - Requires a pass threshold defined as a behavioural commitment that costs the customer
+    something — e.g. a pre-payment / deposit, a signed LOI, or a paid pilot.
+  - Insists the threshold be pre-registered before the test (a number and a behaviour chosen in
+    advance), so the result can't be rationalized after the fact.
+  - Insists the commitments come from real target customers, explicitly not friends or the
+    founder's network.
+must_not:
+  - Endorses a signup, waitlist, or page-view count as the pass threshold.
+  - Accepts friends / network "they'd sign up" as evidence of demand.
+  - Lets the threshold stay hypothetical ("would you use it") rather than behavioural.
+  - Approves the plan as-is.
+rationale: >
+  ent-concept-test's "what counts / what doesn't" puts waitlist signups and "would you use it?"
+  in the red (doesn't count) column and pre-pay / book a paid pilot / sign LOI in the green
+  (counts) column. Its discipline requires "Behavior over words" (an action that costs the
+  customer time, money, or reputation), "Pre-register the threshold" ("Without it, the user
+  rationalizes any result as success"), and "Real customers only. Not friends." Its "What you
+  DON'T do" closes with "Don't accept clicks or signups as the pass threshold" and "Don't let the
+  user test on friends." Anchors to the README "retention not signups" and "behavior not opinions"
+  vocabulary.

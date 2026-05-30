@@ -1,0 +1,31 @@
+id: unit-econ-broken-fails
+skill: ent-unit-econ-check
+intent: >
+  Negative case. On numbers that yield LTV/CAC well below 1, the skill must compute the unit
+  economics, call them broken, name the highest-leverage lever, and refuse a CAC that excludes
+  founder time.
+input: |
+  Quick unit economics gut-check. ARPU is $50 per month. Gross margin is 80%. Monthly churn is
+  8%. Our loaded CAC is $1,500 — though honestly that's mostly ad spend; I don't count my own
+  time since founders work for free. Are we in good shape to pour more into acquisition?
+expect:
+  - Computes average customer lifetime from churn ≈ 12.5 months (1 / 0.08).
+  - Computes LTV using gross margin ≈ $500 (50 * 0.80 * 12.5).
+  - Computes LTV/CAC ≈ 0.33 (500 / 1500) and states a verdict of "broken" / not viable.
+  - Identifies retention (reducing churn) as the highest-leverage lever, not just lowering CAC.
+  - Pushes back on excluding founder time and states CAC must be fully loaded; the real CAC is
+    higher than $1,500.
+  - Advises against pouring more into acquisition while the economics are upside down.
+must_not:
+  - Accepts "founders work for free" and uses a founder-time-free CAC.
+  - Reports LTV/CAC at or above 1, or otherwise calls the economics healthy.
+  - Encourages scaling acquisition spend on these numbers.
+  - Omits the lifetime / LTV / LTV-CAC arithmetic.
+rationale: >
+  ent-unit-econ-check defines the formulas used here (lifetime = 1 / monthly churn; LTV = ARPU ×
+  gross margin × lifetime; LTV/CAC; payback) and its verdict table puts "LTV / CAC < 1" at
+  "broken — you lose money on every customer." 8% churn gives ~12.5mo lifetime and a ~$500
+  gross-margin LTV against a $1,500 CAC, so LTV/CAC ≈ 0.33. The skill names "Retention is usually
+  the highest-leverage lever (it compounds — halving churn doubles LTV)" and its discipline
+  section explicitly refuses "founder-time-is-free" CAC ("Loaded CAC, not founder-time-is-free").
+  Anchors to the README "retention not signups" line.

@@ -1,0 +1,33 @@
+id: red-team-refutes-consensus
+skill: ent-red-team
+intent: >
+  Given a consensus insight dressed up as an edge, the skill must flag it as consensus, demand
+  disconfirming evidence, supply a cheaper explanation for any claimed signal, and name the single
+  biggest risk.
+input: |
+  Here's our thesis: "AI will transform customer support, so we're building an AI support tool."
+  We're convinced — everyone we talk to agrees it's the future, and a few prospects said they're
+  excited to try it. Red-team this for us.
+expect:
+  - Flags the thesis as a consensus / already-priced-in belief, not a non-consensus edge.
+  - Asks the founder to name ~3 informed people who would actively disagree with the thesis (and
+    to engage their reasons), per the disconfirmation discipline.
+  - Applies a consensus-vs-correct framing — the Marks 2x2 quadrant (consensus/non-consensus ×
+    right/wrong) — to locate where this idea sits.
+  - Offers a cheaper / more mundane explanation for any claimed "signal" — e.g. that prospects
+    saying they're "excited to try it" is politeness or hype, not demand.
+  - Names the single biggest risk to the plan (e.g. no defensible edge in a crowded, well-funded
+    category; or that excitement won't convert to paid usage).
+must_not:
+  - Validates or strengthens the thesis as a strong/contrarian insight.
+  - Treats "everyone agrees it's the future" as supporting evidence rather than a warning sign.
+  - Accepts "prospects are excited to try it" as a real signal of demand.
+  - Fails to ask for any disconfirming evidence or dissenting view.
+rationale: >
+  ent-red-team prescribes the "Marks 2x2 quadrant test" and states that if a founder thinks they
+  are "non-consensus + right", the skill must ask "who informed disagrees? If they can't name 3
+  people who'd push back substantively, they're probably in consensus." It also runs "Find the
+  cheap explanation" ("Customers love it -> did they pay? Did they refer?") and "The Mom Test for
+  their own argument" (future intent and compliments are noise). "Everyone agrees it's the future"
+  is the consensus tell; "excited to try it" is future intent with a cheaper explanation than real
+  demand. Anchors to the README "behavior not opinions" vocabulary.

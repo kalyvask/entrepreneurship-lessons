@@ -1,6 +1,6 @@
 # Stage 03 — Problem–Solution Fit
 
-> *"All the value lies in the surprise. When you find one, drop everything and focus solely on it."* — Scott Cook, Intuit
+> Scott Cook's point: all the value is in the surprise — when you find one, drop everything and focus on it.
 
 Problem–Solution Fit is the bridge stage. By the end, you should be able to claim:
 

@@ -1,6 +1,6 @@
 # Disruption Theory (Clayton Christensen)
 
-> *"Companies fail BECAUSE they do everything right — listen to best customers, invest in highest-margin products, pursue large markets. This blinds them to disruptive threats."* — paraphrased from Clayton Christensen, *The Innovator's Dilemma*
+> Christensen's core finding in *The Innovator's Dilemma*: companies fail precisely because they do everything right — listening to their best customers, investing in their highest-margin products, chasing large markets — and that very discipline blinds them to disruptive threats.
 
 The most commonly misused concept in entrepreneurship. "Disruptive" gets applied to any new product. The technical definition is narrower and more useful: a *disruptive innovation* is one that starts by serving an **underserved or unserved** market segment with a **simpler, cheaper, more convenient** alternative — and then improves over time to capture the mainstream.
 

@@ -1,0 +1,38 @@
+id: office-hours-reframe
+skill: ent-office-hours
+intent: >
+  Given a solution-first pitch, the skill must interrogate the underlying pain with Mom Test
+  discipline, reframe to the real job, offer a few approaches with effort and what each tests, and
+  recommend the narrowest wedge rather than validating the original idea.
+input: |
+  I want to build a daily-briefing app for founders — every morning it sends you a personalized
+  digest of your calendar, inbox, news, and metrics in one place. I'm excited about it. Where
+  should I start building?
+expect:
+  - Interrogates the pain before the solution — asks Mom Test questions about what the founder (or
+    target founders) does today, what they currently spend time or money on, and concrete past
+    instances of the problem, not whether they'd like the app.
+  - Reframes from the proposed app to the real underlying job-to-be-done (e.g. "start the day
+    knowing the few things that actually need attention"), separating the job from this particular
+    solution.
+  - Generates 2-3 candidate approaches, each annotated with rough effort/cost and what assumption
+    each one tests.
+  - Recommends starting with the narrowest wedge (serve a few users completely / a manual or
+    single-surface version) rather than the full multi-source app.
+  - Holds back from telling the founder where to start building the app as specified.
+must_not:
+  - Validates the original daily-briefing-app framing or affirms the founder's excitement as a
+    signal.
+  - Jumps straight to build advice, tech stack, or feature list for the app as pitched.
+  - Relies on hypothetical "would you use this" enthusiasm instead of past behaviour.
+  - Recommends building the full broad product across calendar + inbox + news + metrics up front.
+rationale: >
+  ent-office-hours uses this exact example: "you said daily briefing app, but what you actually
+  described is a personal chief-of-staff AI" — the signature reframe move (listen to the pain, not
+  the feature request). Its opening move gets the pain concrete with Mom Test discipline ("Walk me
+  through the last time you actually hit this problem"), it runs six forcing questions ending in
+  "What's the narrowest version you could put in front of a desperate customer this week?", it
+  generates 2-3 implementation approaches each with effort + what it tests, and its
+  recommendation is always "Ship the narrowest wedge first." Its discipline includes "Don't
+  validate" and "Behavior over enthusiasm" ("Everyone I've told loves it is not evidence").
+  Anchors to the README "behavior not opinions" and "narrow who" vocabulary.

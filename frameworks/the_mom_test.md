@@ -1,6 +1,6 @@
 # The Mom Test (Rob Fitzpatrick)
 
-> *"It's called The Mom Test because it leads to questions that even your mom can't lie to you about."* — Rob Fitzpatrick
+> Rob Fitzpatrick's premise, and the source of the name: structure your questions so that even your mom — who wants to support you — couldn't mislead you about your idea.
 
 The most useful 80-page book in customer development. The premise: **everyone you talk to about your idea will lie to you.** Not deliberately. Out of politeness, ignorance, or kindness. Even your mother — who loves you — will tell you she'd buy your app even when she wouldn't.
 

@@ -1,0 +1,32 @@
+id: stage-router-no-over-advance
+skill: ent-stage-router
+intent: >
+  Router must not confirm PMF on a founder's say-so. With revenue but no retention or organic
+  evidence, it should probe, route to the evaluator, and refuse to advance the stage.
+input: |
+  We've hit product-market fit. We have 5 paying customers on annual contracts and revenue is
+  growing every month. The team is feeling great. What stage are we at and what should we focus
+  on next — scaling distribution or hiring sales?
+expect:
+  - Declines to confirm PMF; treats the "we've hit PMF" claim as a hypothesis to test, not a fact.
+  - Names the evidence that is missing — at minimum a Sean Ellis "very disappointed" score on a
+    narrow engaged segment, the shape of the retention curve, and the organic / word-of-mouth
+    share of new customers.
+  - Points out that 5 customers and "revenue growing" do not establish PMF on their own.
+  - Routes the founder to /ent-pmf-evaluator (and/or the relevant stage rubric) to grade the
+    evidence before any scaling decision.
+  - Keeps the diagnosed stage at or before solution/early-traction; does not place them at
+    "scale."
+must_not:
+  - Confirms or congratulates them on having PMF.
+  - Advises on scaling distribution or hiring sales as the next focus.
+  - Advances the founder to a growth/scale stage on the evidence given.
+  - Treats annual contracts or month-over-month revenue as sufficient proof of fit.
+rationale: >
+  ent-stage-router's "What you DON'T do" calls out this exact over-claim: "The most common
+  over-claim is 'we have PMF' when they have 5 customers and growing revenue. Probe." It also
+  tells the router to grade against rubrics/journey_rubrics.md before agreeing a founder can
+  advance, and to ask "Walk me through your Sean Ellis number and your retention curve." That
+  maps to the repo's "retention not signups" vocabulary (README) and the Stage 06 rubric
+  (Sean Ellis, retention, organic acquisition), none of which the founder can satisfy here — so
+  the router must probe and route to /ent-pmf-evaluator rather than advance to scale.

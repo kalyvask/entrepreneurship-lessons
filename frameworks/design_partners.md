@@ -1,6 +1,6 @@
 # Design Partners
 
-> *"Completing version 1.0 of your product happens through the act of delivering a delightful experience."*
+> The guiding idea: version 1.0 of your product gets finished through the act of delivering a delightful experience to a real early customer, not in isolation before one.
 
 Design partners are early customers who **co-create** with you — testing, criticizing, refining your MVP until it delivers true delight. They are the bridge between customer discovery (Stage 02) and PMF measurement (Stage 06) for B2B startups.
 

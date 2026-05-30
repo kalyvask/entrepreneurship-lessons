@@ -1,0 +1,23 @@
+# NOTICE
+
+"Lessons on Entrepreneurship" is released under the MIT License (see `LICENSE`).
+
+This repository is a study-and-practice library. It synthesizes published books,
+frameworks, and openly licensed material. It is not affiliated with, sponsored by,
+or endorsed by any of the authors, publishers, firms, or projects cited.
+
+## Adapted (openly licensed) material
+
+- The office-hours interrogation-and-reframe method (`.claude/skills/ent-office-hours/`)
+  and the four scope modes — Expansion / Selective Expansion / Hold Scope / Reduction —
+  in `frameworks/ten_star_product.md` are adapted from **Garry Tan's gstack**
+  (`/office-hours`, `/plan-ceo-review`), which is MIT-licensed. The material has been
+  rewritten and adapted to this repository's PMF framework, Mom Test discipline, and
+  narrowest-wedge philosophy. Credit and thanks to the gstack project.
+
+## Synthesized and quoted material
+
+The substantive content synthesizes the works catalogued in `SOURCES.md`, which records
+for each source whether a passage is a direct **quotation**, a **synthesis**, or an
+**original adaptation**. Direct quotations are attributed at the point of use. See
+`SOURCES.md` for the full provenance table and citation conventions.

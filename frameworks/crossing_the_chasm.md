@@ -1,6 +1,6 @@
 # Crossing the Chasm (Geoffrey Moore)
 
-Required reading for any tech startup. Rachleff calls it *"one of the great books."*
+Required reading for any tech startup. Rachleff rates it among the great books on the subject.
 
 The book's thesis: there is a **structural break** in the technology adoption lifecycle — between *early adopters* and the *early majority* — that ends most startup companies. Companies that have early-adopter customers and assume those customers' enthusiasm will propagate to the broader market are wrong. The market behaves differently at the next stage. **The chasm is a whole-product problem, not a marketing problem.**
 
@@ -12,7 +12,7 @@ Crucial word: **psychographic.** Describes how someone thinks about buying, not 
 
 Buy for joy. Buy because it's new. Don't influence early adopters. Worthless strategically.
 
-In 2026 AI: the people running AI sandboxes for fun, generating images, testing every new model. *"They don't buy more of anything. They don't influence anyone else."*
+In 2026 AI: the people running AI sandboxes for fun, generating images, testing every new model. They don't buy more of anything, and they don't influence anyone else.
 
 You will get traction with innovators easily. You will not get a business from them.
 
@@ -110,7 +110,7 @@ Two key dynamics in the tornado:
 - **The market is buying.** You don't need to convince anyone. You need to ship. Sales cycles compress; growth becomes capacity-limited.
 - **The leader takes most.** In a tornado, the company with the most momentum wins the standardization race. Second place wins much less. Third place often disappears.
 
-The strategic implication: when you've crossed the chasm and the tornado is forming, **change your operating model.** Stop optimizing for product perfection; optimize for shipping volume. Stop bespoke selling; standardize the sales motion. *"You only have one chance to be the standard."*
+The strategic implication: when you've crossed the chasm and the tornado is forming, **change your operating model.** Stop optimizing for product perfection; optimize for shipping volume. Stop bespoke selling; standardize the sales motion. You only get one chance to become the standard.
 
 Most of the journey on this site is pre-chasm. After PMF, *Inside the Tornado* becomes the relevant playbook.
 
@@ -118,9 +118,9 @@ Most of the journey on this site is pre-chasm. After PMF, *Inside the Tornado* b
 
 Moore's framework has a subtle tension with the PMF framework that's worth flagging.
 
-Moore implicitly assumes you'd want to *cross the chasm.* Most startups should. But Rachleff is sharp:
+Moore implicitly assumes you'd want to *cross the chasm.* Most startups should. But Rachleff is sharp here:
 
-> *"The whole product is opposite of the MVP. Stay in the MVP as long as you can. Building whole-product capabilities before the market validates value is one of the most expensive failure modes."*
+> Rachleff's caution: the whole product is the opposite of the MVP. Stay in the MVP as long as you can, because building whole-product capabilities before the market has validated value is one of the most expensive failure modes there is.
 
 The PMF framework's preference: extend the early-adopter phase aggressively. Hold the product narrow. Don't build the whole product until you've maxed out the visionary segment. The temptation to cross too early — adding integrations, hiring services teams, building enterprise features — burns capital and dilutes the product.
 

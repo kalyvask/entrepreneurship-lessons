@@ -1,0 +1,491 @@
+version: 1
+counts:
+  stages: 8
+  frameworks: 19
+  playbooks: 11
+  rubrics: 1
+  templates: 13
+  skills: 21
+artifacts:
+- id: stage-00-prepared-mind
+  kind: stage
+  path: stages/00_prepared_mind.md
+  title: Stage 00 — The Prepared Mind
+  purpose: Systematically build the domain depth that makes good ideas obvious to you and only you.
+  prerequisites: []
+  next:
+  - stage-01-insight-and-idea
+  rubric_ref: rubrics/journey_rubrics.md#stage-00
+- id: stage-01-insight-and-idea
+  kind: stage
+  path: stages/01_insight_and_idea.md
+  title: Stage 01 — Insight and Idea Selection
+  purpose: Convert earned insight into a falsifiable, non-consensus bet on a real inflection.
+  prerequisites:
+  - stage-00-prepared-mind
+  next:
+  - stage-02-customer-discovery
+  rubric_ref: rubrics/journey_rubrics.md#stage-01
+- id: stage-02-customer-discovery
+  kind: stage
+  path: stages/02_customer_discovery.md
+  title: Stage 02 — Customer Discovery
+  purpose: Find who, if anyone, is desperate enough to behave like a desperate customer.
+  prerequisites:
+  - stage-01-insight-and-idea
+  next:
+  - stage-03-problem-solution-fit
+  rubric_ref: rubrics/journey_rubrics.md#stage-02
+- id: stage-03-problem-solution-fit
+  kind: stage
+  path: stages/03_problem_solution_fit.md
+  title: Stage 03 — Problem–Solution Fit
+  purpose: Turn discovery into a defensible problem statement plus a plausible solution with non-broken
+    economics.
+  prerequisites:
+  - stage-02-customer-discovery
+  next:
+  - stage-04-value-hypothesis
+  rubric_ref: rubrics/journey_rubrics.md#stage-03
+- id: stage-04-value-hypothesis
+  kind: stage
+  path: stages/04_value_hypothesis.md
+  title: Stage 04 — The Value Hypothesis
+  purpose: Write the short, specific, testable what/who/how plus the single leap of faith.
+  prerequisites:
+  - stage-03-problem-solution-fit
+  next:
+  - stage-05-mvp-build
+  rubric_ref: rubrics/journey_rubrics.md#stage-04
+- id: stage-05-mvp-build
+  kind: stage
+  path: stages/05_mvp_build.md
+  title: Stage 05 — MVP Build and Test
+  purpose: Build the smallest product that lets you behave like a real business with a real customer.
+  prerequisites:
+  - stage-04-value-hypothesis
+  next:
+  - stage-06-pmf-measurement
+  rubric_ref: rubrics/journey_rubrics.md#stage-05
+- id: stage-06-pmf-measurement
+  kind: stage
+  path: stages/06_pmf_measurement.md
+  title: Stage 06 — Product-Market Fit Measurement
+  purpose: Measure product-market fit honestly as a validated value hypothesis with organic growth.
+  prerequisites:
+  - stage-05-mvp-build
+  next:
+  - stage-07-pivot-or-persevere
+  rubric_ref: rubrics/journey_rubrics.md#stage-06
+- id: stage-07-pivot-or-persevere
+  kind: stage
+  path: stages/07_pivot_or_persevere.md
+  title: Stage 07 — Pivot or Persevere
+  purpose: 'Take the data honestly and make a clean call: pivot the who, the how, persevere, or restart.'
+  prerequisites:
+  - stage-06-pmf-measurement
+  next: []
+  rubric_ref: rubrics/journey_rubrics.md#stage-07
+- id: framework-ai-lifecycle
+  kind: framework
+  path: frameworks/ai_lifecycle.md
+  title: AI Across the Entrepreneurial Lifecycle
+  purpose: When and how to use AI tools at each stage of the entrepreneurship journey, as a method not
+    a product list.
+- id: framework-business-model-canvas
+  kind: framework
+  path: frameworks/business_model_canvas.md
+  title: Business Model Canvas (Osterwalder)
+  purpose: A single-page structure for making and testing hypotheses about how a business creates, delivers,
+    and captures value.
+- id: framework-crossing-the-chasm
+  kind: framework
+  path: frameworks/crossing_the_chasm.md
+  title: Crossing the Chasm (Geoffrey Moore)
+  purpose: Why early-adopter enthusiasm fails to propagate to the mainstream, and how to cross the chasm
+    as a whole-product problem.
+- id: framework-customer-development
+  kind: framework
+  path: frameworks/customer_development.md
+  title: Customer Development (Steve Blank)
+  purpose: Blank's founder-run discipline of getting out of the building to validate a desperate customer
+    before building.
+- id: framework-design-partners
+  kind: framework
+  path: frameworks/design_partners.md
+  title: Design Partners
+  purpose: Early customers who co-create the MVP under a structured commitment of time, feedback, and
+    payment for influence.
+- id: framework-design-sprint
+  kind: framework
+  path: frameworks/design_sprint.md
+  title: Design Sprint (Jake Knapp)
+  purpose: A five-day process to answer a big question with a realistic prototype, serving as the implementation-test
+    phase.
+- id: framework-disruption-theory
+  kind: framework
+  path: frameworks/disruption_theory.md
+  title: Disruption Theory (Clayton Christensen)
+  purpose: How new entrants win from underserved footholds with simpler, cheaper alternatives, and how
+    to tell disruptive from sustaining.
+- id: framework-ideation-templates
+  kind: framework
+  path: frameworks/ideation_templates.md
+  title: Systematic Ideation — Breaking Functional Fixedness
+  purpose: Beat functional fixedness with structured transformation templates and a diverge-then-converge
+    process.
+- id: framework-jobs-to-be-done
+  kind: framework
+  path: frameworks/jobs_to_be_done.md
+  title: Jobs to Be Done (Clayton Christensen)
+  purpose: Understand what customers are actually hiring a product to do, independent of demographics
+    or features.
+- id: framework-lean-startup
+  kind: framework
+  path: frameworks/lean_startup.md
+  title: The Lean Startup (Eric Ries)
+  purpose: 'The build-measure-learn packaging of customer development: validated learning, MVP, pivot,
+    and innovation accounting.'
+- id: framework-pmf
+  kind: framework
+  path: frameworks/pmf.md
+  title: The Product–Market Fit Framework
+  purpose: Rachleff's load-bearing claim that PMF, not execution, determines a tech company's success
+    or failure.
+- id: framework-pmf-measurement
+  kind: framework
+  path: frameworks/pmf_measurement.md
+  title: PMF Measurement
+  purpose: The operational handbook for measuring PMF honestly with the Sean Ellis test, retention, and
+    cohort analysis.
+- id: framework-rdi
+  kind: framework
+  path: frameworks/rdi.md
+  title: Research Driven Inspiration (RDI)
+  purpose: Build a prepared mind by letting curiosity and discovery drive you toward a defensible hypothesis
+    about the future.
+- id: framework-ten-star-product
+  kind: framework
+  path: frameworks/ten_star_product.md
+  title: The 10-Star Product (and Scope Modes)
+  purpose: Set the ambition ceiling with a 10-star vision, then deliberately decide how much to build
+    right now.
+- id: framework-the-mom-test
+  kind: framework
+  path: frameworks/the_mom_test.md
+  title: The Mom Test (Rob Fitzpatrick)
+  purpose: A discipline for extracting honest information from biased conversations where everyone is
+    inclined to lie to you.
+- id: framework-unit-economics
+  kind: framework
+  path: frameworks/unit_economics.md
+  title: Unit Economics
+  purpose: The back-of-envelope per-customer math that catches a structurally broken business model before
+    you scale it.
+- id: framework-value-dimensions
+  kind: framework
+  path: frameworks/value_dimensions.md
+  title: The Three Value Dimensions (Functional / Economic / Psychological)
+  purpose: Why customers pay and how much, across functional, economic, and psychological value, where
+    the moat usually lives.
+- id: framework-value-prop-canvas
+  kind: framework
+  path: frameworks/value_prop_canvas.md
+  title: Value Proposition Canvas (Osterwalder)
+  purpose: Force fit between customer pains, gains, and jobs and what you offer, before you build the
+    wrong thing.
+- id: playbook-build-industry-primer
+  kind: playbook
+  path: playbooks/build_industry_primer.md
+  title: Industry Primer Playbook
+  purpose: Build a 5–10 page internal primer that makes you cocktail-party conversational in a space before
+    expert calls.
+- id: playbook-cold-email
+  kind: playbook
+  path: playbooks/cold_email.md
+  title: The Cold Email Playbook
+  purpose: Write cold outreach that earns a response by avoiding the transactional pattern recipients
+    ignore in three seconds.
+- id: playbook-concept-test
+  kind: playbook
+  path: playbooks/concept_test.md
+  title: Concept Test Playbook
+  purpose: Prove in days, not weeks, that a desperate customer would want what you'd build before you
+    build it.
+- id: playbook-customer-interview
+  kind: playbook
+  path: playbooks/customer_interview.md
+  title: Customer Interview Playbook
+  purpose: Run a customer interview that produces honest data, from prep through Mom Test discipline to
+    debrief.
+- id: playbook-mvp-scoping
+  kind: playbook
+  path: playbooks/mvp_scoping.md
+  title: MVP Scoping Playbook
+  purpose: 'Decide what goes in v1: the smallest product that lets you behave like a real business and
+    test the leap of faith.'
+- id: playbook-pivot-decision
+  kind: playbook
+  path: playbooks/pivot_decision.md
+  title: Pivot Decision Playbook
+  purpose: A structured process for making the pivot-or-persevere call cleanly instead of too late, too
+    small, or wrongly.
+- id: playbook-pmf-assessment
+  kind: playbook
+  path: playbooks/pmf_assessment.md
+  title: PMF Assessment Playbook
+  purpose: A structured, honest 6-question self-check for product-market fit, run quarterly during MVP
+    testing and growth.
+- id: playbook-run-outreach
+  kind: playbook
+  path: playbooks/run_outreach.md
+  title: Outreach Playbook
+  purpose: Source contacts, write outreach, and manage pipeline to turn a research project into a 100-conversation
+    engine.
+- id: playbook-synthesis
+  kind: playbook
+  path: playbooks/synthesis.md
+  title: Synthesis Playbook
+  purpose: Turn N raw conversations into a thesis through synthesis as a thinking exercise, not a deliverable.
+- id: playbook-validation-sequence
+  kind: playbook
+  path: playbooks/validation_sequence.md
+  title: The Three-Phase Validation Sequence
+  purpose: Validate a value hypothesis via concept test, implementation test, then MVP test to avoid confounding
+    variables.
+- id: playbook-value-hypothesis-critique
+  kind: playbook
+  path: playbooks/value_hypothesis_critique.md
+  title: The Founders' Feedback Meeting
+  purpose: A ritual where a panel pressure-tests your value hypothesis to surface the fatal flaw while
+    it is still cheap to fix.
+- id: journey-rubrics
+  kind: rubric
+  path: rubrics/journey_rubrics.md
+  title: Journey Rubrics — Grade Yourself at Every Stage
+  purpose: Score yourself 0–3 on each stage's dimensions to gate whether a stage is actually done.
+- id: template-industry-primer
+  kind: template
+  path: templates/industry_primer.md
+  title: Industry Primer — Template
+  purpose: A living internal document, written by you with AI assist, to become cocktail-party fluent
+    in your space.
+- id: template-insight-statement
+  kind: template
+  path: templates/insight_statement.md
+  title: Insight Statement — Template
+  purpose: A structure for writing and stress-testing a great insight, updated only when you have earned
+    the change.
+- id: template-interview-debrief
+  kind: template
+  path: templates/interview_debrief.md
+  title: Interview Debrief — Template
+  purpose: A form to capture an interview within 20–30 minutes while fresh, the highest-value step of
+    the process.
+- id: template-interview-script
+  kind: template
+  path: templates/interview_script.md
+  title: Customer Interview Script — Template
+  purpose: A per-interview guide filled out before each conversation, used as a guide rather than a rigid
+    script.
+- id: template-opportunity-rubric
+  kind: template
+  path: templates/opportunity_rubric.md
+  title: Opportunity Rubric — Template
+  purpose: Your explicit filter for evaluating candidate insights and opportunities, refined through your
+    journey.
+- id: template-pivot-memo
+  kind: template
+  path: templates/pivot_memo.md
+  title: Pivot Memo — Template
+  purpose: A written, co-signed commitment to a pivot decision, written before you start executing it.
+- id: template-pmf-memo
+  kind: template
+  path: templates/pmf_memo.md
+  title: PMF Memo — Template
+  purpose: The capstone 1–2 page synthesis of the journey answering where you are on PMF and what the
+    evidence is.
+- id: template-pmf-survey
+  kind: template
+  path: templates/pmf_survey.md
+  title: PMF Survey — Sean Ellis Template
+  purpose: The Sean Ellis disappointment survey for active users in your narrow who segment, with N ≥
+    50 for signal.
+- id: template-problem-statement
+  kind: template
+  path: templates/problem_statement.md
+  title: Problem Statement — Template
+  purpose: The post-discovery artifact stating a real, hot, recurring problem in a desperate customer
+    segment.
+- id: template-retention-dashboard
+  kind: template
+  path: templates/retention_dashboard.md
+  title: Retention Dashboard — Template
+  purpose: A cohort-retention layout that shows whether your curve flattens above zero (PMF) or asymptotes
+    to zero.
+- id: template-self-reflection
+  kind: template
+  path: templates/self_reflection.md
+  title: Founder Self-Reflection — Template
+  purpose: A private, honest self-assessment to do before picking a space, problem, or co-founder.
+- id: template-solution-shape
+  kind: template
+  path: templates/solution_shape.md
+  title: Solution Shape — Template
+  purpose: The rough functional answer to a validated problem, concrete enough to evaluate without committing
+    to specifics.
+- id: template-value-hypothesis
+  kind: template
+  path: templates/value_hypothesis.md
+  title: Value Hypothesis — Template
+  purpose: A one-page fill-in for the what / who / how plus leap of faith, updated only when evidence
+    earns a change.
+- id: ent-cold-email
+  kind: skill
+  path: .claude/skills/ent-cold-email/SKILL.md
+  title: Cold Email Coach
+  purpose: Write a winning, recipient-tailored cold outreach email with a specific ask and the 5-element
+    structure.
+  command: /ent-cold-email
+- id: ent-concept-test
+  kind: skill
+  path: .claude/skills/ent-concept-test/SKILL.md
+  title: Concept Test Designer
+  purpose: Design a cheap, fast concept test that proves a desperate customer would want a candidate solution
+    before building.
+  command: /ent-concept-test
+- id: ent-customer-discovery
+  kind: skill
+  path: .claude/skills/ent-customer-discovery/SKILL.md
+  title: Customer Discovery Tracker
+  purpose: Track and steer a multi-interview discovery sprint, scoring desperation and flagging needy-vs-desperate
+    signals.
+  command: /ent-customer-discovery
+- id: ent-design-partners
+  kind: skill
+  path: .claude/skills/ent-design-partners/SKILL.md
+  title: Design Partners Coach
+  purpose: Identify, qualify, sign, and manage design partners while pushing back on tire-kickers and
+    free-pilot traps.
+  command: /ent-design-partners
+- id: ent-idea-coach
+  kind: skill
+  path: .claude/skills/ent-idea-coach/SKILL.md
+  title: Idea Coach
+  purpose: Harvest research into a falsifiable bet, pushing back on wishes, ideas-as-insights, and consensus
+    thinking.
+  command: /ent-idea-coach
+- id: ent-interview-debrief
+  kind: skill
+  path: .claude/skills/ent-interview-debrief/SKILL.md
+  title: Customer Interview Debrief
+  purpose: Capture, structure, and score an interview within 30 minutes, separating facts from interpretation.
+  command: /ent-interview-debrief
+- id: ent-interview-prep
+  kind: skill
+  path: .claude/skills/ent-interview-prep/SKILL.md
+  title: Customer Interview Prep
+  purpose: Prepare a focused script for a specific customer interview and enforce Mom Test discipline.
+  command: /ent-interview-prep
+- id: ent-mvp-review
+  kind: skill
+  path: .claude/skills/ent-mvp-review/SKILL.md
+  title: MVP Product Review
+  purpose: Run the bi-weekly MVP build review on what was built, learned, and whether to pivot, persevere,
+    or keep building.
+  command: /ent-mvp-review
+- id: ent-mvp-scoper
+  kind: skill
+  path: .claude/skills/ent-mvp-scoper/SKILL.md
+  title: MVP Scoper
+  purpose: Work out the smallest MVP build that tests the leap of faith, aggressively pushing back on
+    overbuilding.
+  command: /ent-mvp-scoper
+- id: ent-office-hours
+  kind: skill
+  path: .claude/skills/ent-office-hours/SKILL.md
+  title: Office Hours
+  purpose: 'Interrogate a half-formed idea YC-style: hear the pain, reframe it, and point at the narrowest
+    wedge to test.'
+  command: /ent-office-hours
+- id: ent-pivot-coach
+  kind: skill
+  path: .claude/skills/ent-pivot-coach/SKILL.md
+  title: Pivot Coach
+  purpose: Run a structured pivot-or-persevere decision and force a written commitment with thresholds.
+  command: /ent-pivot-coach
+- id: ent-pmf-evaluator
+  kind: skill
+  path: .claude/skills/ent-pmf-evaluator/SKILL.md
+  title: PMF Evaluator
+  purpose: Run an honest, structured PMF self-check that pushes back on wishful interpretation of the
+    data.
+  command: /ent-pmf-evaluator
+- id: ent-pmf-memo
+  kind: skill
+  path: .claude/skills/ent-pmf-memo/SKILL.md
+  title: PMF Memo Synthesizer
+  purpose: Synthesize the whole journey into an honest 1–2 page capstone PMF memo for an investor, co-founder,
+    or hire.
+  command: /ent-pmf-memo
+- id: ent-problem-statement
+  kind: skill
+  path: .claude/skills/ent-problem-statement/SKILL.md
+  title: Problem Statement Builder
+  purpose: Turn discovery notes into a defensible, falsifiable problem statement with evidence behind
+    every line.
+  command: /ent-problem-statement
+- id: ent-prompt-troubleshoot
+  kind: skill
+  path: .claude/skills/ent-prompt-troubleshoot/SKILL.md
+  title: Prompt Troubleshooter
+  purpose: Diagnose and fix prompts producing generic, hallucinated, or unusable output, treating failures
+    as prompt failures.
+  command: /ent-prompt-troubleshoot
+- id: ent-rdi-coach
+  kind: skill
+  path: .claude/skills/ent-rdi-coach/SKILL.md
+  title: RDI Coach
+  purpose: Coach the Research Driven Inspiration method to build a prepared mind through research and
+    100+ conversations.
+  command: /ent-rdi-coach
+- id: ent-red-team
+  kind: skill
+  path: .claude/skills/ent-red-team/SKILL.md
+  title: Red Team
+  purpose: Argue the strongest case against a hypothesis, pitch, or pivot to surface blind spots and consensus
+    thinking.
+  command: /ent-red-team
+- id: ent-stage-router
+  kind: skill
+  path: .claude/skills/ent-stage-router/SKILL.md
+  title: Entrepreneurship Stage Router
+  purpose: Diagnose which journey stage the user is in and route them to the right framework, playbook,
+    template, and skill.
+  command: /ent-stage-router
+- id: ent-synthesis-coach
+  kind: skill
+  path: .claude/skills/ent-synthesis-coach/SKILL.md
+  title: Synthesis Coach
+  purpose: Synthesize a batch of interviews into clusters, patterns, and insights using pile-building
+    and hypothesis tracking.
+  command: /ent-synthesis-coach
+- id: ent-unit-econ-check
+  kind: skill
+  path: .claude/skills/ent-unit-econ-check/SKILL.md
+  title: Unit Economics Sanity Check
+  purpose: Run a back-of-envelope LTV/CAC/payback check to catch a structurally broken business model
+    before building.
+  command: /ent-unit-econ-check
+- id: ent-value-hypothesis-builder
+  kind: skill
+  path: .claude/skills/ent-value-hypothesis-builder/SKILL.md
+  title: Value Hypothesis Builder
+  purpose: Help write a PMF-grade value hypothesis (what / who / how) plus a separate leap-of-faith statement.
+  command: /ent-value-hypothesis-builder
+- id: framework-conflicts
+  kind: framework
+  path: frameworks/conflicts.md
+  title: Where the Frameworks Disagree
+  purpose: Names the conflicts between the synthesized methods and says which to follow, when; the PMF
+    learnings win.

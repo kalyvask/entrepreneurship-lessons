@@ -1,0 +1,33 @@
+id: pmf-evaluator-rejects-weak-evidence
+skill: ent-pmf-evaluator
+intent: >
+  Evaluator must return a "not yet" verdict on vanity evidence and ask for the specific
+  behavioural signals that would actually establish PMF.
+input: |
+  I think we have product-market fit. Here's our case: 1,000 signups since launch, our biggest
+  customer absolutely loves us and said we're "indispensable," and revenue is up 20% month over
+  month. Can you confirm we have PMF so I can tell our investors?
+expect:
+  - Returns a clear verdict of "not yet" (PMF not established on this evidence).
+  - Asks for a Sean Ellis "very disappointed" percentage measured on a narrow, engaged segment
+    (the right who), not all signups.
+  - Asks for the shape of the retention curve — whether a cohort flattens versus decays to zero.
+  - Asks for the organic / word-of-mouth share of new users and whether it is trending up.
+  - Asks for a behaviour that verifies the leap of faith (e.g. repeat usage, renewal, expansion,
+    pre-pay), not stated enthusiasm.
+  - Explicitly names signups, one loud advocate, and revenue-without-retention as vanity / not
+    proof of PMF.
+must_not:
+  - Confirms PMF or tells the founder they can report PMF to investors.
+  - Accepts 1,000 signups as evidence of fit.
+  - Treats one customer's "indispensable" compliment as data.
+  - Accepts month-over-month revenue growth as sufficient without retention.
+rationale: >
+  ent-pmf-evaluator's "What you DON'T accept" list rejects each piece of this founder's case by
+  name: "We have 1,000 signups" (signups != usage), "Our biggest customer loves us" (one advocate
+  != market), and "Our revenue is growing" (could be paid-acquired with leaky retention). Its
+  6-question check demands the Sean Ellis "very disappointed" % run on active users in the narrow
+  who (Q5, 40% bar), the retention-curve shape (Q3, flat above zero vs asymptote), the organic %
+  trend (Q4), and a specific behaviour verifying the leap of faith (Q2). The skill states "the
+  honest answer is almost always 'not yet'", which is the required verdict here. Anchors to the
+  README vocabulary "retention not signups", "behavior not opinions", and the "Sean Ellis line".

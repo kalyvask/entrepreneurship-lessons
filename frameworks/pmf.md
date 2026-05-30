@@ -1,16 +1,16 @@
 # The Product–Market Fit Framework
 
-> *"Execution doesn't matter. The success or failure of an information-technology company can almost always be traced to the quality of its product-market fit, not its execution. If the dogs are not eating the dog food, no amount of execution will help. Conversely, if the dogs are eating the dog food, you can screw up almost everything and still succeed."* — Andy Rachleff
+> Andy Rachleff's central argument: a tech company's success or failure traces almost entirely to the quality of its product-market fit, not its execution. If the dogs aren't eating the dog food, no amount of execution saves you; if they are, you can get almost everything else wrong and still win.
 
 Andy Rachleff coined the term *product–market fit*. He cofounded Benchmark Capital and Wealthfront. The framework distilled in this file is his — refined over decades of investing, building, and writing, alongside John Vrionis of Unusual Ventures — counterintuitive on purpose, dense with first-person stories, built around one load-bearing claim.
 
 ## The load-bearing claim
 
-Three companion sentences worth memorizing:
+Three companion ideas worth memorizing:
 
-- *When a great management team meets a lousy market, market wins.*
-- *When a lousy management team meets a great market, market wins.*
-- *When a great management team meets a great market, something very special happens.*
+- A great management team in a lousy market: the market wins.
+- A lousy management team in a great market: the market still wins.
+- A great management team in a great market: something very special happens.
 
 Rachleff repeats this every time he presents the framework because nobody believes it the first time. The defense rests on one observation: 25-year-olds run hundred-million-dollar companies. Zuckerberg, Chesky, Collison did it without conventional execution chops. They were learning operations on the job, badly, at scale, while the company was already worth billions. **The market was forgiving every operational mistake because the market wanted the product.**
 
@@ -18,7 +18,7 @@ Therefore he redefines what makes a great startup management team: **not "do the
 
 ## The first principle
 
-> *"The most important variable in a startup is the rate at which you learn."*
+> Rachleff's first principle: the most important variable in a startup is the rate at which you learn.
 
 A startup is a learning machine. Learning compounds. Execution does not. Your job, day one, is **not to be right.** Your job is **to be wrong as fast and as cheaply as possible**, so you have another shot on goal.
 
@@ -42,11 +42,11 @@ How you grow your customer base beyond word of mouth in a cost-effective way.
 
 The order is non-negotiable. **Value first, growth second. Always.**
 
-> *"Adding fuel to a fire makes the fire bigger. But a growth hypothesis cannot start a fire. Only a value hypothesis can start a fire."*
+> Rachleff's image: a growth hypothesis adds fuel to a fire and makes it bigger, but it can't start one. Only a value hypothesis can start the fire.
 
 Without value, growth amplifies churn, waste, and weakness.
 
-When students push back — *isn't a referral link a growth hypothesis?* — Rachleff is mechanical: *"A referral link enhances word of mouth. It's part of the foundation, not the growth hypothesis. Growth hypothesis is what you do to scale beyond word of mouth cost-effectively, after word of mouth is already organic."*
+When students push back — *isn't a referral link a growth hypothesis?* — Rachleff is mechanical: a referral link enhances word of mouth, so it's part of the foundation, not the growth hypothesis. The growth hypothesis is what you do to scale beyond word of mouth cost-effectively, once word of mouth is already organic.
 
 ## The leap of faith — vocabulary precision
 
@@ -54,28 +54,26 @@ The leap of faith assumption is the **one thing that must be true** for the busi
 
 Examples:
 - **SpaceX.** Reusable rockets reduce launch costs dramatically. Without them, SpaceX is a commodity.
-- **Airbnb.** People will sleep in a stranger's house. *"A lot of people felt there's no way anyone would do that."*
-- **Anthropic.** People care about AI being more responsible. *"Their entire strategy reinforces it. The leap of faith comes first. The strategy is downstream."*
+- **Airbnb.** People will sleep in a stranger's house — an assumption many believed no one would ever act on.
+- **Anthropic.** People care about AI being more responsible. The whole strategy reinforces that belief: the leap of faith comes first, and the strategy is downstream of it.
 - **Wealthfront.** People will allow software to manage their investments.
 
 **One sentence. One assumption.** The discipline is to surface the one thing that must be true, write it down separately, and design your MVP to test that one thing as directly as possible. The most common mistake teams make: conflating the value hypothesis with the leap of faith, baking five assumptions into one MVP, and being unable to interpret the results.
 
 ## Need is irrelevant. Desperation is everything.
 
-This is the strongest claim in the framework. Rachleff says he has lived with it for 45 years.
-
-> *"Need is absolutely irrelevant. Desperation is everything. I had many failed startups in which there was need but not desperation. So the only way you're going to succeed is if you find a desperate customer."*
+This is the strongest claim in the framework. Rachleff says he has lived with it for 45 years: need, he argues, is irrelevant and desperation is everything. He has had many failed startups where there was need but not desperation, and concludes the only way to succeed is to find a desperate customer.
 
 The four behavioral markers of desperation:
 
 1. **They are willing to pay with little proof.** A desperate customer doesn't need fifty references. They see the product work once and buy.
 2. **They have tried to build it themselves.** A spreadsheet hack. An internal script. A consultant. The single most reliable signal of desperation in enterprise: the engineering team has built a janky internal version.
 3. **They are actively frustrated.** They mention the pain unprompted. They have a story about how it screwed up their last quarter.
-4. **They want the solution now, not next quarter.** First question is *"When can I have it?"* — not *"Can we set up a pilot in Q3?"*
+4. **They want the solution now, not next quarter.** Their first question is when they can have it — not whether you can set up a pilot in Q3.
 
-A "needy" customer says: *"This is interesting, but if you add this feature, I'll buy."* You add the feature. They say, *"And if you have this other feature."* The goalposts keep moving. The company runs out of money.
+A "needy" customer tells you it's interesting, but they'll buy once you add one feature. You add it. Then they want another feature. The goalposts keep moving, and the company runs out of money.
 
-> *"Adding features does not make someone desperate. If they were not desperate before the feature, the feature does not change that. Desperation precedes features, not the other way around."*
+> Rachleff's point: adding features does not make someone desperate. If they weren't desperate before the feature, the feature won't change that — desperation precedes features, not the other way around.
 
 Rachleff's word for adding features in response to lukewarm customers: **lunacy.**
 
@@ -92,39 +90,39 @@ Why not change the *what*?
 
 **Vocabulary.** A **pivot** = changing the *who* (sometimes the *how*), holding the *what* constant. A **restart** = changing the *what*. Pivots succeed often. Restarts almost never do.
 
-Instagram is the outlier students always raise. Rachleff corrects them: *"Instagram is a restart. The original product had nothing to do with photos — it was Burbn, a location check-in app. The percentage of restarts that succeed is exceptionally low. We don't use examples because outliers distort probability."*
+Instagram is the outlier students always raise. Rachleff corrects them: Instagram was a restart, not a pivot. The original product had nothing to do with photos — it was Burbn, a location check-in app. The percentage of restarts that succeed is exceptionally low, and he avoids reasoning from such examples because outliers distort the underlying probability.
 
 The better lesson: **Broadcom.** The insight — shrinking semiconductor geometries made it economic to implement analog functions in digital silicon — was their north star. First *who*: cable set-top box transceivers. Then a pivot to Ethernet LANs. Same insight, different *who*.
 
 ## Competition is irrelevant before PMF
 
-> *"Competitors are irrelevant. Reed Hastings never spent any time thinking about competition. He said: if you delight your customers, they'll buy your product. And if they buy your product, who learns faster? The company that has the customers, or the company that's chasing the leader?"*
+> Rachleff on competition: it's irrelevant pre-PMF. Reed Hastings never spent time thinking about competitors — his view was that if you delight your customers they'll buy, and once they buy, the company that holds the customers learns faster than the company chasing the leader.
 
-The sailing analogy: *"If you're trailing a boat in sailing, you can't overtake the lead boat on the same wind. The leader has the same wind. The leader is at least as good as you. Your only chance is to tack — take a different course."*
+The sailing analogy: when you're trailing a boat, you can't overtake the leader on the same wind, because the leader has the same wind and is at least as good as you. Your only chance is to tack onto a different course.
 
 Before PMF, the enemy is **customer indifference**, not other startups.
 
 ## First mover advantage is a myth
 
-> *"First to market is irrelevant. First to product-market fit wins."*
+> Rachleff's formulation: being first to market is irrelevant; being first to product-market fit is what wins.
 
-Google was the seventh search company. Facebook was not the first social network. Amazon was not the first online retailer. General Magic shipped a smartphone twelve years before Apple — too expensive, no internet yet. *"Being early without product-market fit is just being wrong with a head start."*
+Google was the seventh search company. Facebook was not the first social network. Amazon was not the first online retailer. General Magic shipped a smartphone twelve years before Apple — too expensive, no internet yet. As Rachleff puts it, being early without product-market fit is just being wrong with a head start.
 
 ## Network effects are not an exception
 
-The high-school party metaphor: *"A network-effect business is like a high school party. No one ever wants to go in first. The only way to catalyze the party is for the initial group to have a desperate, specific reason to be there — maybe the mathletes, or people on the football team — a small group with a strong need to be together regardless. Once you see them inside enjoying themselves, the rest of the school can decide to come in."*
+The high-school party metaphor: a network-effect business is like a party nobody wants to enter first. The way to catalyze it is to give an initial group a desperate, specific reason to be there — the mathletes, say, or the football team — a small group with a strong need to gather regardless. Once the rest of the school sees them inside enjoying themselves, they decide to come in too.
 
-Facebook didn't seed Harvard. The Harvard students were *desperate* for a directory of classmates with photos and class schedules. The network effect came *after* the value was already proven on one campus. *"There are fewer than twenty profitable network-effect businesses in existence. An unbelievably small number when you think about how many people have tried to create them."*
+Facebook didn't seed Harvard. The Harvard students were *desperate* for a directory of classmates with photos and class schedules. The network effect came *after* the value was already proven on one campus. Rachleff notes there are fewer than twenty profitable network-effect businesses in existence — an astonishingly small number given how many people have tried to build them.
 
 ## Market size is the VC's concern, not yours
 
-> *"I never look at how big the market is. Everything in this class is from the entrepreneur's perspective."*
+> Rachleff's stance: he never looks at how big the market is, because the whole framework is told from the entrepreneur's perspective rather than the investor's.
 
-But carry one VC bias: **slugging percentage, not batting average.** *"What matters far more is the magnitude of success when you are successful. I would much rather be right two times out of ten in a big way than be right nine or ten times out of ten in a small way."*
+But carry one VC bias: **slugging percentage, not batting average.** What matters far more than how often you're right is the magnitude of success when you are. Rachleff would much rather be right two times out of ten in a big way than nine or ten times out of ten in a small way.
 
 ## What PMF actually means
 
-> *"For your friends without this vocabulary, product-market fit means you have found a market that is desperate for your product. The technical definition is a validated value hypothesis. You cannot have a validated value hypothesis without organic growth. Paid growth is irrelevant; anyone with a credit card can buy attention. The only sustainable growth signal is organic word of mouth, and word of mouth requires desperation."*
+> Rachleff's plain-language definition: product-market fit means you've found a market that is desperate for your product. The technical definition is a validated value hypothesis — and you can't validate a value hypothesis without organic growth. Paid growth is irrelevant, since anyone with a credit card can buy attention; the only sustainable growth signal is organic word of mouth, and word of mouth requires desperation.
 
 ## The path the framework prescribes
 
@@ -166,35 +164,37 @@ Compressed to ten steps:
 
 ## Memorable one-liners
 
-- *"Execution doesn't matter."*
-- *"If the dogs aren't eating the dog food, no execution will help."*
-- *"Need is irrelevant. Desperation is everything."*
-- *"Iterate the who, not the what. Adding features does not make someone desperate."*
-- *"Hedging is the enemy of the entrepreneur."*
-- *"Better doesn't win. Only matters if there isn't a good-enough alternative."*
-- *"Competitors are irrelevant before product-market fit."*
-- *"First to product-market fit wins, not first to market."*
-- *"You don't learn anything from competition. You only learn from being in the market."*
-- *"The rate at which you learn is the most important variable in any startup."*
-- *"Built to learn, not built to execute."*
-- *"Stockholders rent your stock."*
-- *"Almost every successful tech company followed this path — but they followed it by accident. You now have the deliberate version."*
+The ideas Rachleff returns to most, in paraphrase:
+
+- Execution doesn't matter pre-PMF.
+- If the dogs aren't eating the dog food, no execution will help.
+- Need is irrelevant; desperation is everything.
+- Iterate the who, not the what; adding features does not make someone desperate.
+- Hedging is the enemy of the entrepreneur.
+- Better doesn't win on its own — it only matters when there isn't a good-enough alternative.
+- Competitors are irrelevant before product-market fit.
+- First to product-market fit wins, not first to market.
+- You don't learn from competition; you only learn from being in the market.
+- The rate at which you learn is the most important variable in any startup.
+- Build to learn, not to execute.
+- Stockholders rent your stock.
+- Almost every successful tech company followed this path, but they followed it by accident; the framework is the deliberate version.
 
 ## The biases the framework names out loud
 
-**The framework is for big companies.** Selling a company for $20–30M is failure relative to the goal. *"It takes the same amount of work to build a $100M revenue business as a $5M one."* Aim accordingly.
+**The framework is for big companies.** Selling a company for $20–30M is failure relative to the goal. Rachleff's reasoning: it takes about the same amount of work to build a $100M-revenue business as a $5M one, so aim accordingly.
 
 **The framework is for tech.** Businesses whose advantage comes from intellectual property — software, semiconductors, anything where defensibility lives in code or architecture. Not luxury goods, not marketing-driven brands, not regulated insurers.
 
-**Logic over examples (in writing). Examples everywhere (in conversation).** Examples become substitutes for thinking in writing. Examples are how memory works in speech. *"Examples can represent outliers."*
+**Logic over examples (in writing). Examples everywhere (in conversation).** In writing, examples become substitutes for thinking and can represent outliers; in speech, examples are how memory works.
 
 ## Vrionis's voice
 
-John Vrionis (Unusual Ventures) adds shorter cadence one-liners:
-- *"Ideas are everywhere. Insights are rare."*
-- *"Ideas are cheap. Insights are investable."*
-- *"An MVP is a usable product that either proves your leap of faith or gets a customer to pay you."*
-- *"When you've found product-market fit, your early customers volunteer to sell your product for you."*
+John Vrionis (Unusual Ventures) adds shorter-cadence points, paraphrased:
+- Ideas are everywhere; insights are rare.
+- Ideas are cheap; insights are investable.
+- An MVP is a usable product that either proves your leap of faith or gets a customer to pay you.
+- When you've found product-market fit, your early customers volunteer to sell your product for you.
 
 ## Where this framework lives in the journey
 

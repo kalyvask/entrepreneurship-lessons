@@ -180,7 +180,7 @@ The fix: **commit to a single pivot for 3+ months minimum.** Test it cleanly. Ei
 
 | Failure | What it looks like | Why it kills you |
 |---|---|---|
-| Adding features instead of pivoting | "If we add X, our lukewarm customers will convert" | Rachleff: "lunacy." Features don't make people desperate. |
+| Adding features instead of pivoting | "If we add X, our lukewarm customers will convert" | Rachleff calls this approach senseless. Features don't make people desperate. |
 | Restart instead of pivot | "This product doesn't work, let's build something else" | You waste the insight. The *who* was almost certainly the issue. |
 | Death pivot | Pivoting every 2 months | Don't give any hypothesis time to play out |
 | Late pivot | "One more quarter" repeated 4 times | Runway evaporates |

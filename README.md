@@ -98,24 +98,6 @@ You don't fill these in by hand. Run `/ent-intake` and the agent interviews you 
 
 The `frameworks/` directory is designed to be lent. If a co-founder, employee, or advisor needs to get up to speed on Customer Development, send them [`frameworks/customer_development.md`](frameworks/customer_development.md). One file. Self-contained.
 
-## The spine — the PMF framework
-
-The PMF framework is built around a few load-bearing claims. Memorize them.
-
-> Execution is rarely what decides a tech company; the quality of its product-market fit is. If the dogs are not eating the dog food, no amount of execution saves it.
-
-> The most important variable in a startup is the rate at which it learns.
-
-> What matters is desperation, not stated need.
-
-> Iterate the *who*, sometimes the *how*, never the *what*. Adding features does not make anyone desperate.
-
-> Competitors are irrelevant before product-market fit.
-
-> Getting to product-market fit first is what wins, not getting to market first.
-
-The full treatment is in [`frameworks/pmf.md`](frameworks/pmf.md). Where this spine collides with the other methods, [`frameworks/conflicts.md`](frameworks/conflicts.md) says which wins and why.
-
 ## The map
 
 | Stage | What it's for | PMF anchor | Supporting frameworks |
@@ -130,33 +112,6 @@ The full treatment is in [`frameworks/pmf.md`](frameworks/pmf.md). Where this sp
 | **07. Pivot or persevere** | What changes when things aren't working | Iterate the *who*, not the *what* | Pivot taxonomies, savor the surprise |
 
 After PMF, you're in execution land — a different methodology (Crossing the Chasm, Inside the Tornado), partially covered in [`frameworks/crossing_the_chasm.md`](frameworks/crossing_the_chasm.md).
-
-## The one paragraph version
-
-A startup is a learning machine, not an execution machine. Most fail not because the team executed poorly but because the market did not want the product. **Need is irrelevant; desperation is everything.** Your job before product-market fit is to discover a desperate customer for a specific value hypothesis grounded in a non-consensus insight about a technological or market inflection. You do this by running the cheapest possible experiments — concept tests, implementation tests, and only then an MVP — against a deliberately narrow audience. You measure the rate at which you learn, not the rate at which you ship. When experiments fail you iterate the *who* (sometimes the *how*), almost never the *what*. You hold competitors as irrelevant. You hold market size as someone else's concern. You read behavior, not intent. You will be wrong many times before you are right; the methodology is designed to make being wrong cheap, fast, and educational. Product-market fit means a market is desperate for your product — verified by organic growth, not paid attention. After PMF, you become an execution organization. Before PMF, you do not.
-
-## The vocabulary that matters
-
-Words on this list are used **precisely**. Mixing them up is how teams confuse themselves into failure.
-
-- **Insight** — a non-consensus belief about how a market or technology is changing. Not "the world is going mobile" (consensus). Not "this would be cool" (a wish). An insight you can defend with evidence and surprise informed people with.
-- **Leap of faith** — the *one* assumption your business depends on. If it's not true, nothing else matters.
-- **Value hypothesis** — *what* you'd build, *who* you'd sell it to, *how* you'd deliver it. Pre-evidence.
-- **Growth hypothesis** — how you scale beyond word-of-mouth cost-effectively. **Comes after value, never before.**
-- **MVP** — usable product that either tests the leap of faith or gets a customer to pay. Not a video. Not a Figma file. Those are tests, not MVPs.
-- **Pivot** — change the *who* (sometimes the *how*). Holds the *what* constant.
-- **Restart** — change the *what*. Rarely succeeds.
-- **Desperation** — customer behavior: pays with little proof, has tried to build it themselves, frustrated unprompted, wants it now.
-- **Need** — customer says they'd like it. Useless on its own.
-- **Product-market fit** — a market desperate for your product, validated by organic growth.
-- **Early adopter / visionary** — buys on vision, tolerates broken, doesn't need references.
-- **Pragmatist / early majority** — buys on references, demands whole product.
-- **The chasm** — the structural gap between early adopters and pragmatists.
-- **Concept test** — proves people would want it (a video, a landing page, a follow-me-home conversation). Days, not weeks.
-- **Implementation test** — proves people would use the specific design (a Figma sprint, a Knapp 5-day sprint).
-- **MVP test** — proves the leap of faith and/or generates revenue.
-
-If you read nothing else, read [`stages/04_value_hypothesis.md`](stages/04_value_hypothesis.md) and [`frameworks/pmf.md`](frameworks/pmf.md). Then come back.
 
 ## Repo structure
 
@@ -260,10 +215,6 @@ entrepreneurship-lessons/
 ```
 
 The counts above are validated against [`library.yaml`](library.yaml) by CI, so they can't quietly drift.
-
-## When the frameworks disagree
-
-The methods here mostly reinforce each other, but sometimes they give opposite advice at the same moment (ship-fast vs. research-first; whole-product vs. minimum; pivot-fast vs. persevere). [`frameworks/conflicts.md`](frameworks/conflicts.md) names those conflicts and says which to follow, when. The tie-breaker is always the same: **the PMF learnings win** — desperation over need, iterate the who not the what, narrow, learning rate over shipping rate.
 
 ## Integrity, sources & license
 

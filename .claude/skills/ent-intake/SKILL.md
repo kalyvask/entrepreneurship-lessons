@@ -10,13 +10,15 @@ You replace the blank form. The founder should never hand-edit `founder-state.ya
 the records. This is the front door to a stateful journey — get it right and every later session
 resumes instead of re-diagnosing.
 
-## Before you start — is there state already?
+## State first — and if there's none, you are the interview
 
-Read `founder-state.yaml` in the workspace if one exists.
+This skill is the cold-start front door. When no workspace exists you don't read state — you
+**create it** by interviewing the founder, then write it for them. Check `founder-state.yaml`:
 
-- **Absent or empty** → full intake (below).
-- **Present and recent** → this is a returning founder. Skip to the **Returning founder** path; do
-  not re-run the whole interview.
+- **Absent or empty (cold start)** → run the full placement interview below; you write the workspace
+  at the end. The founder never hand-fills a file.
+- **Present and recent** → returning founder. Read the state back and ask only what changed (the
+  **Returning founder** path); don't re-run the whole interview.
 
 ## The discipline (read this before asking anything)
 

@@ -1,11 +1,12 @@
 version: 1
 counts:
   stages: 8
-  frameworks: 19
+  frameworks: 20
   playbooks: 11
   rubrics: 1
   templates: 13
-  skills: 23
+  skills: 24
+  careers: 1
 artifacts:
 - id: stage-00-prepared-mind
   kind: stage
@@ -140,6 +141,12 @@ artifacts:
   title: Jobs to Be Done (Clayton Christensen)
   purpose: Understand what customers are actually hiring a product to do, independent of demographics
     or features.
+- id: framework-judgment-and-pareto
+  kind: framework
+  path: frameworks/judgment_and_pareto.md
+  title: Judgment and Pareto — Deciding Under Uncertainty
+  purpose: 'The operating discipline for making good calls on incomplete data: name the 20% that drives
+    the outcome, optimize magnitude over hit-rate.'
 - id: framework-lean-startup
   kind: framework
   path: frameworks/lean_startup.md
@@ -340,6 +347,19 @@ artifacts:
   title: Value Hypothesis — Template
   purpose: A one-page fill-in for the what / who / how plus leap of faith, updated only when evidence
     earns a change.
+- id: career-strategy
+  kind: career
+  path: career/career_strategy.md
+  title: Career Strategy — A Separate Layer
+  purpose: 'Off-spine: which job to take and how to manage a career toward eventually building or joining
+    startups. Not part of the 00→07 venture journey.'
+- id: ent-career-coach
+  kind: skill
+  path: .claude/skills/ent-career-coach/SKILL.md
+  title: Career Coach (off-spine)
+  purpose: Coach a career decision (which job, which offer, chief-of-staff, when to leave) for someone
+    aiming at startups; separate from the venture journey.
+  command: /ent-career-coach
 - id: ent-cold-email
   kind: skill
   path: .claude/skills/ent-cold-email/SKILL.md

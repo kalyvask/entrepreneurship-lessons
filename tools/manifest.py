@@ -29,6 +29,7 @@ KIND_DIRS = {
     "playbook": ("playbooks", False),
     "rubric": ("rubrics", False),
     "template": ("templates", False),
+    "career": ("career", False),
     "skill": (".claude/skills", True),
 }
 

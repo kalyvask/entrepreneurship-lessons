@@ -83,6 +83,7 @@ The skills auto-load based on what you ask:
 - `/ent-prompt-troubleshoot` — When the AI is giving you slop
 - `/ent-red-team` — Pressure-test a hypothesis against the strongest arguments against it
 - `/ent-thesis` — Cross-venture layer: log durable learnings and synthesize them into your PMF insights, investment-style memo, and value-hypothesis stance
+- `/ent-career-coach` — Off-spine: which job to take, which offer, whether to take a chief-of-staff role, when to leave — for someone aiming at startups. Not part of the venture journey.
 
 ### Operate from it — the venture workspace
 
@@ -132,8 +133,9 @@ entrepreneurship-lessons/
 │   ├── 05_mvp_build.md
 │   ├── 06_pmf_measurement.md
 │   └── 07_pivot_or_persevere.md
-├── frameworks/          (19 reference docs)
+├── frameworks/          (20 reference docs)
 │   ├── pmf.md           ← the spine
+│   ├── judgment_and_pareto.md   (deciding under uncertainty; 80/20)
 │   ├── lean_startup.md
 │   ├── customer_development.md
 │   ├── rdi.md
@@ -180,6 +182,8 @@ entrepreneurship-lessons/
 │   ├── retention_dashboard.md
 │   ├── pmf_memo.md               (the capstone synthesis)
 │   └── pivot_memo.md
+├── career/              (off-spine — a separate career-strategy layer, not the venture journey)
+│   └── career_strategy.md
 ├── scaffold/            (the venture workspace — copy this into your project)
 ├── examples/
 │   └── example-venture/          (a filled, end-to-end worked journey)
@@ -188,7 +192,7 @@ entrepreneurship-lessons/
 ├── .github/workflows/   (content-integrity CI)
 ├── .claude-plugin/
 │   └── plugin.json
-└── .claude/skills/      (23 Claude Code skills)
+└── .claude/skills/      (24 Claude Code skills)
     ├── ent-intake/SKILL.md
     ├── ent-thesis/SKILL.md
     ├── ent-office-hours/SKILL.md
@@ -211,7 +215,8 @@ entrepreneurship-lessons/
     ├── ent-cold-email/SKILL.md
     ├── ent-synthesis-coach/SKILL.md
     ├── ent-red-team/SKILL.md
-    └── ent-prompt-troubleshoot/SKILL.md
+    ├── ent-prompt-troubleshoot/SKILL.md
+    └── ent-career-coach/SKILL.md   (off-spine career layer)
 ```
 
 The counts above are validated against [`library.yaml`](library.yaml) by CI, so they can't quietly drift.

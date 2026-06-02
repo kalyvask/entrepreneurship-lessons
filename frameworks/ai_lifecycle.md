@@ -275,4 +275,4 @@ Founders who treat AI as a magic answer machine produce slop. Founders who treat
 
 ## Source
 
-Synthesized from the "AI Across the Company Lifecycle" guide (alex-kalyvas-kasopatidis, 2025–2026) and the practice patterns embedded in the RDI AI Toolbox. Updated for 2026 tooling.
+Synthesized from Diego Oppenheimer's GSB Applied-AI course material — "AI Across the Company Lifecycle," the "Advanced Prompting" outline, and "Using AI as a Research Partner in RDI" — rewritten in this repo's own words and mapped onto the 00–07 stages. Updated for 2026 tooling. See `SOURCES.md`.

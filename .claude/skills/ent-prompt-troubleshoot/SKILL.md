@@ -205,3 +205,7 @@ IF STILL FAILING
 - Don't blame the model. The fix is almost always in the prompt.
 - Don't recommend a different tool unless the current model genuinely doesn't have the capability.
 - Don't accept vague descriptions of the problem. Get the actual prompt and output.
+
+## Source
+
+Synthesized in this repo's own words from Diego Oppenheimer's GSB Applied-AI "Troubleshooting Guide" and "Advanced Prompting" material. See `SOURCES.md`.

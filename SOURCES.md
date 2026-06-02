@@ -46,6 +46,12 @@ verbatim quotation, that is a bug — open an issue.
 | [Think Again](https://www.amazon.com/s?k=Think+Again+Adam+Grant) | Adam Grant | 2021 | `.claude/skills/ent-red-team/`, `stages/07_pivot_or_persevere.md` | S |
 | [Influence](https://www.amazon.com/s?k=Influence+Cialdini) | Robert Cialdini | 2021 ed. | `playbooks/cold_email.md`, `playbooks/run_outreach.md` | S |
 
+## Course and talk material synthesized
+
+| Source | Author | Used in | Type |
+|---|---|---|---|
+| Applied AI at GSB — "AI Across the Company Lifecycle," "Advanced Prompting," "Troubleshooting Guide," "Using AI as a Research Partner in RDI" | Diego Oppenheimer ([doppenheimer.com](https://www.doppenheimer.com)) | `frameworks/ai_lifecycle.md`, `.claude/skills/ent-prompt-troubleshoot/` | S |
+
 ## Openly licensed tools adapted
 
 | Source | Author | License | Used in | Type |

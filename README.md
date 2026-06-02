@@ -18,6 +18,7 @@ Around that spine, the library layers in the methodologies and texts that make t
 - **Jake Knapp's Design Sprint** — 5-day implementation testing
 - **Adam Grant's Think Again** — the rethinking mindset
 - **Bland & Osterwalder's Testing Business Ideas** — the experiment library
+- **Diego Oppenheimer's Applied AI for the company lifecycle** — using AI as a research and build partner at each stage, and the prompting discipline that separates leverage from slop
 
 The result is a single, coherent path from "I have a vague interest in a space" to "I have a market desperate for my product, validated by organic growth."
 

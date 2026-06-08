@@ -33,6 +33,7 @@ If a framework's advice survives those four, follow it. If it doesn't, it loses 
 | 7 | Pricing evidence | Surveys / lean-canvas WTP questions | Mom Test: observe payment, distrust stated WTP | **B always** | Stated willingness-to-pay is noise; observed payment is signal. |
 | 8 | Vision vs. wedge | 10-star / "aim for a $100M business" | Narrowest wedge this week | **Both — already resolved** | Big destination, narrow first step. See `ten_star_product.md`. |
 | 9 | The PMF number | Sean Ellis 40% "very disappointed" (consumer-origin) | B2B reads PMF via retention/expansion/references | **Weight by your motion** | The dogs eating the dog food looks different in enterprise; don't worship one number. |
+| 10 | How fast PMF should appear | Existing-market reflex: fast pull, or it isn't working | New market: latent demand, adoption is slow then sudden | **Read the signal by market type; never lower the desperation bar** | A new market's clock is longer; expecting existing-market speed death-pivots a working bet. See `market_type.md`. |
 
 ## The ones worth expanding
 

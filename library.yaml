@@ -1,10 +1,10 @@
 version: 1
 counts:
   stages: 8
-  frameworks: 20
+  frameworks: 21
   playbooks: 11
   rubrics: 1
-  templates: 13
+  templates: 14
   skills: 24
   careers: 1
 artifacts:
@@ -153,6 +153,12 @@ artifacts:
   title: The Lean Startup (Eric Ries)
   purpose: 'The build-measure-learn packaging of customer development: validated learning, MVP, pivot,
     and innovation accounting.'
+- id: framework-market-type
+  kind: framework
+  path: frameworks/market_type.md
+  title: Market Type (Steve Blank)
+  purpose: Blank's four market types (existing / resegmented / new / clone) and how market type changes
+    sizing, positioning, sales motion, and time to PMF.
 - id: framework-pmf
   kind: framework
   path: frameworks/pmf.md
@@ -318,6 +324,12 @@ artifacts:
   title: PMF Survey — Sean Ellis Template
   purpose: The Sean Ellis disappointment survey for active users in your narrow who segment, with N ≥
     50 for signal.
+- id: template-positioning-statement
+  kind: template
+  path: templates/positioning_statement.md
+  title: Positioning Statement — Template
+  purpose: The market-facing positioning one-liner derived from your chosen market type, naming who it
+    is for, the category, the benefit, and the differentiator.
 - id: template-problem-statement
   kind: template
   path: templates/problem_statement.md

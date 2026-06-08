@@ -153,6 +153,7 @@ If no — Stage 00 isn't done. That's fine. The output of staying in Stage 00 lo
 
 - [`frameworks/pmf.md`](../frameworks/pmf.md) — the value hypothesis, insight, leap of faith
 - [`frameworks/disruption_theory.md`](../frameworks/disruption_theory.md) — Christensen on why incumbents miss disruptive moves
+- [`frameworks/market_type.md`](../frameworks/market_type.md) — which market type your bet implies (existing / resegment / new) and what each demands
 - [`frameworks/ideation_templates.md`](../frameworks/ideation_templates.md) — systematic ways to expand the solution space around an insight (use after the research, not instead of it)
 - [`frameworks/ten_star_product.md`](../frameworks/ten_star_product.md) — set the 10-star vision (is this worth a decade?) then narrow hard to the wedge
 - [`templates/opportunity_rubric.md`](../templates/opportunity_rubric.md)

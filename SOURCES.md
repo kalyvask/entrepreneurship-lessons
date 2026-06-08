@@ -31,11 +31,11 @@ verbatim quotation, that is a bug — open an issue.
 | Book | Author(s) | Edition | Used in | Type |
 |---|---|---|---|---|
 | [The Lean Startup](https://www.amazon.com/s?k=The+Lean+Startup+Eric+Ries) | Eric Ries | 2011 | `frameworks/lean_startup.md`, `playbooks/validation_sequence.md`, `stages/05_mvp_build.md` | S |
-| [The Four Steps to the Epiphany](https://www.amazon.com/s?k=Four+Steps+to+the+Epiphany+Steve+Blank) | Steve Blank | 2005 | `frameworks/customer_development.md` | S |
-| [The Startup Owner's Manual](https://www.amazon.com/s?k=Startup+Owners+Manual+Blank+Dorf) | Steve Blank & Bob Dorf | 2012 | `frameworks/customer_development.md` | S |
+| [The Four Steps to the Epiphany](https://www.amazon.com/s?k=Four+Steps+to+the+Epiphany+Steve+Blank) | Steve Blank | 2005 | `frameworks/customer_development.md`, `frameworks/market_type.md` | S |
+| [The Startup Owner's Manual](https://www.amazon.com/s?k=Startup+Owners+Manual+Blank+Dorf) | Steve Blank & Bob Dorf | 2012 | `frameworks/customer_development.md`, `frameworks/market_type.md` | S |
 | [The Mom Test](https://www.amazon.com/s?k=Mom+Test+Rob+Fitzpatrick) | Rob Fitzpatrick | 2013 | `frameworks/the_mom_test.md`, `stages/02_customer_discovery.md` | S |
 | [Sprint](https://www.amazon.com/s?k=Sprint+Jake+Knapp) | Jake Knapp, John Zeratsky, Braden Kowitz | 2016 | `frameworks/design_sprint.md` | S |
-| [Crossing the Chasm](https://www.amazon.com/s?k=Crossing+the+Chasm+Geoffrey+Moore) | Geoffrey A. Moore | 3rd ed. 2014 | `frameworks/crossing_the_chasm.md` | S |
+| [Crossing the Chasm](https://www.amazon.com/s?k=Crossing+the+Chasm+Geoffrey+Moore) | Geoffrey A. Moore | 3rd ed. 2014 | `frameworks/crossing_the_chasm.md`, `frameworks/market_type.md` | S |
 | [Inside the Tornado](https://www.amazon.com/s?k=Inside+the+Tornado+Geoffrey+Moore) | Geoffrey A. Moore | 1995 | `frameworks/crossing_the_chasm.md` (post-PMF) | S |
 | [The Innovator's Dilemma](https://www.amazon.com/s?k=Innovators+Dilemma+Clayton+Christensen) | Clayton M. Christensen | 1997 | `frameworks/disruption_theory.md` | S |
 | [The Innovator's Solution](https://www.amazon.com/s?k=Innovators+Solution+Christensen+Raynor) | Christensen & Raynor | 2003 | `frameworks/disruption_theory.md`, `frameworks/jobs_to_be_done.md` | S |

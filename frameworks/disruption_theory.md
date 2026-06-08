@@ -34,6 +34,8 @@ Most innovations are **sustaining**, not disruptive. Telling the two apart matte
 
 **New-market:** the incumbent's product was too expensive or complicated for a whole population. A simpler, cheaper alternative makes consumption possible. Incumbents don't notice because the entrant isn't competing for their customers — until the entrant moves upmarket.
 
+> Don't confuse **new-market disruption** (a *mechanism* for displacing incumbents from nonconsumption) with Blank's **new market type** (a *go-to-market decision*). A new-market disruption is usually launched as a new market type, but the two answer different questions — see [`market_type.md`](market_type.md).
+
 ## The litmus test
 
 Christensen's four questions to identify a disruptive opportunity:

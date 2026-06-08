@@ -27,8 +27,8 @@ The result is a single, coherent path from "I have a vague interest in a space" 
 Four things in one:
 
 1. **A guide.** A stage-by-stage map from the moment you start exploring an industry to the moment you can confidently claim PMF. Every stage names what to do, what trap to avoid, and what to read — and a scorable **rubric** so you can honestly grade whether the stage is actually done.
-2. **A reference library.** The frameworks themselves — PMF, Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Mom Test, RDI, Design Partners, Value Dimensions, Ideation Templates, the 10-Star Product — plus a map of [where they disagree](frameworks/conflicts.md). In tight standalone files you can cite, lend, or come back to in 6 months.
-3. **An agent partner.** Twenty-three Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, grades you against the rubric, and pushes back when you're kidding yourself.
+2. **A reference library.** The frameworks themselves — PMF, Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Market Type, Mom Test, RDI, Design Partners, Value Dimensions, Ideation Templates, the 10-Star Product — plus a map of [where they disagree](frameworks/conflicts.md). In tight standalone files you can cite, lend, or come back to in 6 months.
+3. **An agent partner.** Twenty-four Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, grades you against the rubric, and pushes back when you're kidding yourself.
 4. **A venture workspace.** A small set of state files ([`scaffold/`](scaffold/)) so the agent picks up where you left off instead of re-diagnosing you every session — and so a stage only advances on evidence, not a checked box. You start by running `/ent-intake` (an interview that writes the state for you); every skill reads this state first and, if it doesn't exist yet, sends you to `/ent-intake` before anything else.
 
 The destination is not PMF itself but three synthesized outputs you carry beyond the venture — your **PMF insights**, your **investment / founder-style memo**, and your **value-hypothesis stance** — built by `/ent-thesis` into `thesis_ledger.md`. The per-venture journey feeds that cross-venture thesis.
@@ -105,7 +105,7 @@ The `frameworks/` directory is designed to be lent. If a co-founder, employee, o
 | Stage | What it's for | PMF anchor | Supporting frameworks |
 |---|---|---|---|
 | **00. Prepared mind** | You don't yet know what problem matters | Insight as prerequisite | RDI |
-| **01. Insight & idea selection** | Turn research into a falsifiable bet | The non-consensus insight | Disruption Theory, opportunity rubric |
+| **01. Insight & idea selection** | Turn research into a falsifiable bet | The non-consensus insight | Disruption Theory, Market Type, opportunity rubric |
 | **02. Customer discovery** | Find who is desperate for what you'd build | Desperation, not need | Customer Development (Blank), Mom Test (Fitzpatrick) |
 | **03. Problem–solution fit** | Confirm a real, hot problem | The desperation markers | Unit economics, JTBD |
 | **04. Value hypothesis** | Articulate what / who / how + leap of faith | **The core of the framework** | Business Model Canvas |
@@ -134,7 +134,7 @@ entrepreneurship-lessons/
 │   ├── 05_mvp_build.md
 │   ├── 06_pmf_measurement.md
 │   └── 07_pivot_or_persevere.md
-├── frameworks/          (20 reference docs)
+├── frameworks/          (21 reference docs)
 │   ├── pmf.md           ← the spine
 │   ├── judgment_and_pareto.md   (deciding under uncertainty; 80/20)
 │   ├── lean_startup.md
@@ -142,6 +142,7 @@ entrepreneurship-lessons/
 │   ├── rdi.md
 │   ├── the_mom_test.md
 │   ├── crossing_the_chasm.md
+│   ├── market_type.md       (Blank's four market types; positioning)
 │   ├── jobs_to_be_done.md
 │   ├── disruption_theory.md
 │   ├── pmf_measurement.md
@@ -169,13 +170,14 @@ entrepreneurship-lessons/
 │   └── pivot_decision.md
 ├── rubrics/             (score yourself at every stage)
 │   └── journey_rubrics.md        (pass/fail rubric for stages 00–07)
-├── templates/           (13 fillable artifacts)
+├── templates/           (14 fillable artifacts)
 │   ├── self_reflection.md
 │   ├── opportunity_rubric.md
 │   ├── insight_statement.md
 │   ├── problem_statement.md
 │   ├── solution_shape.md
 │   ├── value_hypothesis.md
+│   ├── positioning_statement.md   (market-facing one-liner)
 │   ├── interview_script.md
 │   ├── interview_debrief.md
 │   ├── industry_primer.md

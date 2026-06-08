@@ -256,6 +256,8 @@ You move to [Stage 05 — MVP Build](05_mvp_build.md) when:
 - [`frameworks/lean_startup.md`](../frameworks/lean_startup.md) — Ries on leap of faith and MVPs
 - [`frameworks/customer_development.md`](../frameworks/customer_development.md) — Blank's parallel framing
 - [`templates/value_hypothesis.md`](../templates/value_hypothesis.md) — fill-in template
+- [`frameworks/market_type.md`](../frameworks/market_type.md) — the market type your *who* and positioning follow from
+- [`templates/positioning_statement.md`](../templates/positioning_statement.md) — the market-facing positioning one-liner
 - [`playbooks/value_hypothesis_critique.md`](../playbooks/value_hypothesis_critique.md) — how to run a founders' feedback meeting
 
 ## Agent partner

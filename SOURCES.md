@@ -50,7 +50,7 @@ verbatim quotation, that is a bug — open an issue.
 
 | Source | Author | Used in | Type |
 |---|---|---|---|
-| Applied AI at GSB — "AI Across the Company Lifecycle," "Advanced Prompting," "Troubleshooting Guide," "Using AI as a Research Partner in RDI" | Diego Oppenheimer ([doppenheimer.com](https://www.doppenheimer.com)) | `frameworks/ai_lifecycle.md`, `.claude/skills/ent-prompt-troubleshoot/` | S |
+| Applied AI at GSB — "AI Across the Company Lifecycle," "Advanced Prompting," "Troubleshooting Guide," "AI for PM," "Harnessing AI for Startup Investing," "Using AI as a Research Partner in RDI" | Diego Oppenheimer ([doppenheimer.com](https://www.doppenheimer.com)) | `frameworks/ai_lifecycle.md`, `playbooks/diligence.md`, `.claude/skills/ent-prompt-troubleshoot/`, `.claude/skills/ent-diligence/` | S |
 
 ## Openly licensed tools adapted
 

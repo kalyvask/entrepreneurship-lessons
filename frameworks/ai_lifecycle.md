@@ -10,6 +10,8 @@ Used badly, AI generates plausible-sounding slop that founders mistake for insig
 
 The difference is not the tool. It is **the operator's discipline** — what questions to ask, what data to attach, what output to demand, and what to verify.
 
+One pattern to know going in: most operators adopt AI fastest for **production** (drafting documents, decks, comms) and last for **discovery** (research, interview synthesis, deciding what to build) — yet discovery is where the leverage in this journey lives. If your AI use is all last-mile drafting, you're using the tool where it's easiest, not where it pays.
+
 ## The tool stack (2026)
 
 A working AI operating system for a pre-PMF founder:
@@ -275,4 +277,4 @@ Founders who treat AI as a magic answer machine produce slop. Founders who treat
 
 ## Source
 
-Synthesized from Diego Oppenheimer's GSB Applied-AI course material — "AI Across the Company Lifecycle," the "Advanced Prompting" outline, and "Using AI as a Research Partner in RDI" — rewritten in this repo's own words and mapped onto the 00–07 stages. Updated for 2026 tooling. See `SOURCES.md`.
+Synthesized from Diego Oppenheimer's GSB Applied-AI course material — "AI Across the Company Lifecycle," the "Advanced Prompting" outline, "AI for PM," and "Using AI as a Research Partner in RDI" — rewritten in this repo's own words and mapped onto the 00–07 stages. Updated for 2026 tooling. See `SOURCES.md`.

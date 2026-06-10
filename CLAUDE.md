@@ -5,8 +5,9 @@ Working conventions for this repository — for contributors and for Claude Code
 ## What this repo is
 
 A practitioner's library and Claude Code agent partner for the journey from a curious mind to
-product-market fit: 8 stages, frameworks, playbooks, templates, rubrics, 24 `ent-*` skills, and a
-stateful venture workspace (`scaffold/`). The full map is in `README.md`.
+product-market fit: 8 stages, frameworks, playbooks, templates, rubrics, the `ent-*` skills, and a
+stateful venture workspace (`scaffold/`). The full map is in `README.md`. (Counts in this file
+defer to `library.yaml` — the manifest is the source of truth.)
 
 ## The through-line (when guidance conflicts, this wins)
 

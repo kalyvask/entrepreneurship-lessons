@@ -28,7 +28,7 @@ Four things in one:
 
 1. **A guide.** A stage-by-stage map from the moment you start exploring an industry to the moment you can confidently claim PMF. Every stage names what to do, what trap to avoid, and what to read — and a scorable **rubric** so you can honestly grade whether the stage is actually done.
 2. **A reference library.** The frameworks themselves — PMF, Build-Measure-Learn, Customer Development, Value Hypothesis, JTBD, Crossing the Chasm, Disruption Theory, Market Type, Mom Test, RDI, Design Partners, Value Dimensions, Ideation Templates, the 10-Star Product — plus a map of [where they disagree](frameworks/conflicts.md). In tight standalone files you can cite, lend, or come back to in 6 months.
-3. **An agent partner.** Twenty-four Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, grades you against the rubric, and pushes back when you're kidding yourself.
+3. **An agent partner.** Twenty-five Claude Code skills that work alongside you. Tell it where you are, and it loads the right framework, runs the right playbook, asks the right questions, grades you against the rubric, and pushes back when you're kidding yourself.
 4. **A venture workspace.** A small set of state files ([`scaffold/`](scaffold/)) so the agent picks up where you left off instead of re-diagnosing you every session — and so a stage only advances on evidence, not a checked box. You start by running `/ent-intake` (an interview that writes the state for you); every skill reads this state first and, if it doesn't exist yet, sends you to `/ent-intake` before anything else.
 
 The destination is not PMF itself but three synthesized outputs you carry beyond the venture — your **PMF insights**, your **investment / founder-style memo**, and your **value-hypothesis stance** — built by `/ent-thesis` into `thesis_ledger.md`. The per-venture journey feeds that cross-venture thesis.
@@ -83,6 +83,7 @@ The skills auto-load based on what you ask:
 - `/ent-idea-coach` — Convert research into a falsifiable bet
 - `/ent-prompt-troubleshoot` — When the AI is giving you slop
 - `/ent-red-team` — Pressure-test a hypothesis against the strongest arguments against it
+- `/ent-diligence` — Verification-first diligence: verify / flag / discard a claim set — your own memo before a sharp reader sees it, or a company you're evaluating
 - `/ent-thesis` — Cross-venture layer: log durable learnings and synthesize them into your PMF insights, investment-style memo, and value-hypothesis stance
 - `/ent-career-coach` — Off-spine: which job to take, which offer, whether to take a chief-of-staff role, when to leave — for someone aiming at startups. Not part of the venture journey.
 
@@ -157,7 +158,7 @@ entrepreneurship-lessons/
 │   ├── design_sprint.md
 │   ├── design_partners.md
 │   └── ai_lifecycle.md
-├── playbooks/           (11 operational how-tos)
+├── playbooks/           (12 operational how-tos)
 │   ├── customer_interview.md
 │   ├── cold_email.md
 │   ├── synthesis.md
@@ -168,7 +169,8 @@ entrepreneurship-lessons/
 │   ├── mvp_scoping.md
 │   ├── value_hypothesis_critique.md  (founders' feedback meeting)
 │   ├── pmf_assessment.md
-│   └── pivot_decision.md
+│   ├── pivot_decision.md
+│   └── diligence.md     (verification-first: verify / flag / discard)
 ├── rubrics/             (score yourself at every stage)
 │   └── journey_rubrics.md        (pass/fail rubric for stages 00–07)
 ├── templates/           (14 fillable artifacts)
@@ -196,7 +198,7 @@ entrepreneurship-lessons/
 ├── .github/workflows/   (content-integrity CI)
 ├── .claude-plugin/
 │   └── plugin.json
-└── .claude/skills/      (24 Claude Code skills)
+└── .claude/skills/      (25 Claude Code skills)
     ├── ent-intake/SKILL.md
     ├── ent-thesis/SKILL.md
     ├── ent-office-hours/SKILL.md
@@ -219,6 +221,7 @@ entrepreneurship-lessons/
     ├── ent-cold-email/SKILL.md
     ├── ent-synthesis-coach/SKILL.md
     ├── ent-red-team/SKILL.md
+    ├── ent-diligence/SKILL.md
     ├── ent-prompt-troubleshoot/SKILL.md
     └── ent-career-coach/SKILL.md   (off-spine career layer)
 ```

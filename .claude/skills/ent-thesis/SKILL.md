@@ -42,7 +42,9 @@ the synthesized sections of `thesis_ledger.md`:
 - **My investment / founder style** (the memo) — what they back, what they pass on, their edge,
   their recurring mistake. This is the deliverable they'd hand a co-founder or an LP. Build it from
   the log, not from aspiration; if the log doesn't support a claim, leave it out and say what
-  evidence would earn it.
+  evidence would earn it. Hold its factual claims to the verification-first standard
+  (`playbooks/diligence.md` / `/ent-diligence`): verified, flagged, or out — and when the founder
+  diligences a real company or deal, that is exactly the moment to log lessons here.
 - **My value-hypothesis stance** — the patterns in their own what/who/how + leap-of-faith work,
   across attempts. Pairs with `/ent-value-hypothesis-builder` (which does a single venture).
 

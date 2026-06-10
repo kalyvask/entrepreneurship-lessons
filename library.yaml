@@ -2,10 +2,10 @@ version: 1
 counts:
   stages: 8
   frameworks: 21
-  playbooks: 11
+  playbooks: 12
   rubrics: 1
   templates: 14
-  skills: 24
+  skills: 25
   careers: 1
 artifacts:
 - id: stage-00-prepared-mind
@@ -231,6 +231,12 @@ artifacts:
   title: Customer Interview Playbook
   purpose: Run a customer interview that produces honest data, from prep through Mom Test discipline to
     debrief.
+- id: playbook-diligence
+  kind: playbook
+  path: playbooks/diligence.md
+  title: Verification-First Diligence
+  purpose: Pressure-test a claim set before a decision rides on it — verify / flag / discard with sources,
+    what-must-be-true, gaps, then the bear case.
 - id: playbook-mvp-scoping
   kind: playbook
   path: playbooks/mvp_scoping.md
@@ -393,6 +399,13 @@ artifacts:
   purpose: Track and steer a multi-interview discovery sprint, scoring desperation and flagging needy-vs-desperate
     signals.
   command: /ent-customer-discovery
+- id: ent-diligence
+  kind: skill
+  path: .claude/skills/ent-diligence/SKILL.md
+  title: Diligence (verification-first)
+  purpose: Verify / flag / discard a claim set with sources and a what-must-be-true frame — for the founder's
+    own memo pre-share, or a company being evaluated.
+  command: /ent-diligence
 - id: ent-design-partners
   kind: skill
   path: .claude/skills/ent-design-partners/SKILL.md

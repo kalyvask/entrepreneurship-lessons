@@ -43,6 +43,7 @@ The 8-section memo (per `templates/pmf_memo.md`):
 - **The surprise is mandatory.** If they report no surprise, push: "savor the surprise" — have you actually looked at your data for the over-performing slice? No surprise usually means no deep look.
 - **One page pre-MVP, two with metrics.** If it doesn't fit, they're not clear enough yet.
 - **Pre-mortem the risks.** Force section 8 — what kills this in two years? The suppressed fear is usually the real risk.
+- **Diligence your own claims before a sharp reader does.** Run the verify / flag / discard pass (`playbooks/diligence.md` / `/ent-diligence`) on every factual claim — market numbers, "only ones who…" statements, the metrics. Flags stay visible as open items; nothing in the memo should die on first contact with scrutiny.
 
 ## Output format
 

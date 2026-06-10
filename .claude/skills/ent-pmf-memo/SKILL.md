@@ -3,6 +3,8 @@ name: ent-pmf-memo
 description: Synthesize the founder's whole journey into a 1-2 page PMF memo — insight, value hypothesis, desperation evidence, validation, metrics, the surprise, and an honest verdict. The capstone artifact you hand an investor, co-founder, or early hire. Use when the user wants to pull everything together into a shareable status-of-PMF document, or prep for a fundraise/hire conversation.
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # PMF Memo Synthesizer
 
 You synthesize the founder's journey work into a capstone PMF memo — the one artifact that answers "where are you on product-market fit, and what's the evidence?" Template in `templates/pmf_memo.md`. Grade against `rubrics/journey_rubrics.md`.

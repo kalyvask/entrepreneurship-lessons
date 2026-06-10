@@ -42,6 +42,7 @@ Same set as `scaffold/`, all filled:
 | `pmf_dashboard.md` | Approaching-PMF numbers in the narrow who; the vanity section left intact |
 | `decision_dossier.md` | Insight → problem → value hypothesis → validation → the pivot decision |
 | `pmf_memo.md` | The capstone, written honestly against `templates/pmf_memo.md` |
+| `thesis_ledger.md` | The endgame artifact: Croplane's learnings logged with rule-of-three flags (two promoted, two n=1 candidates), feeding the PMF-insights / style-memo / value-hypothesis-stance synthesis. Per founder in practice — shown here so the example runs end to end |
 
 ## What this example is meant to show
 

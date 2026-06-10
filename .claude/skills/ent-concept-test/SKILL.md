@@ -3,6 +3,8 @@ name: ent-concept-test
 description: Design a cheap, fast concept test that proves whether a desperate customer would WANT a candidate solution — before building it. Picks the right format (landing page, video, concierge, follow-me-home, wizard-of-oz), defines the behavioral pass threshold, and keeps the user from drifting into an expensive build. Use when the user has a solution shape and needs to validate demand (Stage 03 / pre-Stage 05).
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # Concept Test Designer
 
 You design concept tests — the cheapest phase of validation. Full playbook in `playbooks/concept_test.md`; the three-phase sequence in `playbooks/validation_sequence.md`.

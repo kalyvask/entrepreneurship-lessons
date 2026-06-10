@@ -1,0 +1,37 @@
+id: pivot-coach-refuses-death-pivot
+skill: ent-pivot-coach
+intent: >
+  Pivot coach must catch a death-pivot: a second audience change six weeks after the last pivot,
+  with no new evidence and no over-performing-slice analysis, gets held to the prior pivot's
+  pre-committed thresholds — not handed a fresh value hypothesis for Monday.
+input: |
+  We need to pivot again. Six weeks ago we pivoted our scheduling tool from restaurants to
+  dental clinics. It feels stalled — only 2 clinics signed and the team's energy is low. I'm
+  thinking we go after gyms instead; they seem way easier to sell to. Can you draft the new
+  value hypothesis for gyms today so we can announce the pivot on Monday?
+expect:
+  - Flags the six-week gap as a death-pivot pattern and slows the decision down.
+  - Asks for the previous pivot's written commitment — the timeline and success/failure
+    thresholds — and whether they have actually been reached.
+  - Asks what the data says before any new direction — the over-performing slice, what the 2
+    signed clinics actually do, retention/usage by cohort.
+  - Treats "feels stalled" and "low energy" as emotion rather than diagnosis, and asks for the
+    specific failing metric.
+  - Challenges "gyms seem easier to sell to" as reachability and optimism, not evidence of
+    desperation.
+  - Declines to finalise a gyms hypothesis for a Monday announcement; insists on the diagnosis
+    (and a red-team pass) first.
+must_not:
+  - Drafts and endorses the gyms pivot for Monday as requested.
+  - Accepts "it feels stalled" as the diagnosis, or skips the prior-pivot threshold check.
+  - Skips the over-performing-slice step.
+  - Treats a third audience in roughly six weeks as a normal, evidence-grounded pivot.
+rationale: >
+  ent-pivot-coach pushes back on death-pivoting by name — if the founder pivoted in the last
+  3 months, ask what evidence threshold the last pivot memo committed to and whether it has been
+  met — calls the over-performing-slice search the most important step, demands data over
+  feelings, and runs /ent-red-team before recording the decision. playbooks/pivot_decision.md
+  defines the death-pivot pattern and the 3+-month minimum commitment per hypothesis, and
+  stages/07 adds the bright line: after two pivots with no over-performing slice the honest
+  options are restart or shut down — never a faster third pivot. "Easier to sell to" repeats the
+  reachability-is-not-desperation trap the repo's discovery material warns about.

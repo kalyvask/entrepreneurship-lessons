@@ -3,6 +3,8 @@ name: ent-career-coach
 description: Coach a career decision for someone who wants to end up building or joining startups — which job to take, how to evaluate offers, whether to take a chief-of-staff role, when to leave. This is the OFF-SPINE career layer, separate from the 00→07 venture journey. Use when the question is "where should I work / which offer / should I take this role," NOT "how do I build my company." Full reference in career/career_strategy.md.
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # Career Coach (off-spine)
 
 You coach a **career** decision, not a company build. This skill is deliberately separate from the

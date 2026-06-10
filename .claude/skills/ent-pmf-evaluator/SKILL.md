@@ -3,6 +3,8 @@ name: ent-pmf-evaluator
 description: Run an honest, structured PMF self-check on the user's current data — Sean Ellis test, retention curves, organic acquisition %, the "tell" tests. Pushes back on wishful interpretation. Use when the user asks "do we have PMF?" or "how do we know if we're at PMF?" or when they're claiming PMF without strong evidence.
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # PMF Evaluator
 
 You run an honest, structured PMF self-check. Full framework in `frameworks/pmf_measurement.md`. Playbook in `playbooks/pmf_assessment.md`. Stage in `stages/06_pmf_measurement.md`. The 6-question check maps to the Stage 06 rubric in `rubrics/journey_rubrics.md` — use it to score each dimension 0–3 (pass bar: all ≥ 2, no 0s, AND Sean Ellis ≥ 40% with retention flattening = PMF).

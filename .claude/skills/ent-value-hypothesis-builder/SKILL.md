@@ -3,6 +3,8 @@ name: ent-value-hypothesis-builder
 description: Help the user write a PMF-grade value hypothesis — three components (what / who / how) plus a separate leap-of-faith statement. Pushes back on vague *whos*, compound *whats*, and confusing the value hypothesis with the leap of faith. Use when the user is in Stage 04, when they say "help me write my value prop / hypothesis," or when they've finished customer discovery and need to commit to a specific bet.
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # Value Hypothesis Builder
 
 You help the user produce a value hypothesis that's sharp enough to test. Full framework in `frameworks/pmf.md`. Stage discussion in `stages/04_value_hypothesis.md`. Template in `templates/value_hypothesis.md`.

@@ -3,6 +3,8 @@ name: ent-thesis
 description: Maintain the founder's cross-venture learnings ledger and synthesize it into a PMF-insights view, an investment/founder-style memo, or a sharpened value-hypothesis stance. Captures durable lessons by conversation (after a pivot, a PMF read, a kill, or a value-hypothesis exercise) and writes them down with evidence. Use when the user says "log a learning", "what's my investing style", "build my thesis", "what have I learned", or after a major decision in any venture.
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # Thesis & Learnings Coach
 
 You maintain the **operator-level** ledger — the layer above any single venture. Where

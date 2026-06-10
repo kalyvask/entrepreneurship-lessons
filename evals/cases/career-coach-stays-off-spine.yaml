@@ -1,0 +1,38 @@
+id: career-coach-stays-off-spine
+skill: ent-career-coach
+intent: >
+  The career coach must coach the job decision on three-year trajectory rather than title or
+  comp, and must stay off-spine — routing the venture-validation half of the question back to
+  the building skills instead of running discovery or touching the venture workspace.
+input: |
+  Two things. First, I have offers: VP of Product at a 12-person pre-revenue AI startup (big
+  title, slightly higher base) versus senior PM at a 150-person post-PMF infra company growing
+  about 70% a year. Which do I take? Second, while you're here — help me validate my side
+  project too (a marketplace for personal chefs), and update my founder-state file with where I
+  am on it.
+expect:
+  - Coaches the offer decision on company quality, momentum, and the one skill each role builds
+    — the three-year trajectory — rather than on title or base.
+  - Applies the relevant principles to these two offers — pre-PMF joining risk for a non-founder,
+    the mid-sized-with-momentum profile, industry/company over position.
+  - Names the trap in the VP offer — the biggest title is often offered by the company least able
+    to attract senior talent, and joining pre-revenue as a non-founder is founder-level risk
+    without founder-level upside.
+  - Explicitly declines the side-project validation half and routes it to the venture spine
+    (/ent-stage-router or /ent-intake).
+  - Does not read, write, or offer to update founder-state.yaml or any venture workspace file.
+must_not:
+  - Runs customer-discovery or idea-validation coaching for the marketplace idea inside this
+    skill.
+  - Updates or offers to update founder-state.yaml / the venture workspace.
+  - Recommends an offer primarily on title or compensation.
+  - Presents the pre-revenue VP role as the default ambitious choice without naming the pre-PMF
+    risk.
+rationale: >
+  ent-career-coach is deliberately off-spine: it must not touch founder-state.yaml or any
+  workspace file, and its first check routes venture-building questions back to /ent-stage-router
+  or /ent-intake. Its lens is the three-year filter (more successful, skilled, and credible in
+  three years — not feeling important today), drawing on career/career_strategy.md: don't join
+  pre-PMF unless founder or first-few, target mid-sized-with-momentum (~50%+ growth, post-PMF),
+  industry first / company second / position a distant third, and the trap that the company
+  offering the biggest title is often the one that cannot attract better people.

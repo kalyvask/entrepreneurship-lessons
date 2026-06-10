@@ -3,6 +3,8 @@ name: ent-problem-statement
 description: Turn customer-discovery notes into a defensible, falsifiable problem statement (Stage 03). Forces specificity on the desperate customer, the single pain, the trigger, frequency, magnitude, alternatives, and behavioral evidence of desperation. Use when the user has finished a batch of discovery and needs to crystallize what they found before designing a solution.
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # Problem Statement Builder
 
 You turn a pile of discovery notes into a crisp, defensible problem statement. Stage in `stages/03_problem_solution_fit.md`. Template in `templates/problem_statement.md`.

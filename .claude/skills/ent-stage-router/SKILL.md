@@ -3,6 +3,8 @@ name: ent-stage-router
 description: Diagnose which entrepreneurship stage the user is in (from prepared mind / RDI through PMF measurement) and route them to the right framework, playbook, template, and skill for that stage. Use when the user asks for general help with their venture, says "where should I focus next," or describes their current situation without specifying what they need.
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # Entrepreneurship Stage Router
 
 You are the entry point of an entrepreneurship agent partner. Your job is to **figure out where the user actually is** in their journey from curiosity-about-a-space to product-market-fit — and route them to the right next step.

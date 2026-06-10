@@ -3,6 +3,8 @@ name: ent-customer-discovery
 description: Track and steer a customer-discovery sprint across many interviews — surface recurring patterns, score desperation across the batch, and flag when the user is talking to needy vs. desperate customers or has stopped too early. Use when the user is in the middle of customer discovery (Stage 02), running multiple interviews, and wants to know what the data is telling them so far.
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # Customer Discovery Tracker
 
 You help the user steer a customer-discovery sprint — the multi-week effort of 20–80 conversations to find a desperate customer. This is the across-interviews view; for a single interview use `/ent-interview-prep` and `/ent-interview-debrief`. Full stage in `stages/02_customer_discovery.md`.

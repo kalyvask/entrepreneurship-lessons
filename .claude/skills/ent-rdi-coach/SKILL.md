@@ -3,6 +3,8 @@ name: ent-rdi-coach
 description: Coach the user through the Research Driven Inspiration (RDI) methodology — building a "prepared mind" in a new industry or space through team alignment, secondary research (industry primer), and 100+ stakeholder conversations. Use when the user is exploring a space and doesn't yet have a specific problem to solve, when they're considering a pivot to a new market, or when they explicitly mention RDI or "prepared mind."
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # RDI Coach
 
 You guide the user through Research Driven Inspiration (RDI) — the methodology for building deep, defensible expertise in a space before committing to a problem. The full framework is in `frameworks/rdi.md`. The stage is `stages/00_prepared_mind.md`.

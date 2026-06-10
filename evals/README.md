@@ -2,7 +2,8 @@
 
 This directory holds an evaluation suite for the Claude Code skills in this repo
 (`ent-stage-router`, `ent-pmf-evaluator`, `ent-unit-econ-check`, `ent-office-hours`,
-`ent-concept-test`, `ent-mvp-scoper`, `ent-red-team`).
+`ent-concept-test`, `ent-mvp-scoper`, `ent-red-team`, `ent-intake`, `ent-pivot-coach`,
+`ent-thesis`, `ent-career-coach`).
 
 ## What these evals are
 
@@ -26,7 +27,7 @@ result.
 
 ## A note on provenance
 
-These fixtures were authored directly against the seven skills' own `SKILL.md` files under
+These fixtures were authored directly against the covered skills' own `SKILL.md` files under
 `../.claude/skills/*/` and the stage rubrics in `../rubrics/journey_rubrics.md`. The
 load-bearing specifics in each fixture were checked against the actual skill prose — e.g. the
 concept-test "pre-pay / paid pilot / signed LOI" pass signals and its "not friends" rule, the
@@ -34,13 +35,12 @@ red-team "Marks 2x2 quadrant" and "name 3 people who'd push back" disconfirmatio
 unit-econ formulas and the "loaded CAC, not founder-time-is-free" discipline, and the
 pmf-evaluator's "what you DON'T accept" list (signups, one advocate, revenue-without-retention).
 
-The overarching discipline these skills share is the repo's PMF through-line, stated in the
-root `../README.md` ("The spine", "The one paragraph version", "The vocabulary that matters"):
-**desperation not need, behavior not opinions, narrow not broad, retention not signups**, plus
-the Sean Ellis 40% line and >40% organic pull. The `rationale` field of each fixture cites that
-vocabulary by name and points at the specific skill behaviour it tests. There is no `CLAUDE.md`
-in this repo; do not look for one. If a `SKILL.md` is later revised, re-read it and reconcile any
-fixture whose expectations have drifted from the prose.
+The overarching discipline these skills share is the repo's PMF through-line — **desperation not
+need, behavior not opinions, narrow not broad, retention not signups**, plus the Sean Ellis 40%
+line and >40% organic pull — stated in the root `../CLAUDE.md` and treated in full in
+`../frameworks/pmf.md`. The `rationale` field of each fixture cites that vocabulary by name and
+points at the specific skill behaviour it tests. If a `SKILL.md` is later revised, re-read it and
+reconcile any fixture whose expectations have drifted from the prose.
 
 ## How to run one fixture (manual / LLM-judge loop)
 
@@ -93,7 +93,7 @@ CI: `.github/workflows/evals.yml` runs it on demand (Actions tab) and weekly, wi
 
 ## Coverage
 
-Eight fixtures, with positive and negative cases:
+Twelve fixtures, with positive and negative cases:
 
 | # | id | skill | tests |
 |---|----|-------|-------|
@@ -105,6 +105,10 @@ Eight fixtures, with positive and negative cases:
 | 6 | `red-team-refutes-consensus` | `ent-red-team` | flags consensus; demands disconfirmers; cheaper explanation; biggest risk |
 | 7 | `concept-test-rejects-vanity-threshold` | `ent-concept-test` | rejects waitlist threshold; requires pre-registered behavioural commitment |
 | 8 | `office-hours-reframe` | `ent-office-hours` | Mom Test interrogation; reframes; narrow wedge; won't validate framing |
+| 9 | `intake-no-over-place` | `ent-intake` | places on evidence, not self-assessment; refuses dictated scores; gaps become blockers |
+| 10 | `pivot-coach-refuses-death-pivot` | `ent-pivot-coach` | catches the death-pivot; demands prior thresholds + over-performing slice before any new hypothesis |
+| 11 | `thesis-rejects-anecdote` | `ent-thesis` | rule of three: n=1 stays a candidate; the log is append-only; no rewriting history |
+| 12 | `career-coach-stays-off-spine` | `ent-career-coach` | coaches trajectory over title; routes venture validation back to the spine; never touches the workspace |
 
 Cases 3 and 4 are a matched negative/positive pair on the same skill, so a passing skill must
 swing the verdict on the numbers alone.

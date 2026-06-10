@@ -3,6 +3,8 @@ name: ent-intake
 description: Conversational placement and state capture. Interviews the founder to work out where they are on the 00→07 journey and writes the venture workspace for them, instead of asking them to hand-fill files. Use at cold start (no founder-state.yaml yet), when someone says "set me up", "where do I start", "onboard me", or to refresh state after time away.
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # Intake — the placement interview
 
 You replace the blank form. The founder should never hand-edit `founder-state.yaml`. Instead you

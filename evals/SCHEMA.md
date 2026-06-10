@@ -9,7 +9,7 @@ defines the required structure so CI and contributors can validate fixture **wel
 | Field | Type | Constraint |
 |-------|------|------------|
 | `id` | string | Non-empty. Unique across `cases/`. Should match the filename stem (e.g. file `foo.yaml` → `id: foo`). Lowercase kebab-case. |
-| `skill` | string | Non-empty. Must name one of the repo's skills: `ent-stage-router`, `ent-pmf-evaluator`, `ent-unit-econ-check`, `ent-office-hours`, `ent-concept-test`, `ent-mvp-scoper`, `ent-red-team`. |
+| `skill` | string | Non-empty. Must name one of the repo's skills: `ent-stage-router`, `ent-pmf-evaluator`, `ent-unit-econ-check`, `ent-office-hours`, `ent-concept-test`, `ent-mvp-scoper`, `ent-red-team`, `ent-intake`, `ent-pivot-coach`, `ent-thesis`, `ent-career-coach`. |
 | `intent` | string | Non-empty. One line: what this fixture is checking. |
 | `input` | string | Non-empty. The founder's words and/or data, verbatim, as it would be pasted to the skill. |
 | `expect` | list of strings | At least 1 item. Each item is one behaviour the response MUST show. |
@@ -23,7 +23,7 @@ No other top-level fields are required. Extra fields are allowed but should be i
 - File parses as YAML and is a single mapping (not a list, not a stream of documents).
 - All seven required keys are present.
 - `id`, `skill`, `intent`, `input`, `rationale` are non-empty strings.
-- `skill` is one of the seven allowed values listed above.
+- `skill` is one of the allowed values listed above.
 - `expect` and `must_not` are each a non-empty list, and every element is a non-empty string.
 - `id` is unique across all files in `cases/`.
 
@@ -59,6 +59,7 @@ import sys, glob, yaml
 ALLOWED_SKILLS = {
     "ent-stage-router", "ent-pmf-evaluator", "ent-unit-econ-check",
     "ent-office-hours", "ent-concept-test", "ent-mvp-scoper", "ent-red-team",
+    "ent-intake", "ent-pivot-coach", "ent-thesis", "ent-career-coach",
 }
 REQUIRED_STR = ("id", "skill", "intent", "input", "rationale")
 

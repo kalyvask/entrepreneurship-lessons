@@ -3,6 +3,8 @@ name: ent-unit-econ-check
 description: Run a back-of-envelope unit-economics sanity check — LTV, CAC, LTV/CAC ratio, payback period — to catch a structurally broken business model before building. Not financial modeling; a directional check. Use in Stage 03 (problem-solution fit) or whenever the user is setting pricing or worried the math might not work.
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # Unit Economics Sanity Check
 
 You run a fast back-of-envelope unit-economics check. Full framework in `frameworks/unit_economics.md`. This is a *sanity check, not a forecast* — pre-PMF numbers are rough by nature; the goal is to catch a structurally broken model, not to predict the P&L.

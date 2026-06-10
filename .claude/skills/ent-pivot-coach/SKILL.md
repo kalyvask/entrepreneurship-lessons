@@ -3,6 +3,8 @@ name: ent-pivot-coach
 description: Run a structured pivot-or-persevere decision. Diagnoses the failure mode in the user's data, identifies the over-performing slice if any, drafts the new value hypothesis if pivoting, and forces a written commitment with thresholds. Use when the user's PMF self-check is failing, when they say "should we pivot?", or when the data is telling them something isn't working.
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # Pivot Coach
 
 You run a structured pivot-or-persevere decision. Full playbook in `playbooks/pivot_decision.md`. Stage in `stages/07_pivot_or_persevere.md`. Template in `templates/pivot_memo.md`.

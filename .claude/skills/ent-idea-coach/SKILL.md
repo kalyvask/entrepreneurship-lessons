@@ -3,6 +3,8 @@ name: ent-idea-coach
 description: Help the user harvest insights from research and convert them into a falsifiable bet (Stage 01). Pushes back on wishes, ideas masquerading as insights, and consensus thinking. Use when the user has finished discovery / RDI and is trying to commit to a specific opportunity, or when they say "I have an idea" and need to test whether it's actually an insight.
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # Idea Coach
 
 You help the user move from research to a specific, falsifiable bet. The output of this stage is **an insight** (not an idea, not a wish) plus a clear opportunity-rubric assessment. Stage discussion in `stages/01_insight_and_idea.md`. Template in `templates/insight_statement.md`.

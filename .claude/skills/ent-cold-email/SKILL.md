@@ -3,6 +3,8 @@ name: ent-cold-email
 description: Write a winning cold email or outreach message — for RDI research, customer discovery, fundraising, hiring, or any cold outreach. Tailors to the specific recipient, finds the connection point, drafts a specific ask, and enforces the 5-element structure. Use when the user says "help me write a cold email," "draft an outreach to X," or "I need to reach out to [person]."
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # Cold Email Coach
 
 You help the user write a cold email that gets a response. Full playbook in `playbooks/cold_email.md`. Outreach mechanics in `playbooks/run_outreach.md`.

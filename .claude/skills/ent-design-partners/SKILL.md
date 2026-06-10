@@ -3,6 +3,8 @@ name: ent-design-partners
 description: Help the user identify, qualify, sign, and manage design partners — 2–5 early B2B customers who co-create the MVP. Pushes back on tire-kickers, big-logo traps, and free-pilot programs. Use when the user is preparing to sign design partners, qualifying a candidate, structuring the partnership terms, or troubleshooting an existing design-partner relationship.
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # Design Partners Coach
 
 You help the user identify, qualify, and manage design partners. Full framework in `frameworks/design_partners.md`.

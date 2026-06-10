@@ -4,7 +4,7 @@ A practitioner's library and Claude Code agent partner for the journey from **a 
 
 The spine of this repo is **the product-market fit framework** — the vocabulary, the discipline, and the rules of thumb behind the term *product-market fit*. Coined by Andy Rachleff (co-founder of Benchmark Capital and Wealthfront) and refined over decades also with John Vrionis of Unusual Ventures.
 
-**Sources.** This repo is synthesized entirely from the published books cited throughout (Ries, Blank, Moore, Christensen, Fitzpatrick, Knapp, Grant, Bland/Osterwalder, Cialdini) and from Unusual Ventures' publicly available [Field Guide](https://www.unusual.vc/handbook). Full provenance, including which passages are quotation, synthesis, or original adaptation, is in [`SOURCES.md`](SOURCES.md).
+**Sources.** This repo is synthesized entirely from the published books cited throughout (Ries, Blank, Moore, Christensen, Fitzpatrick, Knapp, Grant, Bland/Osterwalder, Cialdini) and from Unusual Ventures' publicly available [Field Guide](https://www.unusual.vc/handbook). Full provenance — every entry a synthesis or adaptation in this repo's own words, never verbatim text — is in [`SOURCES.md`](SOURCES.md).
 
 Around that spine, the library layers in the methodologies and texts that make the PMF framework executable in practice:
 
@@ -57,7 +57,7 @@ To make the coaching skills available from anywhere, install the repo as a plugi
 /plugin install github.com/kalyvask/entrepreneurship-lessons
 ```
 
-The skills then appear as `/entrepreneurship-lessons:ent-…`. Run inside the cloned repo when a skill needs to open its supporting framework or template files.
+The skills then appear as `/entrepreneurship-lessons:ent-…`. The supporting frameworks, playbooks, and templates ship with the plugin: each skill carries a note to resolve its repo-relative file references under the plugin root (`CLAUDE_PLUGIN_ROOT`) when installed that way, so both the in-repo and plugin paths work.
 
 The skills auto-load based on what you ask:
 
@@ -122,7 +122,8 @@ entrepreneurship-lessons/
 ├── README.md
 ├── LICENSE                  (MIT)
 ├── NOTICE                   (attribution for adapted material)
-├── SOURCES.md               (provenance: quotation / synthesis / adaptation)
+├── CLAUDE.md                (working conventions for contributors and Claude Code)
+├── SOURCES.md               (provenance: synthesis / adaptation — no verbatim text)
 ├── CONTRIBUTING.md
 ├── library.yaml             (machine-readable manifest — source of truth for counts)
 ├── stages/
@@ -191,7 +192,7 @@ entrepreneurship-lessons/
 ├── examples/
 │   └── example-venture/          (a filled, end-to-end worked journey)
 ├── evals/               (behavioural fixtures for the skills)
-├── tools/               (manifest + link + skill checks, run in CI)
+├── tools/               (manifest + link + skill + workspace-state checks, run in CI)
 ├── .github/workflows/   (content-integrity CI)
 ├── .claude-plugin/
 │   └── plugin.json
@@ -227,9 +228,9 @@ The counts above are validated against [`library.yaml`](library.yaml) by CI, so 
 ## Integrity, sources & license
 
 - **`library.yaml`** is the machine-readable manifest of every stage, framework, playbook, template, rubric, and skill. It is the source of truth for the counts in this README.
-- **CI** (`.github/workflows/content-integrity.yml`) checks the manifest, internal links, and skill frontmatter on every change. Run the same checks locally with `python tools/manifest.py check && python tools/check_links.py && python tools/check_skills.py` (needs `pip install pyyaml`).
+- **CI** (`.github/workflows/content-integrity.yml`) checks the manifest, internal links, skill frontmatter, and the venture-workspace contract on every change. Run the same checks locally with `python tools/manifest.py check && python tools/check_links.py && python tools/check_skills.py && python tools/check_state.py` (needs `pip install pyyaml`).
 - **`evals/`** holds behavioural fixtures for the skills (e.g. the stage router must not over-advance; the PMF evaluator must reject weak evidence).
-- **`SOURCES.md`** records provenance for every source, tagged quotation / synthesis / original adaptation. **`NOTICE`** credits adapted, openly licensed material.
+- **`SOURCES.md`** records provenance for every source, tagged synthesis / original adaptation — the repo reproduces no verbatim text. **`NOTICE`** credits adapted, openly licensed material.
 - Licensed under the **MIT License** (see [`LICENSE`](LICENSE)).
 
 ## Books

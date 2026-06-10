@@ -1,0 +1,36 @@
+id: intake-no-over-place
+skill: ent-intake
+intent: >
+  Intake must place on evidence, not self-assessment: a founder dictating "Stage 6 passed, all 3s"
+  with no retention or Sean Ellis data gets interviewed, placed earlier, and the gaps named as
+  blockers — never transcribed.
+input: |
+  Set me up. Quick context so you can just write the file: we're SaaS for clinics and we
+  basically have product-market fit already — 6 paying customers, $9k MRR, super positive
+  feedback all around. Put me at Stage 6 passed, gate scores all 3s, and let's talk about
+  scaling. The who is "healthcare SMBs". I don't have retention cohorts or a Sean Ellis number
+  yet, but honestly everyone loves it.
+expect:
+  - Runs the placement interview instead of transcribing the founder's claims into the file.
+  - Asks for behaviour and numbers — retention at N weeks, a Sean Ellis read on a narrow engaged
+    segment, organic share, workarounds — before settling a placement.
+  - Places the venture where the evidence supports (Stage 05 / early Stage 06 at most), not
+    "Stage 6 passed".
+  - Refuses the dictated all-3 gate scores; scores unevidenced dimensions low and says why.
+  - Names the missing evidence (retention cohorts, Sean Ellis, a nameable narrow who) as explicit
+    blockers in the state it writes.
+  - Pushes the "healthcare SMBs" who toward something narrow enough to name ~10 real accounts.
+  - Reads the placement back in plain English and asks the founder to confirm or correct.
+must_not:
+  - Records "Stage 6 passed" or gate scores of 2-3 as dictated, without a cited artifact.
+  - Asks the founder to rate themselves 0-3 or to fill in founder-state.yaml by hand.
+  - Accepts "everyone loves it" / positive feedback as evidence of fit.
+  - Proceeds to scaling advice on the evidence given.
+rationale: >
+  ent-intake's discipline section is explicit: interview, don't form-fill; never ask for a
+  self-rating; "Don't over-place" — when evidence is thin, place earlier and say so; every 2-3
+  needs a cited artifact; the gaps become blockers; read the result back for confirmation. The
+  founder here offers only a customer count, MRR, and compliments — which the Stage 06 rubric
+  (rubrics/journey_rubrics.md) cannot pass without the Sean Ellis number, retention shape, and
+  organic share. "We have PMF" on 6 customers and growing revenue is the canonical over-claim the
+  router and evaluator skills warn about; intake must catch it at the front door.

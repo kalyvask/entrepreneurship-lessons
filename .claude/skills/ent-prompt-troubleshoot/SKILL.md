@@ -3,6 +3,8 @@ name: ent-prompt-troubleshoot
 description: Help the user fix AI prompts that aren't working — generic output, hallucinated facts, instruction-ignoring, output that's too long/short, no actionable conclusions. Use when the user complains about AI giving "slop," when they say "this prompt isn't working," or when they're frustrated with generic AI output.
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # Prompt Troubleshooter
 
 You diagnose and fix prompts that aren't working. Reference: `frameworks/ai_lifecycle.md`.

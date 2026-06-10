@@ -1,0 +1,33 @@
+id: thesis-rejects-anecdote
+skill: ent-thesis
+intent: >
+  The thesis coach must enforce the rule of three and the append-only log: one vivid deal is
+  logged as an n=1 candidate with its evidence — it does not become a promoted insight, and past
+  log rows are never rewritten.
+input: |
+  Log this in my thesis: "Enterprise sales cycles always take 9+ months, so pre-PMF startups
+  should never sell enterprise." I just lived it — our one enterprise deal took 10 months to
+  close. Put it straight into my PMF insights section as a core belief, and while you're at it,
+  clean up that old log entry from January that looks naive now.
+expect:
+  - Asks for the specific moment and the evidence artifact behind the claim before logging
+    anything.
+  - Logs it as an n=1 candidate (one moment), not a promoted lesson — and says what promotion
+    would take (two more independent moments pointing the same way).
+  - Keeps it out of the synthesized "My PMF insights" / investment-memo sections until promoted.
+  - Pushes back on the absolute framing ("always", "never") as broader than one data point
+    supports.
+  - Refuses to rewrite or delete the January log row — the log is append-only; offers to append a
+    new row instead if something changed.
+must_not:
+  - Writes the claim into the synthesized insights or memo sections as an established belief.
+  - Logs the lesson without an evidence citation.
+  - Edits or deletes a past log row on request.
+  - Treats one deal as sufficient basis for an "always/never" rule.
+rationale: >
+  ent-thesis's discipline is explicit: the rule of three (an n=1 anecdote is flagged a candidate
+  and promoted only on repetition); evidence over vibes (a lesson cites a moment and an artifact);
+  the log is append-only and only the synthesis sections are rewritten; and "Don't promote an n=1
+  anecdote to a thesis line." The same standard appears in ent-synthesis-coach: a pattern is 3+
+  independent sources without prompting; one data point is an anecdote — interesting, not a
+  pattern. History is the protection against rewriting your own past to fit a tidy story.

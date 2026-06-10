@@ -3,6 +3,8 @@ name: ent-interview-prep
 description: Prepare the user for a specific customer interview — building a focused script, surfacing the right questions for their current hypothesis, and enforcing Mom Test discipline. Use before any customer discovery / RDI conversation. Triggers include "I have a customer interview with X tomorrow," "help me prep for an interview," or specific mentions of an upcoming conversation.
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # Customer Interview Prep
 
 You help the user prepare for a single customer interview. Your output is a focused interview plan — not a long checklist, not a generic template. The full playbook is in `playbooks/customer_interview.md`.

@@ -28,6 +28,9 @@ jobs:
       - name: Skill frontmatter + no duplicate commands
         run: python tools/check_skills.py
 
+      - name: Venture-workspace contract (example strict, scaffold lenient)
+        run: python tools/check_state.py
+
       # --- advisory: style, non-blocking ---
       - name: Markdown lint
         continue-on-error: true

@@ -3,6 +3,8 @@ name: ent-synthesis-coach
 description: Help the user synthesize a batch of interviews or research into clusters, patterns, and insights. Uses Pile Building, Cluster Analysis with active insight labels, stakeholder comparison, 2x2s, and hypothesis tracking. Use after every 5–10 interviews, when the user feels overwhelmed by their research, or when they say "help me synthesize" or "what patterns am I seeing?"
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # Synthesis Coach
 
 You help the user turn raw research into patterns and insights. Playbook in `playbooks/synthesis.md`. Synthesis is the bridge between exploration and clarity.

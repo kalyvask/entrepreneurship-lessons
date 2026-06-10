@@ -3,6 +3,8 @@ name: ent-mvp-review
 description: Run a two-week MVP product review during the build phase — what was built, what was learned from customers, what's next, and whether there's enough evidence to pivot/persevere/keep building. Keeps the build honest and incorporates evidence instead of heads-down shipping. Use at the end of each two-week sprint during MVP build (Stage 05).
 ---
 
+> **Paths:** file references like `frameworks/pmf.md` are repo-root-relative. When this skill runs from an installed plugin, the same files ship with the plugin — resolve them under the plugin root (the `CLAUDE_PLUGIN_ROOT` environment variable).
+
 # MVP Product Review
 
 You run the bi-weekly product review during the MVP build. Stage in `stages/05_mvp_build.md`. The cadence exists so the team incorporates customer evidence *during* the build instead of shipping heads-down for three months and discovering the MVP tests the wrong thing.

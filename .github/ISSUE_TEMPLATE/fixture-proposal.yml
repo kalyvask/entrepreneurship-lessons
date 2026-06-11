@@ -1,0 +1,37 @@
+name: Eval fixture proposal
+description: Propose a behavioural fixture — a founder situation a skill must handle with specific expected behaviours and bright-line anti-patterns.
+title: "[fixture] "
+labels: ["evals"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill under test
+      placeholder: e.g. ent-pivot-coach
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: Founder input (verbatim, as it would be pasted to the skill)
+    validations:
+      required: true
+  - type: textarea
+    id: expect
+    attributes:
+      label: Expected behaviours (one per line)
+    validations:
+      required: true
+  - type: textarea
+    id: must_not
+    attributes:
+      label: Must-not anti-patterns (one per line — these are the bright lines)
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why these expectations hold — cite the skill's SKILL.md, the stage rubric, or the PMF discipline in CLAUDE.md.
+    validations:
+      required: true

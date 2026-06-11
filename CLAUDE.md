@@ -61,6 +61,10 @@ names the conflict and which side to follow. The tie-breaker is always: **the PM
   write the venture workspace.
 - Skills reference repo files by repo-root-relative path; when installed as a plugin, the same
   files ship with the plugin and resolve under the plugin root (`CLAUDE_PLUGIN_ROOT`).
+- Plugin packaging: `.claude-plugin/plugin.json` maps `skills` to `./.claude/skills/` (one source
+  of truth for both the clone-and-run and plugin paths), and `.claude-plugin/marketplace.json`
+  makes the repo installable via `/plugin marketplace add kalyvask/entrepreneurship-lessons`.
+  Releases are tagged and logged in `CHANGELOG.md`; bump the plugin `version` with each release.
 
 ## Workspace and the worked example
 

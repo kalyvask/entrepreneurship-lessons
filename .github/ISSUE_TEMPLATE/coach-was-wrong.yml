@@ -1,0 +1,39 @@
+name: The coach was wrong
+description: A skill validated something it should have challenged, over-placed you, accepted vanity evidence, or broke its own discipline.
+title: "[coach-was-wrong] "
+labels: ["coach-was-wrong"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Which skill
+      placeholder: e.g. /ent-pmf-evaluator
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: What you said to it
+      description: Your message(s), as close to verbatim as you can share.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: What it did
+      description: The response or behaviour that was wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What the discipline says it should have done
+      description: Behaviour over opinions, evidence-gated scores, no over-placement, must-route cases, etc. Cite the SKILL.md or rubric line if you can.
+    validations:
+      required: true
+  - type: checkboxes
+    id: fixture
+    attributes:
+      label: Eval fixture
+      options:
+        - label: This is reproducible and I'd propose it as an eval fixture (see evals/SCHEMA.md)

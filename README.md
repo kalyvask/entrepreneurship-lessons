@@ -2,6 +2,16 @@
 
 A practitioner's library and Claude Code agent partner for the journey from **a curious mind** to **product-market fit**.
 
+## Quick start
+
+```bash
+git clone https://github.com/kalyvask/entrepreneurship-lessons
+cd entrepreneurship-lessons
+claude
+```
+
+Then say **`/ent-intake`** — the agent interviews you, places you on the 00→07 journey, and writes your venture workspace (you never fill in a file). Next session, `/ent-stage-router` resumes exactly where you left off. See what a session feels like in [`examples/example-session.md`](examples/example-session.md), and a venture worked end to end in [`examples/example-venture/`](examples/example-venture/).
+
 The spine of this repo is **the product-market fit framework** — the vocabulary, the discipline, and the rules of thumb behind the term *product-market fit*. Coined by Andy Rachleff (co-founder of Benchmark Capital and Wealthfront) and refined over decades also with John Vrionis of Unusual Ventures.
 
 **Sources.** This repo is synthesized entirely from the published books cited throughout (Ries, Blank, Moore, Christensen, Fitzpatrick, Knapp, Grant, Bland/Osterwalder, Cialdini) and from Unusual Ventures' publicly available [Field Guide](https://www.unusual.vc/handbook). Full provenance — every entry a synthesis or adaptation in this repo's own words, never verbatim text — is in [`SOURCES.md`](SOURCES.md).
@@ -54,7 +64,8 @@ claude   # skills auto-load from .claude/skills/, and every framework/playbook/t
 To make the coaching skills available from anywhere, install the repo as a plugin:
 
 ```
-/plugin install github.com/kalyvask/entrepreneurship-lessons
+/plugin marketplace add kalyvask/entrepreneurship-lessons
+/plugin install entrepreneurship-lessons@kalyvask
 ```
 
 The skills then appear as `/entrepreneurship-lessons:ent-…`. The supporting frameworks, playbooks, and templates ship with the plugin: each skill carries a note to resolve its repo-relative file references under the plugin root (`CLAUDE_PLUGIN_ROOT`) when installed that way, so both the in-repo and plugin paths work.
@@ -124,6 +135,7 @@ entrepreneurship-lessons/
 ├── LICENSE                  (MIT)
 ├── NOTICE                   (attribution for adapted material)
 ├── CLAUDE.md                (working conventions for contributors and Claude Code)
+├── CHANGELOG.md             (versioned releases; the plugin version tracks these)
 ├── SOURCES.md               (provenance: synthesis / adaptation — no verbatim text)
 ├── CONTRIBUTING.md
 ├── library.yaml             (machine-readable manifest — source of truth for counts)

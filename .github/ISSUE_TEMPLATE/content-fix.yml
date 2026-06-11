@@ -1,0 +1,23 @@
+name: Content fix
+description: Something in a stage, framework, playbook, template, or rubric is wrong, stale, or unclear.
+title: "[content] "
+labels: ["content"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: File
+      placeholder: e.g. frameworks/pmf.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
+      description: Remember the provenance rule — synthesis in the repo's own words, no verbatim quotations; new sources get a SOURCES.md row.

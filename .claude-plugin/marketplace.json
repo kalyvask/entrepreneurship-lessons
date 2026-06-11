@@ -1,0 +1,11 @@
+{
+  "name": "kalyvask",
+  "owner": { "name": "Alexandros Kalyvas" },
+  "plugins": [
+    {
+      "name": "entrepreneurship-lessons",
+      "source": "./",
+      "description": "Curious mind → product-market fit: the staged journey, evidence-gated rubrics, a stateful venture workspace, and 25 coaching skills (intake, stage router, PMF evaluator, pivot coach, red team, diligence, thesis ledger, and more)."
+    }
+  ]
+}

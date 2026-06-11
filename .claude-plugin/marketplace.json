@@ -1,6 +1,8 @@
 {
   "name": "kalyvask",
-  "description": "Plugins by Alexandros Kalyvas — entrepreneurship-lessons: the curious-mind-to-PMF journey engine with 25 coaching skills.",
+  "metadata": {
+    "description": "Plugins by Alexandros Kalyvas — entrepreneurship-lessons: the curious-mind-to-PMF journey engine with 25 coaching skills."
+  },
   "owner": { "name": "Alexandros Kalyvas" },
   "plugins": [
     {
